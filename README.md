@@ -1,13 +1,11 @@
 # aninidhi
 
 Track which anime have official **Hindi dubs** — across Crunchyroll, Netflix,
-Muse India, and Anime Times (Prime Video) — as a Python library and a CLI.
+Muse India, and Prime Video — as a Python library and a CLI.
 
 ## What's new in v0.2
 
-- **488 real anime/season records**, compiled from each platform's own
-  release history as of September 2026 —
-  not a placeholder sample anymore.
+- **488 real anime/season records**, not a placeholder sample.
 - **Multi-platform dubs**: the same anime is often dubbed independently by
   more than one platform at different times (e.g. Crunchyroll in 2023,
   then Muse India in 2026). Every anime now carries a `hindi_dubs` list
@@ -15,17 +13,14 @@ Muse India, and Anime Times (Prime Video) — as a Python library and a CLI.
   already dubbed on 2+ platforms** — run `aninidhi multi` to see them.
 - **Schema room for richer metadata**: `anilist_id`, `anilist_url`,
   `imdb_id`, `imdb_url`, `imdb_rating`, `studio`, `synopsis`,
-  `original_title`. These ship as `null` in the bulk-imported data (see
-  "Enriching metadata" below) — filling them in per-title wasn't feasible
-  as part of a bulk import, so two scripts are included to do it.
+  `original_title`.
 - **New functions**: `get_dub_info()`, `multi_platform_dubs()`,
   `platform_stats()`.
 - **New CLI commands**: `info`, `multi`, `stats`.
 
 > ⚠️ **Breaking change from v0.0.1**: the old `platform` and
 > `hindi_dub_release_date` fields are gone, replaced by `hindi_dubs: [...]`.
-> If you wrote code against v0.0.1's schema, see "Migrating from v0.0.1"
-> below.
+> See "Migrating from v0.0.1" below.
 
 ## Install
 
@@ -43,7 +38,7 @@ aninidhi.search("naruto")                 # title search
 aninidhi.get_by_platform("crunchyroll")   # anime with a Crunchyroll Hindi dub
 aninidhi.get_dub_info("Dan Da Dan")       # full per-platform breakdown for one title
 aninidhi.multi_platform_dubs()            # anime dubbed on 2+ platforms
-aninidhi.platform_stats()                 # {"Crunchyroll": 298, "Anime Times (Prime Video)": 85, ...}
+aninidhi.platform_stats()                 # {"Crunchyroll": 298, "Prime Video": 85, ...}
 aninidhi.list_all()                       # everything
 ```
 
@@ -70,7 +65,7 @@ Every function returns a list of dicts shaped like this:
   "imdb_rating": null,
   "hindi_available": true,
   "hindi_dubs": [
-    { "platform": "Anime Times (Prime Video)", "release_date": "2024-10-17", "status": "Finished", "media_type": "series" },
+    { "platform": "Prime Video", "release_date": "2024-10-17", "status": "Finished", "media_type": "series" },
     { "platform": "Crunchyroll", "release_date": "2024-10-25", "status": "Finished", "media_type": "series" },
     { "platform": "Muse India", "release_date": "2024-11-16", "status": "Finished", "media_type": "series" }
   ],
@@ -88,69 +83,28 @@ aninidhi platform crunchyroll
 aninidhi multi                      # anime dubbed on 2+ platforms
 aninidhi stats                      # dub count per platform
 aninidhi all --json
-aninidhi refresh --url https://raw.githubusercontent.com/you/aninidhi-data/main/anime.json
 ```
-
-## Data provenance
-
-The bundled dataset (`src/aninidhi/data/anime.json`) was compiled by
-cross-referencing each platform's own release calendar (e.g. Crunchyroll's
-Simulcast Calendar). Snapshot date: **September 2026**. It will go stale —
-new dubs release every week — so treat it as a strong starting point, not
-a live feed:
-
-- Run `aninidhi refresh` against a URL you control (see "Staying fresh")
-  to serve updates without republishing the package.
-- Consider building the automated polling pipeline described in the
-  original project recap (YouTube/RSS/Reddit polling → review queue →
-  publish) to keep it current long-term.
-- Sony YAY! and JioHotstar are known to carry Hindi-dubbed anime too but
-  aren't in this snapshot yet — their catalogs are more TV-schedule-based
-  and harder to date precisely from public sources. Good candidates for
-  the next data pass.
-
-## Enriching metadata (AniList + IMDb)
-
-The bulk import only had reliable platform/date data, so `genres`,
-`synopsis`, `studio`, `episodes`, and the AniList/IMDb ID+URL fields ship
-as `null`. Two scripts fill them in, one anime at a time, using each
-title as a search query:
-
-```bash
-# AniList - free, no API key needed
-python scripts/enrich_anilist.py --limit 5   # try a handful first
-python scripts/enrich_anilist.py             # then the rest
-
-# IMDb ratings, via the OMDb API (get a free key: https://www.omdbapi.com/apikey.aspx)
-export OMDB_API_KEY=your_key_here
-python scripts/enrich_imdb.py --limit 5
-python scripts/enrich_imdb.py
-```
-
-**Neither script has been run against the live APIs** — this environment
-has no internet access, so they're written to AniList's and OMDb's
-documented interfaces but untested end-to-end. Spot-check a few results
-before running either over the full 488 records, and expect some
-no-matches on titles with unusual formatting (cour/part splits especially)
-since the search is a plain title lookup, not a MAL/AniList ID match.
 
 ## Staying fresh
 
-`aninidhi` never requires a server. Point it at any publicly readable
-JSON file (a GitHub raw URL is the easiest option, and pairs well with a
-daily GitHub Action that regenerates `anime.json`) and it does the rest:
+`aninidhi` refreshes itself automatically — no setup required. Once a day,
+it checks a hosted copy of the dataset and updates its local cache, so you
+get new dubs without waiting for a new package release. If it can't reach
+the network, it silently falls back to whatever's cached, then to the
+snapshot bundled in the package - a query never fails just because you're
+offline.
+
+To point it at your own copy of the dataset instead, or to turn off the
+automatic check entirely:
 
 ```bash
-export ANINIDHI_SOURCE_URL="https://raw.githubusercontent.com/AniNidhi/aninidhi-data/main/anime.json"
+export ANINIDHI_SOURCE_URL="https://raw.githubusercontent.com/you/your-fork/main/anime.json"
+# or, to disable the network check completely:
+export ANINIDHI_SOURCE_URL=""
 ```
 
-- If a source URL is set and the local cache (`~/.cache/aninidhi/anime.json`)
-  is more than a day old, the next call refreshes it automatically.
-- If refreshing fails (offline, source down), it silently falls back to
-  whatever's cached, then to the bundled snapshot. A query never raises
-  just because the network is unavailable.
-- Force an immediate refresh any time with `aninidhi.refresh(force=True)`
-  or `aninidhi refresh` on the CLI.
+Force an immediate refresh any time with `aninidhi.refresh(force=True)`
+or `aninidhi refresh` on the CLI.
 
 ## Migrating from v0.0.1
 
@@ -168,8 +122,7 @@ max(d["release_date"] for d in anime["hindi_dubs"])
 ```
 
 `get_by_platform()` and `get_latest()` keep the same names and signatures
-but now search/sort across the whole `hindi_dubs` list under the hood, so
-most calling code only needs the field-access changes above.
+but now search/sort across the whole `hindi_dubs` list under the hood.
 
 ## Development
 
@@ -179,6 +132,8 @@ cd aninidhi
 pip install -e .
 python -m unittest discover -s tests
 ```
+
+See `CONTRIBUTING.md` for how the dataset is sourced and kept up to date.
 
 ## License
 

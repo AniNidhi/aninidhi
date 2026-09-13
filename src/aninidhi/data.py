@@ -1,4 +1,3 @@
-"""Core data access for aninidhi."""
 from __future__ import annotations
 
 import json
@@ -9,7 +8,10 @@ from importlib import resources
 from pathlib import Path
 from typing import Any, List
 
-DEFAULT_SOURCE_URL = os.environ.get("ANINIDHI_SOURCE_URL", "")
+DEFAULT_SOURCE_URL = os.environ.get(
+    "ANINIDHI_SOURCE_URL",
+    "https://raw.githubusercontent.com/AniNidhi/aninidhi/main/src/aninidhi/data/anime.json",
+)
 
 CACHE_DIR = Path(os.environ.get("ANINIDHI_CACHE_DIR", str(Path.home() / ".cache" / "aninidhi")))
 CACHE_FILE = CACHE_DIR / "anime.json"

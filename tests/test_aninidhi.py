@@ -14,7 +14,7 @@ class AninidhiTests(unittest.TestCase):
     def setUp(self):
         self._tmp = tempfile.TemporaryDirectory()
         os.environ["ANINIDHI_CACHE_DIR"] = self._tmp.name
-        os.environ.pop("ANINIDHI_SOURCE_URL", None)
+        os.environ["ANINIDHI_SOURCE_URL"] = ""
 
         import importlib
         import aninidhi
@@ -104,7 +104,16 @@ class CliTests(unittest.TestCase):
     def setUp(self):
         self._tmp = tempfile.TemporaryDirectory()
         os.environ["ANINIDHI_CACHE_DIR"] = self._tmp.name
-        os.environ.pop("ANINIDHI_SOURCE_URL", None)
+        os.environ["ANINIDHI_SOURCE_URL"] = ""
+
+        import importlib
+        import aninidhi
+        import aninidhi.cli
+        import aninidhi.data as data
+
+        importlib.reload(data)
+        importlib.reload(aninidhi)
+        importlib.reload(aninidhi.cli)
 
     def tearDown(self):
         self._tmp.cleanup()

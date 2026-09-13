@@ -1,12 +1,3 @@
-"""Fill in imdb_id/imdb_url/imdb_rating via the OMDb API.
-
-Requires a free key from https://www.omdbapi.com/apikey.aspx.
-Untested against the live API in this environment. Run with --limit 5 first.
-
-Usage:
-    export OMDB_API_KEY=your_key_here
-    python scripts/enrich_imdb.py [--limit N] [--delay SECONDS]
-"""
 from __future__ import annotations
 
 import argparse

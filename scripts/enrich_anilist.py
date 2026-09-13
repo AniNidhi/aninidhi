@@ -1,10 +1,3 @@
-"""Fill in genres/episodes/studio/synopsis/anilist_id via the AniList GraphQL API.
-
-Untested against the live API in this environment. Run with --limit 5 first.
-
-Usage:
-    python scripts/enrich_anilist.py [--limit N] [--delay SECONDS]
-"""
 from __future__ import annotations
 
 import argparse
