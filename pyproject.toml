@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aninidhi"
+version = "0.2.0"
+description = "Track which anime have official Hindi dubs across Crunchyroll, Netflix, Muse India, Prime Video and more."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "JustThreshold", email = "naruto.uzumaki.tech@gmail.com" }]
+keywords = ["anime", "hindi", "dub", "india", "myanimelist", "anilist"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia",
+]
+
+[project.urls]
+Homepage = "https://github.com/AniNidhi/aninidhi"
+Issues = "https://github.com/AniNidhi/aninidhi/issues"
+
+[project.scripts]
+aninidhi = "aninidhi.cli:run"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+aninidhi = ["data/*.json"]
