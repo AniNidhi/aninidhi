@@ -385,5 +385,23 @@
     "source": "youtube:Muse_HindiDub",
     "status": "needs_review",
     "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "E3mZSfZo44c",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 023 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=E3mZSfZo44c",
+    "published_at": "2026-09-23T15:00:13Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "fKp-5h1s3sE",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 19",
+    "video_url": "https://www.youtube.com/watch?v=fKp-5h1s3sE",
+    "published_at": "2026-09-23T14:30:37Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
   }
 ]
