@@ -3,26 +3,13 @@
 Track which anime have official **Hindi dubs** — across Crunchyroll, Netflix,
 Muse India, Prime Video, and JioHotstar — as a Python library and a CLI.
 
-## What's new in v0.2
+## What's new in v0.3.0
 
-- **511 real anime/season records** across Crunchyroll, Netflix, Muse
-  India, Anime Times (Prime Video), and JioHotstar - not a placeholder
-  sample.
-- **Multi-platform dubs**: the same anime is often dubbed independently by
-  more than one platform at different times (e.g. Crunchyroll in 2023,
-  then Muse India in 2026). Every anime now carries a `hindi_dubs` list
-  instead of a single platform/date pair. **54 titles in this dataset are
-  already dubbed on 2+ platforms** — run `aninidhi multi` to see them.
-- **Schema room for richer metadata**: `anilist_id`, `anilist_url`,
-  `imdb_id`, `imdb_url`, `imdb_rating`, `studio`, `synopsis`,
-  `original_title`.
-- **New functions**: `get_dub_info()`, `multi_platform_dubs()`,
-  `platform_stats()`.
-- **New CLI commands**: `info`, `multi`, `stats`.
-
-> ⚠️ **Breaking change from v0.0.1**: the old `platform` and
-> `hindi_dub_release_date` fields are gone, replaced by `hindi_dubs: [...]`.
-> See "Migrating from v0.0.1" below.
+- **Series & Season Breakdown (`aninidhi series <title>`)**: Query a franchise name (e.g. `aninidhi series Slime`) to see all available seasons, overall status, and a per-platform breakdown.
+- **Airing Dubs Tracker (`aninidhi airing`)**: Quickly list anime currently airing Hindi dub episodes.
+- **Python API Additions**: New `get_series_info(title)` and `get_airing()` functions.
+- **Unquoted CLI Queries**: Pass multi-word anime titles directly without requiring quotation marks (`aninidhi series That Time I Got Reincarnated as a Slime`).
+- **Cleaned & Consolidated Dataset**: Deduplicated multi-batch entries into clean Season-level objects with episode ranges stored in platform dub objects.
 
 ## Install
 
@@ -35,6 +22,8 @@ pip install aninidhi
 ```python
 import aninidhi
 
+aninidhi.get_series_info("Slime")         # full franchise & season breakdown
+aninidhi.get_airing()                     # all anime currently marked as Airing
 aninidhi.get_latest(limit=5)              # most recent dub activity, any platform
 aninidhi.search("naruto")                 # title search
 aninidhi.get_by_platform("crunchyroll")   # anime with a Crunchyroll Hindi dub
@@ -44,46 +33,34 @@ aninidhi.platform_stats()                 # {"Crunchyroll": 298, "Prime Video": 
 aninidhi.list_all()                       # everything
 ```
 
-Every function returns a list of dicts shaped like this:
+Every function returns a list of dicts (or series info object) shaped like this:
 
 ```json
 {
-  "id": 83,
-  "title": "Dan Da Dan",
-  "original_title": null,
-  "genres": [],
-  "season": null,
-  "season_year": null,
-  "episodes": null,
-  "studio": null,
-  "synopsis": null,
-  "poster_url": null,
-  "mal_id": null,
-  "mal_url": null,
-  "anilist_id": null,
-  "anilist_url": null,
-  "imdb_id": null,
-  "imdb_url": null,
-  "imdb_rating": null,
+  "id": 480,
+  "title": "That Time I Got Reincarnated as a Slime (Season 4)",
+  "status": "Airing",
+  "season": 4,
   "hindi_available": true,
   "hindi_dubs": [
-    { "platform": "Prime Video", "release_date": "2024-10-17", "status": "Finished", "media_type": "series" },
-    { "platform": "Crunchyroll", "release_date": "2024-10-25", "status": "Finished", "media_type": "series" },
-    { "platform": "Muse India", "release_date": "2024-11-16", "status": "Finished", "media_type": "series" }
-  ],
-  "notes": null
+    { "platform": "Crunchyroll", "release_date": "2026-07-31", "status": "Finished", "media_type": "series", "episodes": "EP 1-10" },
+    { "platform": "Anime Times (Prime Video)", "release_date": "2026-06-02", "status": "Airing", "media_type": "series" },
+    { "platform": "Muse India", "release_date": "2026-08-29", "status": "Airing", "media_type": "series" }
+  ]
 }
 ```
 
 ## Use it from the command line
 
 ```bash
+aninidhi series That Time I Got Reincarnated as a Slime   # season & platform breakdown
+aninidhi airing                                           # list currently Airing dubs
 aninidhi latest -n 5
-aninidhi search "spy x family"
-aninidhi info "Dan Da Dan"          # per-platform breakdown for one title
+aninidhi search Naruto
+aninidhi info "Dan Da Dan"                                # per-platform breakdown for one title
 aninidhi platform crunchyroll
-aninidhi multi                      # anime dubbed on 2+ platforms
-aninidhi stats                      # dub count per platform
+aninidhi multi                                            # anime dubbed on 2+ platforms
+aninidhi stats                                            # dub count per platform
 aninidhi all --json
 ```
 
@@ -107,24 +84,6 @@ export ANINIDHI_SOURCE_URL=""
 
 Force an immediate refresh any time with `aninidhi.refresh(force=True)`
 or `aninidhi refresh` on the CLI.
-
-## Migrating from v0.0.1
-
-```python
-# v0.0.1
-anime["platform"]
-anime["hindi_dub_release_date"]
-
-# v0.2
-[d["platform"] for d in anime["hindi_dubs"]]
-[d["release_date"] for d in anime["hindi_dubs"]]
-
-# convenience: most recent dub date across all platforms
-max(d["release_date"] for d in anime["hindi_dubs"])
-```
-
-`get_by_platform()` and `get_latest()` keep the same names and signatures
-but now search/sort across the whole `hindi_dubs` list under the hood.
 
 ## Development
 
