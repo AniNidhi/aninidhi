@@ -1,1 +1,533 @@
-[]
+[
+  {
+    "video_id": "f3GRXk56bwo",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 013 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=f3GRXk56bwo",
+    "published_at": "2026-09-13T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "J0eZvjgs7kU",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 09",
+    "video_url": "https://www.youtube.com/watch?v=J0eZvjgs7kU",
+    "published_at": "2026-09-13T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "HJDOkJiLThA",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 012 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=HJDOkJiLThA",
+    "published_at": "2026-09-12T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "_5ZffywaGbg",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 08",
+    "video_url": "https://www.youtube.com/watch?v=_5ZffywaGbg",
+    "published_at": "2026-09-12T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "8pVm6IaSvAY",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 011 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=8pVm6IaSvAY",
+    "published_at": "2026-09-11T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "vVVqOmYk_gY",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 07",
+    "video_url": "https://www.youtube.com/watch?v=vVVqOmYk_gY",
+    "published_at": "2026-09-11T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "FFGodKdK-dw",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 010 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=FFGodKdK-dw",
+    "published_at": "2026-09-10T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "wAM9TgnUu24",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 06",
+    "video_url": "https://www.youtube.com/watch?v=wAM9TgnUu24",
+    "published_at": "2026-09-10T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "ZjBm6v6hoDg",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 009 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=ZjBm6v6hoDg",
+    "published_at": "2026-09-09T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "hvInrlDdZ9M",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 05",
+    "video_url": "https://www.youtube.com/watch?v=hvInrlDdZ9M",
+    "published_at": "2026-09-09T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "0N2YEU2ArM4",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 008 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=0N2YEU2ArM4",
+    "published_at": "2026-09-08T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "M-suCyIzMks",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 04",
+    "video_url": "https://www.youtube.com/watch?v=M-suCyIzMks",
+    "published_at": "2026-09-08T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "r_bEPaJLAuE",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 007 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=r_bEPaJLAuE",
+    "published_at": "2026-09-07T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "jyWJGqKxoT8",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 03",
+    "video_url": "https://www.youtube.com/watch?v=jyWJGqKxoT8",
+    "published_at": "2026-09-07T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "IQkyAvuiQoU",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 006 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=IQkyAvuiQoU",
+    "published_at": "2026-09-06T15:00:07Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "CpwnOM4tjTs",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 02",
+    "video_url": "https://www.youtube.com/watch?v=CpwnOM4tjTs",
+    "published_at": "2026-09-06T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "eFXfwomkiwc",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 005 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=eFXfwomkiwc",
+    "published_at": "2026-09-05T15:00:07Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "yT0T75OgAHo",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 01",
+    "video_url": "https://www.youtube.com/watch?v=yT0T75OgAHo",
+    "published_at": "2026-09-05T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "PWSha5mcE1A",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 004 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=PWSha5mcE1A",
+    "published_at": "2026-09-04T15:00:05Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "XcHvx5oTM1s",
+    "video_title": "[Hindi Dub] Mushoku Tensei: Jobless Reincarnation Season 2 - Episode 24 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=XcHvx5oTM1s",
+    "published_at": "2026-09-04T14:30:25Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "uVZXOTush2s",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 003 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=uVZXOTush2s",
+    "published_at": "2026-09-03T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "x9WUE-JXjpo",
+    "video_title": "[Hindi Dub] Mushoku Tensei: Jobless Reincarnation Season 2 - Episode 23 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=x9WUE-JXjpo",
+    "published_at": "2026-09-03T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "c0QEygvzFkk",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 002 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=c0QEygvzFkk",
+    "published_at": "2026-09-02T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "iYPiLPJUwso",
+    "video_title": "[Hindi Dub] Mushoku Tensei: Jobless Reincarnation Season 2 - Episode 22 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=iYPiLPJUwso",
+    "published_at": "2026-09-02T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "AYRxom1higw",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 001 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=AYRxom1higw",
+    "published_at": "2026-09-01T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "IsISWU2beHM",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 014 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=IsISWU2beHM",
+    "published_at": "2026-09-14T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "klAD4nLhvnc",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 10",
+    "video_url": "https://www.youtube.com/watch?v=klAD4nLhvnc",
+    "published_at": "2026-09-14T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "-UAUGYBqfGo",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 015 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=-UAUGYBqfGo",
+    "published_at": "2026-09-15T15:00:13Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "Z9TwOUDeBfA",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 11",
+    "video_url": "https://www.youtube.com/watch?v=Z9TwOUDeBfA",
+    "published_at": "2026-09-15T14:30:21Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "wCPvWyIw-Vw",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 016 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=wCPvWyIw-Vw",
+    "published_at": "2026-09-16T15:00:05Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "TvyG1g2K6j0",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 12",
+    "video_url": "https://www.youtube.com/watch?v=TvyG1g2K6j0",
+    "published_at": "2026-09-16T14:30:18Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "8eHLTVjrRfQ",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 017 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=8eHLTVjrRfQ",
+    "published_at": "2026-09-17T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "qLDcHT4M0fw",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 13",
+    "video_url": "https://www.youtube.com/watch?v=qLDcHT4M0fw",
+    "published_at": "2026-09-17T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "5maxGR_ho0Y",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 018 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=5maxGR_ho0Y",
+    "published_at": "2026-09-18T15:00:20Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "78iRR_csCqk",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 14",
+    "video_url": "https://www.youtube.com/watch?v=78iRR_csCqk",
+    "published_at": "2026-09-18T14:30:36Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "0hQcgfHajeE",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 019 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=0hQcgfHajeE",
+    "published_at": "2026-09-19T15:00:13Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "2mhEKNpsfY4",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 15",
+    "video_url": "https://www.youtube.com/watch?v=2mhEKNpsfY4",
+    "published_at": "2026-09-19T14:30:10Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "HqdqFBlV_wY",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 020 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=HqdqFBlV_wY",
+    "published_at": "2026-09-20T15:00:09Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "UeQNx_2izd0",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 16",
+    "video_url": "https://www.youtube.com/watch?v=UeQNx_2izd0",
+    "published_at": "2026-09-20T14:30:07Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "OP8JvREo4Iw",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 021 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=OP8JvREo4Iw",
+    "published_at": "2026-09-21T15:00:07Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "phgyeZK0jDk",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 17",
+    "video_url": "https://www.youtube.com/watch?v=phgyeZK0jDk",
+    "published_at": "2026-09-21T14:30:10Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "jYtTKpOliY4",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 022 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=jYtTKpOliY4",
+    "published_at": "2026-09-22T15:00:08Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "UGewrgYX7BM",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 18",
+    "video_url": "https://www.youtube.com/watch?v=UGewrgYX7BM",
+    "published_at": "2026-09-22T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "E3mZSfZo44c",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 023 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=E3mZSfZo44c",
+    "published_at": "2026-09-23T15:00:13Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "fKp-5h1s3sE",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 19",
+    "video_url": "https://www.youtube.com/watch?v=fKp-5h1s3sE",
+    "published_at": "2026-09-23T14:30:37Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "e9dc1w8qHdA",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 024 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=e9dc1w8qHdA",
+    "published_at": "2026-09-24T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "XqGlodLoB5Y",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 20",
+    "video_url": "https://www.youtube.com/watch?v=XqGlodLoB5Y",
+    "published_at": "2026-09-24T14:30:07Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "PSOcz7FVMuM",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 025 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=PSOcz7FVMuM",
+    "published_at": "2026-09-25T15:00:10Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "6bEmO0bCfQM",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 21",
+    "video_url": "https://www.youtube.com/watch?v=6bEmO0bCfQM",
+    "published_at": "2026-09-25T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "M6KFwRqxaOM",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 026 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=M6KFwRqxaOM",
+    "published_at": "2026-09-26T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "0TSKCxB-oI4",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 22",
+    "video_url": "https://www.youtube.com/watch?v=0TSKCxB-oI4",
+    "published_at": "2026-09-26T14:30:10Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "CdAKuWxNRHw",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 027 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=CdAKuWxNRHw",
+    "published_at": "2026-09-27T15:00:10Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "PopDx8YGxuI",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 23",
+    "video_url": "https://www.youtube.com/watch?v=PopDx8YGxuI",
+    "published_at": "2026-09-27T14:30:10Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "-cN6IoKf96c",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 028 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=-cN6IoKf96c",
+    "published_at": "2026-09-28T15:00:10Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "asz7uFJbv2Y",
+    "video_title": "[Hindi Dub] Ragna Crimson - Episode 24",
+    "video_url": "https://www.youtube.com/watch?v=asz7uFJbv2Y",
+    "published_at": "2026-09-28T14:30:10Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "yk-raw3wfOw",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 029 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=yk-raw3wfOw",
+    "published_at": "2026-09-29T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "Td2EU01WGgs",
+    "video_title": "[Hindi Dub] Tokyo Revengers - Episode 01",
+    "video_url": "https://www.youtube.com/watch?v=Td2EU01WGgs",
+    "published_at": "2026-09-29T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "RVPa1FOfeTA",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 030 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=RVPa1FOfeTA",
+    "published_at": "2026-09-30T15:00:08Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "KZvFIREvtAU",
+    "video_title": "[Hindi Dub] Tokyo Revengers - Episode 02",
+    "video_url": "https://www.youtube.com/watch?v=KZvFIREvtAU",
+    "published_at": "2026-09-30T14:30:07Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  }
+]
