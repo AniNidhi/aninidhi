@@ -19,6 +19,8 @@ __all__ = [
     "get_season",
     "get_by_platform",
     "get_dub_info",
+    "get_series_info",
+    "get_airing",
     "multi_platform_dubs",
     "platform_stats",
     "list_all",
@@ -49,6 +51,60 @@ def search(title: str) -> List[dict[str, Any]]:
     """Case-insensitive substring search over anime titles."""
     needle = title.strip().lower()
     return [a for a in load_all() if needle in (a.get("title") or "").lower()]
+
+
+def get_airing() -> List[dict[str, Any]]:
+    """All anime currently marked as Airing on at least one platform."""
+    return [
+        a
+        for a in load_all()
+        if a.get("status") == "Airing"
+        or any(d.get("status") == "Airing" for d in a.get("hindi_dubs", []))
+    ]
+
+
+def get_series_info(title: str) -> dict[str, Any]:
+    """Get aggregated series information including all seasons, platforms, and airing status."""
+    matches = search(title)
+    if not matches:
+        return {"query": title, "total_entries": 0, "seasons": [], "overall_status": "Unknown"}
+
+    import re
+    series_title = re.sub(r"\s*\([^)]*\)", "", matches[0]["title"])
+    series_title = re.sub(r":.*", "", series_title).strip()
+
+    seasons = []
+    has_airing = False
+    airing_seasons = []
+
+    for a in matches:
+        is_airing = a.get("status") == "Airing" or any(
+            d.get("status") == "Airing" for d in a.get("hindi_dubs", [])
+        )
+        if is_airing:
+            has_airing = True
+            airing_seasons.append(a["title"])
+        seasons.append({
+            "id": a.get("id"),
+            "title": a.get("title"),
+            "season": a.get("season"),
+            "status": "Airing" if is_airing else "Finished",
+            "platforms": list(
+                dict.fromkeys(
+                    d["platform"] for d in a.get("hindi_dubs", []) if d.get("platform")
+                )
+            ),
+            "hindi_dubs": a.get("hindi_dubs", []),
+        })
+
+    return {
+        "query": title,
+        "series_title": series_title,
+        "total_entries": len(matches),
+        "overall_status": "Airing" if has_airing else "Finished",
+        "airing_seasons": airing_seasons,
+        "seasons": seasons,
+    }
 
 
 def get_season(year: int, season: str) -> List[dict[str, Any]]:
@@ -95,3 +151,4 @@ def platform_stats() -> dict[str, int]:
             if d.get("platform"):
                 counter[d["platform"]] += 1
     return dict(counter)
+

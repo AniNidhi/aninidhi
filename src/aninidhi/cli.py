@@ -8,9 +8,11 @@ import sys
 from typing import Any, List
 
 from . import (
+    get_airing,
     get_by_platform,
     get_dub_info,
     get_latest,
+    get_series_info,
     list_all,
     multi_platform_dubs,
     platform_stats,
@@ -25,27 +27,30 @@ def _print_table(entries: List[dict[str, Any]]) -> None:
         return
     for a in entries:
         dubs = a.get("hindi_dubs") or []
+        status_tag = f" [{a.get('status')}]" if a.get("status") else ""
         if dubs:
-            parts = ", ".join(f"{d['platform']} ({d['release_date']})" for d in dubs)
-            print(f"- {a.get('title')}  [{parts}]")
+            parts = ", ".join(
+                f"{d['platform']} ({d['release_date']})" + (f" [{d['episodes']}]" if d.get("episodes") else "")
+                for d in dubs
+            )
+            print(f"- {a.get('title')}{status_tag}  [{parts}]")
         else:
-            print(f"- {a.get('title')}  [no Hindi dub yet]")
+            print(f"- {a.get('title')}{status_tag}  [no Hindi dub yet]")
 
 
 def _print_latest_table(entries: List[dict[str, Any]]) -> None:
-    """Like _print_table, but shows only the dub that earned each anime its
-    spot in the list - not every historical dub oldest-first, which made an
-    anime with an old first dub and a new second one look out of order."""
     if not entries:
         print("No matching anime found.")
         return
     for a in entries:
         dubs = a.get("hindi_dubs") or []
+        status_tag = f" [{a.get('status')}]" if a.get("status") else ""
         if dubs:
             newest = max(dubs, key=lambda d: d["release_date"])
-            print(f"- {a.get('title')}  [{newest['platform']} ({newest['release_date']})]")
+            ep_tag = f" [{newest['episodes']}]" if newest.get("episodes") else ""
+            print(f"- {a.get('title')}{status_tag}  [{newest['platform']} ({newest['release_date']}){ep_tag}]")
         else:
-            print(f"- {a.get('title')}  [no Hindi dub yet]")
+            print(f"- {a.get('title')}{status_tag}  [no Hindi dub yet]")
 
 
 def _print_info(entries: List[dict[str, Any]]) -> None:
@@ -53,13 +58,31 @@ def _print_info(entries: List[dict[str, Any]]) -> None:
         print("No matching anime found.")
         return
     for a in entries:
-        print(f"\n{a.get('title')}")
+        status_badge = f" [{a.get('status')}]" if a.get("status") else ""
+        print(f"\n{a.get('title')}{status_badge}")
         dubs = a.get("hindi_dubs") or []
         if not dubs:
             print("  No Hindi dub yet.")
             continue
         for d in sorted(dubs, key=lambda d: d["release_date"]):
-            print(f"  - {d['platform']}: {d['release_date']} ({d.get('status', 'Unknown')})")
+            ep_str = f" [{d['episodes']}]" if d.get("episodes") else ""
+            print(f"  - {d['platform']}: {d['release_date']} ({d.get('status', 'Finished')}){ep_str}")
+
+
+def _print_series(series_info: dict[str, Any]) -> None:
+    if not series_info.get("seasons"):
+        print(f"No series matches found for '{series_info.get('query')}'.")
+        return
+    print(f"\nSeries: {series_info.get('series_title')} [{series_info.get('overall_status')}]")
+    print(f"Total Seasons/Entries: {series_info.get('total_entries')}")
+    if series_info.get("airing_seasons"):
+        print(f"Currently Airing: {', '.join(series_info['airing_seasons'])}")
+    print("\nSeasons & Dub Platforms Breakdown:")
+    for s in series_info.get("seasons", []):
+        print(f"  - {s['title']} [{s['status']}]")
+        for d in s.get("hindi_dubs", []):
+            ep_info = f" [{d['episodes']}]" if d.get("episodes") else ""
+            print(f"      • {d['platform']}: {d['release_date']} ({d.get('status', 'Finished')}){ep_info}")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -78,17 +101,24 @@ def build_parser() -> argparse.ArgumentParser:
     p_latest.add_argument("-n", "--limit", type=int, default=10)
 
     p_search = sub.add_parser("search", help="search anime by title", parents=[json_flag])
-    p_search.add_argument("query")
+    p_search.add_argument("query", nargs="+", help="anime title query")
 
     p_info = sub.add_parser(
         "info", help="full per-platform dub breakdown for a title", parents=[json_flag]
     )
-    p_info.add_argument("query")
+    p_info.add_argument("query", nargs="+", help="anime title query")
+
+    p_series = sub.add_parser(
+        "series", help="complete season breakdown and airing status for a series", parents=[json_flag]
+    )
+    p_series.add_argument("query", nargs="+", help="series title query")
+
+    sub.add_parser("airing", help="list anime currently Airing", parents=[json_flag])
 
     p_platform = sub.add_parser(
         "platform", help="Hindi-dubbed anime on a given platform", parents=[json_flag]
     )
-    p_platform.add_argument("name")
+    p_platform.add_argument("name", nargs="+", help="platform name")
 
     sub.add_parser("all", help="list every known anime entry", parents=[json_flag])
     sub.add_parser("multi", help="anime dubbed on 2+ platforms", parents=[json_flag])
@@ -110,14 +140,27 @@ def main(argv: List[str] | None = None) -> int:
             _print_latest_table(results)
             return 0
     elif args.command == "search":
-        results = search(args.query)
+        query_str = " ".join(args.query)
+        results = search(query_str)
     elif args.command == "info":
-        results = get_dub_info(args.query)
+        query_str = " ".join(args.query)
+        results = get_dub_info(query_str)
         if not args.json:
             _print_info(results)
             return 0
+    elif args.command == "series":
+        query_str = " ".join(args.query)
+        info = get_series_info(query_str)
+        if args.json:
+            print(json.dumps(info, ensure_ascii=False, indent=2))
+        else:
+            _print_series(info)
+        return 0
+    elif args.command == "airing":
+        results = get_airing()
     elif args.command == "platform":
-        results = get_by_platform(args.name)
+        platform_str = " ".join(args.name)
+        results = get_by_platform(platform_str)
     elif args.command == "all":
         results = list_all()
     elif args.command == "multi":

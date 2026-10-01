@@ -99,6 +99,21 @@ class AninidhiTests(unittest.TestCase):
     def test_data_source_reports_offline_mode_by_default(self):
         self.assertIn("bundled", self.aninidhi.data_source())
 
+    def test_get_airing_returns_airing_anime(self):
+        airing = self.aninidhi.get_airing()
+        self.assertGreater(len(airing), 0)
+        for a in airing:
+            is_airing = a.get("status") == "Airing" or any(
+                d.get("status") == "Airing" for d in a.get("hindi_dubs", [])
+            )
+            self.assertTrue(is_airing)
+
+    def test_get_series_info_aggregates_seasons(self):
+        info = self.aninidhi.get_series_info("Slime")
+        self.assertEqual(info["overall_status"], "Airing")
+        self.assertGreaterEqual(len(info["seasons"]), 4)
+        self.assertTrue(any("Season 4" in s["title"] for s in info["seasons"]))
+
 
 class CliTests(unittest.TestCase):
     def setUp(self):
@@ -141,6 +156,17 @@ class CliTests(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertIn("Crunchyroll", out)
 
+    def test_cli_series_shows_season_breakdown(self):
+        code, out = self._run(["series", "Slime"])
+        self.assertEqual(code, 0)
+        self.assertIn("Series: That Time I Got Reincarnated as a Slime", out)
+        self.assertIn("Currently Airing", out)
+
+    def test_cli_airing_lists_airing_shows(self):
+        code, out = self._run(["airing"])
+        self.assertEqual(code, 0)
+        self.assertIn("Airing", out)
+
     def test_cli_stats_lists_platforms(self):
         code, out = self._run(["stats"])
         self.assertEqual(code, 0)
@@ -180,3 +206,4 @@ class CliTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
