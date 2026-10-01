@@ -529,5 +529,95 @@
     "source": "youtube:Muse_HindiDub",
     "status": "needs_review",
     "notes": "Confirm episode-vs-trailer, match or add an anime.json entry."
+  },
+  {
+    "video_id": "diKjQMe5DRk",
+    "video_title": "[Hindi Dub] HUNTER×HUNTER - Episode 031 | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=diKjQMe5DRk",
+    "published_at": "2026-10-01T15:00:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm it's a real dub (not a trailer/rumor), then match or add an anime.json entry."
+  },
+  {
+    "video_id": "5vs5STh-aJo",
+    "video_title": "[Hindi Dub] Tokyo Revengers - Episode 03",
+    "video_url": "https://www.youtube.com/watch?v=5vs5STh-aJo",
+    "published_at": "2026-10-01T14:30:06Z",
+    "source": "youtube:Muse_HindiDub",
+    "status": "needs_review",
+    "notes": "Confirm it's a real dub (not a trailer/rumor), then match or add an anime.json entry."
+  },
+  {
+    "video_id": "JZW-MuWjiXA",
+    "video_title": "JoJo's Bizarre Adventure (S3): Diamond is Unbreakable - Episode 30 [Hindi Dub] | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=JZW-MuWjiXA",
+    "published_at": "2026-10-01T15:30:09Z",
+    "source": "youtube:MuseIndiaChannel",
+    "status": "needs_review",
+    "notes": "Confirm it's a real dub (not a trailer/rumor), then match or add an anime.json entry."
+  },
+  {
+    "video_id": "5DqkgxL7BK4",
+    "video_title": "THE GOD OF HIGH SCHOOL - Episode 12 [Hindi Dub] | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=5DqkgxL7BK4",
+    "published_at": "2026-10-01T15:00:08Z",
+    "source": "youtube:MuseIndiaChannel",
+    "status": "needs_review",
+    "notes": "Likely re-upload of an existing dub - verify before treating as new."
+  },
+  {
+    "video_id": "vqGw12ZGx9g",
+    "video_title": "JoJo's Bizarre Adventure (S3): Diamond is Unbreakable - Episode 29 [Hindi Dub] | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=vqGw12ZGx9g",
+    "published_at": "2026-09-30T15:30:06Z",
+    "source": "youtube:MuseIndiaChannel",
+    "status": "needs_review",
+    "notes": "Confirm it's a real dub (not a trailer/rumor), then match or add an anime.json entry."
+  },
+  {
+    "video_id": "TDEW6FIwZNI",
+    "video_title": "THE GOD OF HIGH SCHOOL - Episode 11 [Hindi Dub] | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=TDEW6FIwZNI",
+    "published_at": "2026-09-30T15:00:07Z",
+    "source": "youtube:MuseIndiaChannel",
+    "status": "needs_review",
+    "notes": "Likely re-upload of an existing dub - verify before treating as new."
+  },
+  {
+    "video_id": "Qp2mU_u8ls8",
+    "video_title": "JoJo's Bizarre Adventure (S3): Diamond is Unbreakable - Episode 28 [Hindi Dub] | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=Qp2mU_u8ls8",
+    "published_at": "2026-09-29T15:30:09Z",
+    "source": "youtube:MuseIndiaChannel",
+    "status": "needs_review",
+    "notes": "Confirm it's a real dub (not a trailer/rumor), then match or add an anime.json entry."
+  },
+  {
+    "video_id": "Lkz5_DJA0tQ",
+    "video_title": "THE GOD OF HIGH SCHOOL - Episode 10 [Hindi Dub] | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=Lkz5_DJA0tQ",
+    "published_at": "2026-09-29T15:00:09Z",
+    "source": "youtube:MuseIndiaChannel",
+    "status": "needs_review",
+    "notes": "Likely re-upload of an existing dub - verify before treating as new."
+  },
+  {
+    "video_id": "ZgTVjoss9kM",
+    "video_title": "JoJo's Bizarre Adventure (S3): Diamond is Unbreakable - Episode 27 [Hindi Dub] | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=ZgTVjoss9kM",
+    "published_at": "2026-09-28T15:30:10Z",
+    "source": "youtube:MuseIndiaChannel",
+    "status": "needs_review",
+    "notes": "Confirm it's a real dub (not a trailer/rumor), then match or add an anime.json entry."
+  },
+  {
+    "video_id": "O6g0M0fEo4I",
+    "video_title": "THE GOD OF HIGH SCHOOL - Episode 09 [Hindi Dub] | Muse IN",
+    "video_url": "https://www.youtube.com/watch?v=O6g0M0fEo4I",
+    "published_at": "2026-09-28T15:00:08Z",
+    "source": "youtube:MuseIndiaChannel",
+    "status": "needs_review",
+    "notes": "Likely re-upload of an existing dub - verify before treating as new."
   }
 ]
