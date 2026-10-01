@@ -2,11 +2,17 @@
 from __future__ import annotations
 
 from collections import Counter
+from importlib.metadata import PackageNotFoundError
+from importlib.metadata import version as _version
 from typing import Any, List
 
 from .data import data_source, load_all, refresh
 
-__version__ = "0.2.1"
+try:
+    __version__ = _version("aninidhi")
+except PackageNotFoundError:
+    __version__ = "0.0.0+unknown"
+
 __all__ = [
     "get_latest",
     "search",

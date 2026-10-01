@@ -155,6 +155,17 @@ class CliTests(unittest.TestCase):
             platforms = {d["platform"] for d in a["hindi_dubs"]}
             self.assertGreaterEqual(len(platforms), 2)
 
+    def test_cli_latest_shows_only_the_qualifying_dub(self):
+        code, out = self._run(["latest", "-n", "20"])
+        self.assertEqual(code, 0)
+        for line in out.splitlines():
+            if "  [" in line:
+                bracket_content = line.split("  [", 1)[1]
+                self.assertNotIn(
+                    ", ", bracket_content,
+                    f"latest table row lists more than one dub, expected just one: {line!r}",
+                )
+
     def test_cli_refresh_without_url_fails_gracefully(self):
         code, out = self._run(["refresh"])
         self.assertEqual(code, 1)

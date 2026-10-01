@@ -1,15 +1,17 @@
 # aninidhi
 
 Track which anime have official **Hindi dubs** — across Crunchyroll, Netflix,
-Muse India, and Prime Video — as a Python library and a CLI.
+Muse India, Prime Video, and JioHotstar — as a Python library and a CLI.
 
 ## What's new in v0.2
 
-- **488 real anime/season records**, not a placeholder sample.
+- **511 real anime/season records** across Crunchyroll, Netflix, Muse
+  India, Anime Times (Prime Video), and JioHotstar - not a placeholder
+  sample.
 - **Multi-platform dubs**: the same anime is often dubbed independently by
   more than one platform at different times (e.g. Crunchyroll in 2023,
   then Muse India in 2026). Every anime now carries a `hindi_dubs` list
-  instead of a single platform/date pair. **37 titles in this dataset are
+  instead of a single platform/date pair. **54 titles in this dataset are
   already dubbed on 2+ platforms** — run `aninidhi multi` to see them.
 - **Schema room for richer metadata**: `anilist_id`, `anilist_url`,
   `imdb_id`, `imdb_url`, `imdb_rating`, `studio`, `synopsis`,

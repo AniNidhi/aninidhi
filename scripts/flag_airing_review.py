@@ -1,3 +1,13 @@
+"""List anime still marked "Airing" so the owner can periodically re-check status.
+
+There's no free API that reports per-platform Hindi-dub episode counts or
+completion status, so this can't be fully automated - it surfaces the
+"Airing" entries so a human can update `hindi_dubs[].status` by hand once
+a season wraps up.
+
+Usage:
+    python scripts/flag_airing_review.py
+"""
 from __future__ import annotations
 
 import json

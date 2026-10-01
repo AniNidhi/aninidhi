@@ -6,52 +6,146 @@
 - `src/aninidhi/data/anime.json` — the bundled dataset.
 - `scripts/` — maintainer tooling, not shipped in the pip package.
 - `.github/workflows/refresh-data.yml` — daily automation (see below).
+- `.github/workflows/data-recheck-reminder.yml` — monthly/quarterly
+  reminder for platforms with no automatable feed (see below).
 - `tests/` — run with `python -m unittest discover -s tests`.
 
 ## Data provenance
 
 The bundled dataset was compiled by cross-referencing each platform's own
-release history (e.g. Crunchyroll's Simulcast Calendar). Snapshot date:
-**September 2026**. It will go stale as new dubs release, which is what
-the automation below and the enrichment scripts are for.
+release history (e.g. Crunchyroll's Simulcast Calendar). Covers
+Crunchyroll, Netflix, Muse India, Anime Times (Prime Video), and
+JioHotstar. Snapshot date: **September 2026**. It will go stale as new
+dubs release, which is what the automation below and `bulk_import.py`
+are for.
 
-Sony YAY! and JioHotstar are known to carry Hindi-dubbed anime but aren't
-in the dataset yet - their catalogs are more TV-schedule-based and harder
-to date precisely from public sources. Good candidates for a future pass.
+**Sony YAY! isn't in the dataset yet.** Unlike the other platforms, it
+has no single tracker page - its Hindi dub history is scattered across
+many separate show-specific write-ups with month/year precision rather
+than exact dates. Forcing it into a bulk import risked either fabricated
+precision or messy partial data, so it's deferred to the manual recheck
+process below instead, where it can be added show-by-show with real
+dates as they're confirmed.
 
 ## Keeping the dataset current
 
+### Daily automation
+
 `.github/workflows/refresh-data.yml` runs daily and:
 
-1. Polls the Muse Hindi Dub YouTube channel for new uploads
-   (`scripts/fetch_candidates.py`), queuing anything new into
-   `pending_review.json`. Everything on that channel is Hindi-dubbed by
-   definition, making it the highest-confidence automatable source.
-2. Runs `scripts/flag_airing_review.py`, which lists every dub still
-   marked `"Airing"` in `anime.json`. There's no free API that reports
-   per-platform episode counts or completion status, so this step isn't
-   fully automatic - it surfaces the list in the workflow log for a
-   periodic manual glance.
+1. Polls three sources for new candidates (`scripts/fetch_candidates.py`),
+   queuing anything new into `pending_review.json`:
+
+   | Source | Setup | Reliability |
+   |---|---|---|
+   | Muse Hindi Dub YouTube (`@Muse_HindiDub`) | `YOUTUBE_API_KEY` secret | Frequently re-uploads dubs already released elsewhere - not a clean "new dub" signal |
+   | Muse India main channel (`@MuseIndiaChannel`) | same key, filtered for "Hindi" in the title | Mixed-language channel, so filtering misses anything not explicitly labeled |
+   | Crunchyroll News RSS | none needed, no key required | Global anime news filtered for "Hindi" - expect very few real matches |
+
+   Every candidate is cross-checked against existing `anime.json` titles
+   and labeled as a likely re-upload if a close match already exists -
+   always verify this label rather than trusting it blindly.
+
+   **Reddit's r/AnimeIndia is intentionally not included** - not pursuing
+   it further.
+
+2. Optionally polls any number of **Google Alerts** RSS feeds - set
+   `GOOGLE_ALERTS_RSS_URLS` as a comma-separated list. Create each alert
+   free at [google.com/alerts](https://google.com/alerts) with delivery
+   set to "as-it-happens"; Google gives you an RSS URL per alert, zero
+   code needed on our end. Since Netflix, Anime Times, and JioHotstar
+   have no automatable feed of their own, alerts are the closest thing to
+   automated coverage for them - worth creating one per platform:
+
+   - `"hindi dub anime"` - general catch-all
+   - `"hindi dub" netflix anime`
+   - `"hindi dub" "prime video" OR "anime times"`
+   - `"hindi dub" jiohotstar anime`
+
+3. Runs `scripts/flag_airing_review.py`, which lists every dub still
+   marked `"Airing"` in `anime.json` - no free API reports per-platform
+   episode counts or completion status, so this stays a manual glance.
 
 **Setup**: get a free YouTube Data API v3 key at
-[console.cloud.google.com](https://console.cloud.google.com), then add it
-as a repo secret named `YOUTUBE_API_KEY` (Settings → Secrets and
-variables → Actions).
+[console.cloud.google.com](https://console.cloud.google.com), add it as a
+repo secret named `YOUTUBE_API_KEY`. Add `GOOGLE_ALERTS_RSS_URLS` as a
+secret too, once you've created your alerts.
 
-**Workflow once candidates land in `pending_review.json`**:
+### Monthly/quarterly manual recheck
 
-1. Open the video, confirm it's a real episode (not a trailer).
-2. Check `anime.json` for an existing entry to add a platform/date to, or
-   create a new one.
-3. Update `anime.json`, remove the handled entry from
-   `pending_review.json`, commit and push.
+`.github/workflows/data-recheck-reminder.yml` runs on the 1st of every
+month and opens a GitHub issue with a checklist for Netflix, Anime
+Times, Sony YAY!, and JioHotstar - the platforms with no automatable
+feed. Every 3rd occurrence (Jan/Apr/Jul/Oct) it's labeled as a quarterly
+checkpoint, meant for a deeper pass than the usual monthly skim. This
+doesn't do the research for you - it just makes sure the task doesn't
+quietly get forgotten.
 
-Because `ANINIDHI_SOURCE_URL` defaults to this repo's `anime.json`,
-pushing an update here reaches every installed copy of the library within
-a day - no new PyPI release needed for data updates.
+When you find something new, put it in a text file, one dub per line:
 
-Test `fetch_candidates.py` manually (with `YOUTUBE_API_KEY` set locally)
-before relying on the scheduled run.
+```
+Title | Date | Status | Platform
+Jujutsu Kaisen (Season 1) | Oct 09, 2025 | Finished | JioHotstar
+```
+
+Then run:
+
+```bash
+python scripts/bulk_import.py path/to/batch.txt
+```
+
+It matches against existing titles (merging into an existing anime's
+`hindi_dubs` list when there's a match, creating a new entry when there
+isn't) and re-sorts/renumbers `anime.json` automatically.
+
+### Reviewing the daily queue, concretely
+
+From your project root, with your virtual environment active:
+
+```bash
+python scripts/review_candidates.py
+```
+
+If `pending_review.json` is empty, either wait for the daily Action to
+run, or populate it yourself right now with
+`python scripts/fetch_candidates.py` (needs `YOUTUBE_API_KEY` set in your
+shell first: `$env:YOUTUBE_API_KEY = "your-key"` in PowerShell).
+
+For each candidate, the tool prints the video title, its URL, any
+re-upload warning `fetch_candidates.py` already flagged, and any existing
+`anime.json` titles that might match. **Open the URL in your browser
+first** - the tool only has metadata, not the video content, so you need
+to actually watch enough of it to confirm it's real. Then type one of:
+
+| Type | What happens |
+|---|---|
+| `a` | Accept as a **brand new** anime entry - prompts for a clean title, platform, release date, status |
+| `m` | Accept as a **new dub on an existing anime** - shows numbered matches, you pick one, then prompts for platform/date/status |
+| `r` | **Reject** outright - removes it from the queue, nothing is added anywhere |
+| `s` (or just Enter) | **Skip** for now - stays in the queue for next time |
+
+The tool re-sorts and renumbers `anime.json` automatically after any
+`a`/`m` change, but does **not** commit or push - review the diff
+yourself (`git diff src/aninidhi/data/anime.json`), then `git add`,
+`git commit`, `git push`.
+
+### Removing an entry entirely
+
+If something needs to come out of the dataset completely - added by
+mistake, wrong match, anything that shouldn't be tracked - use:
+
+```bash
+python scripts/remove_entry.py "title or partial title"
+```
+
+It shows matches, asks which one and confirms before deleting, then
+re-sorts/renumbers automatically. This is different from `[s]kip` in the
+review tool, which only leaves a *pending candidate* in the queue for
+later - this one deletes an entry already in `anime.json`.
+
+Because `ANINIDHI_SOURCE_URL` defaults to this repo's `anime.json`, any
+change pushed here (from review, bulk import, or removal) reaches every
+installed copy of the library within a day - no new PyPI release needed.
 
 ## Enriching metadata (AniList + IMDb)
 
@@ -81,4 +175,4 @@ pip install -e .
 python -m unittest discover -s tests
 ```
 
-All 18 tests run fully offline against the bundled dataset.
+All tests run fully offline against the bundled dataset.

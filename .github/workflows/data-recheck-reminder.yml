@@ -1,0 +1,43 @@
+name: Manual data recheck reminder
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open reminder issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const month = new Date().getMonth() + 1;
+            const isQuarterStart = [1, 4, 7, 10].includes(month);
+            const title = isQuarterStart
+              ? "Quarterly data recheck: Netflix, Anime Times, Sony YAY!, JioHotstar"
+              : "Monthly data recheck: Netflix, Anime Times, Sony YAY!, JioHotstar";
+            const body = [
+              "None of these platforms have a free automatable feed, so this is a manual nudge:",
+              "",
+              "- [ ] Netflix - check for anything new since the last pass",
+              "- [ ] Anime Times / Prime Video - check for anything new",
+              "- [ ] Sony YAY! - scattered across several source posts, no single tracker page",
+              "- [ ] JioHotstar - check for anything new",
+              "",
+              "For anything new, add it to a text file (`title | date | status | platform` per line) and run:",
+              "```",
+              "python scripts/bulk_import.py path/to/batch.txt",
+              "```",
+              isQuarterStart ? "\nThis is also a quarterly checkpoint - worth a deeper pass than the usual monthly skim." : "",
+            ].join("\n");
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+            });

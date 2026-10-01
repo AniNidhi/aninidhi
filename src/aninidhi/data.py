@@ -1,3 +1,4 @@
+"""Core data access for aninidhi."""
 from __future__ import annotations
 
 import json

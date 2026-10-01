@@ -32,6 +32,22 @@ def _print_table(entries: List[dict[str, Any]]) -> None:
             print(f"- {a.get('title')}  [no Hindi dub yet]")
 
 
+def _print_latest_table(entries: List[dict[str, Any]]) -> None:
+    """Like _print_table, but shows only the dub that earned each anime its
+    spot in the list - not every historical dub oldest-first, which made an
+    anime with an old first dub and a new second one look out of order."""
+    if not entries:
+        print("No matching anime found.")
+        return
+    for a in entries:
+        dubs = a.get("hindi_dubs") or []
+        if dubs:
+            newest = max(dubs, key=lambda d: d["release_date"])
+            print(f"- {a.get('title')}  [{newest['platform']} ({newest['release_date']})]")
+        else:
+            print(f"- {a.get('title')}  [no Hindi dub yet]")
+
+
 def _print_info(entries: List[dict[str, Any]]) -> None:
     if not entries:
         print("No matching anime found.")
@@ -90,6 +106,9 @@ def main(argv: List[str] | None = None) -> int:
 
     if args.command == "latest":
         results = get_latest(limit=args.limit)
+        if not args.json:
+            _print_latest_table(results)
+            return 0
     elif args.command == "search":
         results = search(args.query)
     elif args.command == "info":

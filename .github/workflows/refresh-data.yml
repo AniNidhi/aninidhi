@@ -2,7 +2,7 @@ name: Refresh Hindi dub candidates
 
 on:
   schedule:
-    - cron: "0 19 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -23,6 +23,7 @@ jobs:
       - name: Poll for new Hindi dub uploads
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GOOGLE_ALERTS_RSS_URLS: ${{ secrets.GOOGLE_ALERTS_RSS_URLS }}
         run: python scripts/fetch_candidates.py
 
       - name: List anime still marked Airing
