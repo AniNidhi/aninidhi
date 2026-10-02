@@ -619,5 +619,163 @@
     "source": "youtube:MuseIndiaChannel",
     "status": "needs_review",
     "notes": "Likely re-upload of an existing dub - verify before treating as new."
+  },
+  {
+    "video_id": "https://animemirchi.com/crunchyroll-fall-2026-hindi-tamil-telugu-lineup/",
+    "video_title": "[AnimeMirchi] Crunchyroll Fall 2026 Hindi, Tamil, Telugu Dub Anime Lineup Revealed 10+ Hindi, Tamil & Telugu Dubbed Anime Confirmed for Fall 2026 by Crunchyroll",
+    "video_url": "https://animemirchi.com/crunchyroll-fall-2026-hindi-tamil-telugu-lineup/",
+    "published_at": "Tue, 29 Sep 2026 11:30:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Hindi",
+      "Tamil",
+      "Telugu"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Hindi, Tamil, Telugu. Medium: OTT."
+  },
+  {
+    "video_id": "https://animemirchi.com/anime-in-telugu-dub-in-india/",
+    "video_title": "[AnimeMirchi] Anime in Telugu: Where to Watch Telugu-Dubbed Anime in India (5 Paid & Free Platforms) 5 Best Platforms to Watch Telugu Dubbed Anime in India",
+    "video_url": "https://animemirchi.com/anime-in-telugu-dub-in-india/",
+    "published_at": "Sat, 26 Sep 2026 11:30:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Telugu"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Telugu. Medium: OTT."
+  },
+  {
+    "video_id": "https://animemirchi.com/netflix-telugu-dubbed-anime-list/",
+    "video_title": "[AnimeMirchi] Netflix Telugu Dubbed Anime List (2026) – Complete Lineup List of Telugu Dubbed Anime Streaming on Netflix India",
+    "video_url": "https://animemirchi.com/netflix-telugu-dubbed-anime-list/",
+    "published_at": "Thu, 24 Sep 2026 11:30:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Hindi",
+      "Telugu"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Hindi, Telugu. Medium: OTT."
+  },
+  {
+    "video_id": "https://animemirchi.com/netflix-tamil-dubbed-anime-list/",
+    "video_title": "[AnimeMirchi] Netflix Tamil Dubbed Anime List (2026) – Complete Lineup List of Tamil Dubbed Anime Streaming on Netflix India",
+    "video_url": "https://animemirchi.com/netflix-tamil-dubbed-anime-list/",
+    "published_at": "Tue, 22 Sep 2026 11:30:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Hindi",
+      "Tamil",
+      "Telugu"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Hindi, Tamil, Telugu. Medium: OTT."
+  },
+  {
+    "video_id": "https://animemirchi.com/anime-in-tamil-dub-in-india/",
+    "video_title": "[AnimeMirchi] Anime in Tamil: Where to Watch Tamil-Dubbed Anime in India (5 Paid & Free Platforms) 5 Best Platforms to Watch Tamil Dubbed Anime in India! Explore Crunchyroll, Anime Times, Muse India and More",
+    "video_url": "https://animemirchi.com/anime-in-tamil-dub-in-india/",
+    "published_at": "Sun, 20 Sep 2026 11:30:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Tamil"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Tamil. Medium: OTT."
+  },
+  {
+    "video_id": "https://animemirchi.com/netflix-fall-2026-hindi-tamil-telugu-dub-anime/",
+    "video_title": "[AnimeMirchi] NETFLIX Fall 2026 Hindi, Tamil, Telugu Dub Anime Lineup Revealed 8+ Hindi, Tamil & Telugu Dubbed Anime Confirmed for Fall 2026 by NETFLIX",
+    "video_url": "https://animemirchi.com/netflix-fall-2026-hindi-tamil-telugu-dub-anime/",
+    "published_at": "Fri, 18 Sep 2026 15:00:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Hindi",
+      "Tamil",
+      "Telugu"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Hindi, Tamil, Telugu. Medium: OTT."
+  },
+  {
+    "video_id": "https://animemirchi.com/attack-on-titan-episodes-released-in-india/",
+    "video_title": "[AnimeMirchi] Attack on Titan Episodes Released in India (Season 1–4) List of Attack on Titan episodes released in India in Hindi, Tamil, Telugu, and Kannada",
+    "video_url": "https://animemirchi.com/attack-on-titan-episodes-released-in-india/",
+    "published_at": "Thu, 17 Sep 2026 11:30:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Hindi",
+      "Tamil",
+      "Telugu",
+      "Kannada"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Hindi, Tamil, Telugu, Kannada. Medium: OTT."
+  },
+  {
+    "video_id": "https://animemirchi.com/jojos-bizarre-adventure-episodes-released-in-india/",
+    "video_title": "[AnimeMirchi] JoJo’s Bizarre Adventure Episodes Released in India (Parts 1–7) List of JoJo's Bizarre Adventure episodes released in India",
+    "video_url": "https://animemirchi.com/jojos-bizarre-adventure-episodes-released-in-india/",
+    "published_at": "Tue, 15 Sep 2026 11:30:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Hindi"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Hindi. Medium: OTT."
+  },
+  {
+    "video_id": "https://animemirchi.com/looney-tunes-cartoons-cartoon-network-india/",
+    "video_title": "[AnimeMirchi] Looney Tunes Cartoons Premieres on Cartoon Network India in 5 Indian Languages Series Airs Mon-Fri 10:30 AM in Hindi, Tamil, Telugu, Kannada and Malayalam",
+    "video_url": "https://animemirchi.com/looney-tunes-cartoons-cartoon-network-india/",
+    "published_at": "Sat, 12 Sep 2026 14:30:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Hindi",
+      "Tamil",
+      "Telugu",
+      "Malayalam",
+      "Kannada"
+    ],
+    "detected_channels": [
+      "Cartoon Network"
+    ],
+    "medium": "TV",
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Hindi, Tamil, Telugu, Malayalam, Kannada. Medium: TV."
+  },
+  {
+    "video_id": "https://animemirchi.com/jojos-bizarre-adventure-in-india/",
+    "video_title": "[AnimeMirchi] JoJo’s Bizarre Adventure in India – Complete Guide (Parts 1–7, Hindi, Tamil, Telugu Dubs) Complete Guide to JoJo's Bizarre Adventure in India featuring all Parts Release Dates and Where to Watch in Hindi, Tamil, Telugu dubs",
+    "video_url": "https://animemirchi.com/jojos-bizarre-adventure-in-india/",
+    "published_at": "Fri, 11 Sep 2026 14:30:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Hindi",
+      "Tamil",
+      "Telugu"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Hindi, Tamil, Telugu. Medium: OTT."
   }
 ]

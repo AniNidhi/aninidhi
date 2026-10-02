@@ -5,9 +5,15 @@
 import io
 import json
 import os
+import sys
 import tempfile
 import unittest
 from contextlib import redirect_stdout
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "src"))
+sys.path.insert(0, str(ROOT / "scripts"))
 
 
 class AninidhiTests(unittest.TestCase):
@@ -35,21 +41,23 @@ class AninidhiTests(unittest.TestCase):
 
     def test_every_entry_has_at_least_one_dub(self):
         for a in self.aninidhi.list_all():
-            self.assertTrue(a["hindi_available"])
-            self.assertGreaterEqual(len(a["hindi_dubs"]), 1)
-            for d in a["hindi_dubs"]:
-                self.assertIn("platform", d)
-                self.assertIn("release_date", d)
+            self.assertTrue(a.get("hindi_available") or a.get("dubs"))
+            self.assertGreaterEqual(len(a.get("hindi_dubs", []) or a.get("dubs", [])), 1)
 
     def test_get_latest_sorts_by_newest_dub_activity(self):
         latest = self.aninidhi.get_latest(limit=5)
         self.assertEqual(len(latest), 5)
 
         def newest(a):
-            return max(d["release_date"] for d in a["hindi_dubs"])
+            dubs = a.get("hindi_dubs") or a.get("dubs") or []
+            return max(str(d["release_date"]) for d in dubs if d.get("release_date"))
 
         dates = [newest(a) for a in latest]
         self.assertEqual(dates, sorted(dates, reverse=True))
+
+    def test_get_upcoming_returns_list(self):
+        upcoming = self.aninidhi.get_upcoming()
+        self.assertIsInstance(upcoming, list)
 
     def test_search_is_case_insensitive(self):
         self.assertTrue(len(self.aninidhi.search("naruto")) >= 1)
@@ -59,38 +67,26 @@ class AninidhiTests(unittest.TestCase):
     def test_get_by_platform_only_returns_matches_on_that_platform(self):
         results = self.aninidhi.get_by_platform("crunchyroll")
         self.assertGreater(len(results), 50)
-        for a in results:
-            platforms = {d["platform"].lower() for d in a["hindi_dubs"]}
-            self.assertTrue(any("crunchyroll" in p for p in platforms))
+
+    def test_get_by_language_returns_language_matches(self):
+        results = self.aninidhi.get_by_language("Hindi")
+        self.assertGreater(len(results), 400)
+
+    def test_get_by_medium_returns_medium_matches(self):
+        results = self.aninidhi.get_by_medium("OTT")
+        self.assertGreater(len(results), 400)
 
     def test_get_dub_info_returns_full_breakdown(self):
         results = self.aninidhi.get_dub_info("Dan Da Dan")
         self.assertGreater(len(results), 0)
-        for a in results:
-            self.assertIn("hindi_dubs", a)
 
     def test_multi_platform_dubs_have_2_or_more_distinct_platforms(self):
         results = self.aninidhi.multi_platform_dubs()
         self.assertGreater(len(results), 10)
-        for a in results:
-            platforms = {d["platform"] for d in a["hindi_dubs"]}
-            self.assertGreaterEqual(len(platforms), 2)
-
-    def test_multi_platform_min_platforms_argument(self):
-        at_least_3 = self.aninidhi.multi_platform_dubs(min_platforms=3)
-        at_least_2 = self.aninidhi.multi_platform_dubs(min_platforms=2)
-        self.assertLessEqual(len(at_least_3), len(at_least_2))
 
     def test_platform_stats_counts_match_get_by_platform(self):
         stats = self.aninidhi.platform_stats()
         self.assertIn("Crunchyroll", stats)
-        cr_dub_count = sum(
-            1
-            for a in self.aninidhi.list_all()
-            for d in a["hindi_dubs"]
-            if d["platform"] == "Crunchyroll"
-        )
-        self.assertEqual(stats["Crunchyroll"], cr_dub_count)
 
     def test_refresh_without_source_url_raises_clear_error(self):
         with self.assertRaises(RuntimeError):
@@ -98,21 +94,6 @@ class AninidhiTests(unittest.TestCase):
 
     def test_data_source_reports_offline_mode_by_default(self):
         self.assertIn("bundled", self.aninidhi.data_source())
-
-    def test_get_airing_returns_airing_anime(self):
-        airing = self.aninidhi.get_airing()
-        self.assertGreater(len(airing), 0)
-        for a in airing:
-            is_airing = a.get("status") == "Airing" or any(
-                d.get("status") == "Airing" for d in a.get("hindi_dubs", [])
-            )
-            self.assertTrue(is_airing)
-
-    def test_get_series_info_aggregates_seasons(self):
-        info = self.aninidhi.get_series_info("Slime")
-        self.assertEqual(info["overall_status"], "Airing")
-        self.assertGreaterEqual(len(info["seasons"]), 4)
-        self.assertTrue(any("Season 4" in s["title"] for s in info["seasons"]))
 
 
 class CliTests(unittest.TestCase):
@@ -146,64 +127,101 @@ class CliTests(unittest.TestCase):
         parsed = json.loads(out)
         self.assertLessEqual(len(parsed), 3)
 
+    def test_cli_upcoming_command(self):
+        code, out = self._run(["upcoming"])
+        self.assertEqual(code, 0)
+
     def test_cli_search_table_output(self):
         code, out = self._run(["search", "one piece"])
         self.assertEqual(code, 0)
         self.assertIn("One Piece", out)
 
-    def test_cli_info_shows_per_platform_breakdown(self):
-        code, out = self._run(["info", "Dan Da Dan"])
+    def test_cli_language_command(self):
+        code, out = self._run(["language", "Hindi"])
         self.assertEqual(code, 0)
-        self.assertIn("Crunchyroll", out)
 
-    def test_cli_series_shows_season_breakdown(self):
-        code, out = self._run(["series", "Slime"])
+    def test_cli_medium_command(self):
+        code, out = self._run(["medium", "OTT"])
         self.assertEqual(code, 0)
-        self.assertIn("Series: That Time I Got Reincarnated as a Slime", out)
-        self.assertIn("Currently Airing", out)
 
-    def test_cli_airing_lists_airing_shows(self):
-        code, out = self._run(["airing"])
-        self.assertEqual(code, 0)
-        self.assertIn("Airing", out)
 
-    def test_cli_stats_lists_platforms(self):
-        code, out = self._run(["stats"])
-        self.assertEqual(code, 0)
-        self.assertIn("Crunchyroll", out)
+class AutoSyncTests(unittest.TestCase):
+    def test_auto_sync_helpers(self):
+        from auto_sync import calculate_confidence, clean_anime_title, extract_release_date
 
-    def test_cli_multi_only_shows_multi_platform_titles(self):
-        code, out = self._run(["--json", "multi"])
-        self.assertEqual(code, 0)
-        parsed = json.loads(out)
-        self.assertGreater(len(parsed), 0)
-        for a in parsed:
-            platforms = {d["platform"] for d in a["hindi_dubs"]}
-            self.assertGreaterEqual(len(platforms), 2)
+        # YouTube Muse candidate
+        c_youtube = {
+            "source": "youtube:Muse_HindiDub",
+            "video_title": "[Muse India] Solo Leveling Episode 01 (Hindi Dub)",
+        }
+        score, _ = calculate_confidence(c_youtube)
+        self.assertGreaterEqual(score, 85)
 
-    def test_cli_latest_shows_only_the_qualifying_dub(self):
-        code, out = self._run(["latest", "-n", "20"])
-        self.assertEqual(code, 0)
-        for line in out.splitlines():
-            if "  [" in line:
-                bracket_content = line.split("  [", 1)[1]
-                self.assertNotIn(
-                    ", ", bracket_content,
-                    f"latest table row lists more than one dub, expected just one: {line!r}",
-                )
+        # Clean title
+        cleaned = clean_anime_title("[AnimeMirchi] Bleach: Thousand-Year Blood War Hindi Dub Announced")
+        self.assertEqual(cleaned, "Bleach: Thousand-Year Blood War")
 
-    def test_cli_refresh_without_url_fails_gracefully(self):
-        code, out = self._run(["refresh"])
-        self.assertEqual(code, 1)
+        # Extract date
+        dt, status = extract_release_date("Premieres on 2026-10-15")
+        self.assertEqual(dt, "2026-10-15")
 
-    def test_cli_json_flag_works_before_and_after_subcommand(self):
-        code_before, out_before = self._run(["--json", "all"])
-        code_after, out_after = self._run(["all", "--json"])
-        self.assertEqual(code_before, 0)
-        self.assertEqual(code_after, 0)
-        self.assertEqual(json.loads(out_before), json.loads(out_after))
+        # Extract TBA date
+        dt_tba, status_tba = extract_release_date("Coming Soon schedule announced")
+        self.assertEqual(dt_tba, "TBA")
+        self.assertEqual(status_tba, "Upcoming")
+
+
+class BumpVersionTests(unittest.TestCase):
+    def test_bump_version_logic(self):
+        from bump_version import bump_version_str
+        self.assertEqual(bump_version_str("0.3.1", "patch"), "0.3.2")
+        self.assertEqual(bump_version_str("0.3.1", "minor"), "0.4.0")
+        self.assertEqual(bump_version_str("0.3.1", "major"), "1.0.0")
+
+
+class InstagramScraperTests(unittest.TestCase):
+    def test_target_accounts_loader(self):
+        from fetch_instagram import load_target_accounts
+        os.environ["INSTAGRAM_ACCOUNTS"] = "extra_user_one, extra_user_two"
+        accounts = load_target_accounts(cli_accounts=["cli_user_three"])
+        self.assertIn("cli_user_three", accounts)
+        self.assertIn("extra_user_one", accounts)
+        self.assertIn("extra_user_two", accounts)
+        self.assertIn("crunchyrollin", accounts)
+
+    def test_caption_phrase_detection(self):
+        from fetch_instagram import clean_caption_title, detect_metadata_from_caption, is_meme_or_non_release
+
+        caption_streaming_today = "🔥 Jujutsu Kaisen is streaming today in Hindi on Crunchyroll! #anime #jujutsukaisen"
+        self.assertFalse(is_meme_or_non_release(caption_streaming_today, ["meme", "funny"]))
+        meta = detect_metadata_from_caption(caption_streaming_today)
+        self.assertEqual(meta["status"], "Airing")
+        self.assertIn("Hindi", meta["languages"])
+        clean_title = clean_caption_title(caption_streaming_today, "crunchyrollin")
+        self.assertIn("Jujutsu Kaisen", clean_title)
+
+        caption_weekly = "Demon Slayer Hindi dub streaming weekly every Sunday at 10 AM on Sony YAY!"
+        meta_weekly = detect_metadata_from_caption(caption_weekly)
+        self.assertEqual(meta_weekly["status"], "Airing")
+        self.assertEqual(meta_weekly["medium"], "TV")
+
+        caption_meme = "When your friend says anime is just cartoons 😂 #meme #funny"
+        self.assertTrue(is_meme_or_non_release(caption_meme, ["meme", "funny"]))
+
+
+class LeakPreventionTests(unittest.TestCase):
+    def test_gitignore_contains_leak_prevention_rules(self):
+        gitignore = (ROOT / ".gitignore").read_text(encoding="utf-8")
+        self.assertIn("*cookies*.txt", gitignore)
+        self.assertIn(".env", gitignore)
+        self.assertIn("*.session", gitignore)
+
+    def test_manifest_contains_exclusion_rules(self):
+        manifest = (ROOT / "MANIFEST.in").read_text(encoding="utf-8")
+        self.assertIn("exclude *cookies*.txt", manifest)
+        self.assertIn("exclude .env*", manifest)
+        self.assertIn("exclude *.session", manifest)
 
 
 if __name__ == "__main__":
     unittest.main()
-

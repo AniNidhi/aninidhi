@@ -1,0 +1,55 @@
+{
+  "instagram": {
+    "cookies_file": "config/instagram_cookies.txt",
+    "target_accounts": [
+      "anime_mirchi",
+      "sony_yay",
+      "cartoonnetworkindia",
+      "zeecafeindia",
+      "etvbalbharat",
+      "crunchyrollin",
+      "museindia",
+      "netflix_in",
+      "primevideoin",
+      "disneyplus_hotstar",
+      "animetimesindia"
+    ],
+    "ignore_keywords": [
+      "meme",
+      "funny",
+      "fanart",
+      "cosplay",
+      "edit",
+      "amv",
+      "shitpost",
+      "quiz",
+      "wallpaper",
+      "opinion"
+    ]
+  },
+  "web_scrapers": [
+    {
+      "name": "Anime Mirchi",
+      "url": "https://animemirchi.com/",
+      "rss_url": "https://animemirchi.com/feed/"
+    }
+  ],
+  "tv_channels": [
+    "Sony YAY!",
+    "Cartoon Network India",
+    "Zee Cafe",
+    "ETV Bal Bharat",
+    "Hungama TV",
+    "Disney Channel India",
+    "Nick India"
+  ],
+  "supported_languages": [
+    "Hindi",
+    "Tamil",
+    "Telugu",
+    "Malayalam",
+    "Bengali",
+    "Marathi",
+    "Kannada"
+  ]
+}

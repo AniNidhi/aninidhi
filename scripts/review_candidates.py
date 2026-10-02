@@ -1,9 +1,7 @@
 """Interactively review pending_review.json: accept, reject, or skip each candidate.
 
-Rejecting removes it from the queue outright (use this for trailers,
-re-uploads of dubs you already have, or anything that isn't a real new
-Hindi dub). Accepting asks a few questions and appends a new entry to
-anime.json, or adds a dub to an existing entry if you point it at one.
+Supports regional language dubs (Hindi, Tamil, Telugu, etc.), TV channels (Sony YAY!, Zee Cafe, etc.),
+and broadcast medium (TV, OTT, YouTube).
 
 Usage:
     python scripts/review_candidates.py
@@ -39,24 +37,61 @@ def prompt(text: str, default: str | None = None) -> str:
     return value or (default or "")
 
 
-def add_dub_to_existing(anime: dict) -> None:
-    platform = prompt("Platform")
+def add_dub_to_existing(anime: dict, candidate: dict) -> None:
+    detected_lang = (candidate.get("detected_languages") or ["Hindi"])[0]
+    language = prompt("Language", default=detected_lang)
+    platform = prompt("Platform/Channel")
+    medium = prompt("Medium (TV/OTT/YouTube)", default=candidate.get("medium", "OTT"))
     date = prompt("Release date (YYYY-MM-DD)")
     status = prompt("Status", default="Finished")
-    anime.setdefault("hindi_dubs", []).append({
+
+    dub_entry = {
+        "language": language,
+        "platform": platform,
+        "medium": medium,
+        "release_date": date,
+        "status": status,
+        "media_type": "series",
+    }
+
+    anime.setdefault("dubs", []).append(dub_entry)
+
+    if language.lower() == "hindi":
+        anime.setdefault("hindi_dubs", []).append({
+            "platform": platform,
+            "release_date": date,
+            "status": status,
+            "media_type": "series",
+        })
+        anime["hindi_available"] = True
+
+
+def create_new_entry(anime_data: list, title: str, candidate: dict) -> dict:
+    detected_lang = (candidate.get("detected_languages") or ["Hindi"])[0]
+    language = prompt("Language", default=detected_lang)
+    platform = prompt("Platform/Channel")
+    medium = prompt("Medium (TV/OTT/YouTube)", default=candidate.get("medium", "OTT"))
+    date = prompt("Release date (YYYY-MM-DD)")
+    status = prompt("Status", default="Finished")
+    next_id = max((a["id"] for a in anime_data), default=0) + 1
+
+    dub_entry = {
+        "language": language,
+        "platform": platform,
+        "medium": medium,
+        "release_date": date,
+        "status": status,
+        "media_type": "series",
+    }
+
+    is_hindi = language.lower() == "hindi"
+    hindi_dubs = [{
         "platform": platform,
         "release_date": date,
         "status": status,
         "media_type": "series",
-    })
-    anime["hindi_available"] = True
+    }] if is_hindi else []
 
-
-def create_new_entry(anime_data: list, title: str) -> dict:
-    platform = prompt("Platform")
-    date = prompt("Release date (YYYY-MM-DD)")
-    status = prompt("Status", default="Finished")
-    next_id = max((a["id"] for a in anime_data), default=0) + 1
     return {
         "id": next_id,
         "title": title,
@@ -75,13 +110,9 @@ def create_new_entry(anime_data: list, title: str) -> dict:
         "imdb_id": None,
         "imdb_url": None,
         "imdb_rating": None,
-        "hindi_available": True,
-        "hindi_dubs": [{
-            "platform": platform,
-            "release_date": date,
-            "status": status,
-            "media_type": "series",
-        }],
+        "hindi_available": is_hindi,
+        "hindi_dubs": hindi_dubs,
+        "dubs": [dub_entry],
         "notes": None,
     }
 
@@ -100,8 +131,7 @@ def main() -> int:
         print(f"\n{entry['video_title']}")
         print(f"  {entry['video_url']}  (published {entry['published_at']})")
         if entry.get("notes"):
-            flag = "⚠️ " if "re-upload" in entry["notes"].lower() else ""
-            print(f"  {flag}{entry['notes']}")
+            print(f"  {entry['notes']}")
 
         matches = find_similar(anime_data, entry["video_title"])
         if matches:
@@ -115,18 +145,21 @@ def main() -> int:
 
         if choice == "r":
             changed = True
-            continue  # drop it - not added back to remaining
+            continue  # drop it
         if choice == "s":
             remaining.append(entry)
             continue
         if choice == "m" and matches:
             idx = int(prompt("  Which match number?", default="1")) - 1
-            add_dub_to_existing(matches[idx])
+            add_dub_to_existing(matches[idx], entry)
             changed = True
             continue
         if choice == "a":
+            if entry.get("is_lineup") or "lineup" in entry["video_title"].lower():
+                print("\n  ⚠️ WARNING: This item looks like a Lineup / Multi-Anime article.")
+                print("  Instead of accepting the article title directly, please enter the actual specific anime title below.")
             title = prompt("  Clean anime title", default=entry["video_title"])
-            anime_data.append(create_new_entry(anime_data, title))
+            anime_data.append(create_new_entry(anime_data, title, entry))
             changed = True
             continue
 

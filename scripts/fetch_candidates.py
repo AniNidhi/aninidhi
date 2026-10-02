@@ -1,22 +1,10 @@
-"""Poll multiple free sources for new Hindi dub anime candidates.
+"""Poll multiple free sources for new regional & Hindi dub anime candidates.
 
 Sources:
-- Muse Hindi Dub YouTube channel (@Muse_HindiDub) - dedicated Hindi dub
-  channel, but frequently re-uploads dubs Muse India already released
-  elsewhere rather than announcing new ones.
-- Muse India main channel (@MuseIndiaChannel) - mixed language, filtered
-  for "Hindi" in the title.
-- Crunchyroll News RSS - global anime news, filtered for "Hindi" (expect
-  very few matches; most Crunchyroll dub news doesn't mention language).
-- Google Alerts RSS (optional) - set GOOGLE_ALERTS_RSS_URLS yourself, a
-  comma-separated list; see CONTRIBUTING.md for how to create each alert.
-
-Requires YOUTUBE_API_KEY for the YouTube sources (free quota, enable
-"YouTube Data API v3" at https://console.cloud.google.com). RSS sources
-work without any key.
-
-Every candidate is cross-checked against existing anime.json titles
-before being queued; likely re-uploads are labeled as such.
+- YouTube (Muse Hindi Dub, Muse India main channel, Sony YAY!, Cartoon Network India, etc.)
+- Crunchyroll News RSS & Google Alerts RSS feeds
+- Anime Mirchi web scraper (animemirchi.com)
+- Instagram news & release poller (with session cookies & auto meme filtering)
 
 Usage:
     python scripts/fetch_candidates.py
@@ -32,14 +20,19 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+# Add scripts directory to path to import fetcher modules
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+
+from fetch_animemirchi import fetch_animemirchi_candidates
+from fetch_instagram import fetch_instagram_candidates
+
 ANIME_PATH = ROOT / "src" / "aninidhi" / "data" / "anime.json"
 PENDING_PATH = ROOT / "pending_review.json"
 
 YOUTUBE_API_BASE = "https://www.googleapis.com/youtube/v3"
 CRUNCHYROLL_NEWS_RSS = "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss"
 
-# (channel handle, needs "hindi" keyword filter)
 YOUTUBE_CHANNELS = [
     ("Muse_HindiDub", False),
     ("MuseIndiaChannel", True),
@@ -90,12 +83,13 @@ def fetch_youtube_candidates() -> list[dict]:
                 "video_url": f"https://www.youtube.com/watch?v={video_id}",
                 "published_at": snippet["publishedAt"],
                 "source": f"youtube:{handle}",
+                "detected_languages": ["Hindi"],
+                "medium": "YouTube",
             })
     return candidates
 
 
 def fetch_rss_candidates(url: str, source_label: str, require_hindi_keyword: bool) -> list[dict]:
-    """Generic RSS 2.0 and Atom poller - stdlib only, no feedparser dependency needed."""
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
         with urllib.request.urlopen(req, timeout=15) as resp:
@@ -120,42 +114,8 @@ def fetch_rss_candidates(url: str, source_label: str, require_hindi_keyword: boo
                 "video_url": link,
                 "published_at": pub_date,
                 "source": source_label,
-            })
-    else:
-        entries = root.findall(".//{http://www.w3.org/2005/Atom}entry") or root.findall(".//entry")
-        for entry in entries:
-            title_elem = entry.find("{http://www.w3.org/2005/Atom}title") or entry.find("title")
-            title = (title_elem.text or "").strip() if title_elem is not None else ""
-            link_elem = entry.find("{http://www.w3.org/2005/Atom}link") or entry.find("link")
-            link = ""
-            if link_elem is not None:
-                link = link_elem.attrib.get("href", "") or (link_elem.text or "").strip()
-            published_elem = (
-                entry.find("{http://www.w3.org/2005/Atom}published")
-                or entry.find("{http://www.w3.org/2005/Atom}updated")
-                or entry.find("published")
-                or entry.find("updated")
-            )
-            pub_date = (published_elem.text or "").strip() if published_elem is not None else ""
-            content_elem = (
-                entry.find("{http://www.w3.org/2005/Atom}content")
-                or entry.find("{http://www.w3.org/2005/Atom}summary")
-                or entry.find("content")
-                or entry.find("summary")
-            )
-            description = (content_elem.text or "").strip() if content_elem is not None else ""
-
-            title = re.sub(r"<[^>]+>", "", title)
-            description = re.sub(r"<[^>]+>", "", description)
-
-            if require_hindi_keyword and "hindi" not in f"{title} {description}".lower():
-                continue
-            candidates.append({
-                "video_id": link,
-                "video_title": title,
-                "video_url": link,
-                "published_at": pub_date,
-                "source": source_label,
+                "detected_languages": ["Hindi"],
+                "medium": "OTT",
             })
     return candidates
 
@@ -194,6 +154,10 @@ def main() -> int:
             alerts_url, f"rss:google-alerts-{i}", require_hindi_keyword=False
         )
 
+    # Scrape Anime Mirchi & Instagram
+    raw_candidates += fetch_animemirchi_candidates()
+    raw_candidates += fetch_instagram_candidates()
+
     new_count, reupload_count = 0, 0
     for c in raw_candidates:
         if not c["video_id"] or c["video_id"] in known_ids:
@@ -203,7 +167,7 @@ def main() -> int:
         pending.append({
             **c,
             "status": "needs_review",
-            "notes": (
+            "notes": c.get("notes") or (
                 "Likely re-upload of an existing dub - verify before treating as new."
                 if is_reupload
                 else "Confirm it's a real dub (not a trailer/rumor), then match or add an anime.json entry."
@@ -214,7 +178,7 @@ def main() -> int:
 
     PENDING_PATH.write_text(json.dumps(pending, ensure_ascii=False, indent=2), encoding="utf-8")
     print(
-        f"Found {new_count} new candidate(s) across all sources, "
+        f"Found {new_count} new candidate(s) across YouTube, RSS, Anime Mirchi, and Instagram. "
         f"{reupload_count} flagged as likely re-uploads. Total pending: {len(pending)}."
     )
     return 0
@@ -222,4 +186,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

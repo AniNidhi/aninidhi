@@ -1,15 +1,19 @@
 # aninidhi
 
-Track which anime have official **Hindi dubs** — across Crunchyroll, Netflix,
-Muse India, Prime Video, and JioHotstar — as a Python library and a CLI.
+Track official **Hindi and regional Indian dubs** (Hindi, Tamil, Telugu, Malayalam, Bengali, Marathi, etc.) across Crunchyroll, Netflix, Muse India, Sony YAY!, Zee Cafe, Cartoon Network, Prime Video, and YouTube — as a Python library and CLI.
 
-## What's new in v0.3.0
+## What's new in v0.3.2
 
-- **Series & Season Breakdown (`aninidhi series <title>`)**: Query a franchise name (e.g. `aninidhi series Slime`) to see all available seasons, overall status, and a per-platform breakdown.
-- **Airing Dubs Tracker (`aninidhi airing`)**: Quickly list anime currently airing Hindi dub episodes.
-- **Python API Additions**: New `get_series_info(title)` and `get_airing()` functions.
-- **Unquoted CLI Queries**: Pass multi-word anime titles directly without requiring quotation marks (`aninidhi series That Time I Got Reincarnated as a Slime`).
-- **Cleaned & Consolidated Dataset**: Deduplicated multi-batch entries into clean Season-level objects with episode ranges stored in platform dub objects.
+- **Self-Automated Release Sync (`auto_sync.py`)**: Automatic discovery and ingestion from YouTube, Anime Mirchi, Instagram, and RSS feeds with AniList metadata auto-enrichment.
+- **Scheduled & TBA Dubs Tracker (`aninidhi upcoming` / `aninidhi.get_upcoming()`)**: Track scheduled announcements with both exact dates and TBA/Coming Soon dates.
+- **Intelligent Confidence Scoring & Review Routing**: High-confidence announcements are auto-added into the dataset, while low-confidence items, multi-anime lineup posts, and edge cases are safely routed to `pending_review.json`.
+- **Multi-Language & Regional Dubs**: Support for `language` queries (`Hindi`, `Tamil`, `Telugu`, `Malayalam`, `Bengali`, `Marathi`, etc.).
+- **TV Channels & Broadcast Mediums**: Track TV channels (Sony YAY!, Cartoon Network, Zee Cafe, ETV Bal Bharat) alongside OTT platforms.
+- **Series & Season Breakdown (`aninidhi series <title>`)**: Query a franchise name to see all available seasons, overall status, and per-platform/channel breakdown.
+- **Airing Dubs Tracker (`aninidhi airing`)**: Quickly list anime currently airing dub episodes.
+- **Python API & CLI Additions**: `aninidhi.get_upcoming()`, `aninidhi.get_by_language()`, `aninidhi.get_by_medium()`, CLI commands `aninidhi upcoming`, `aninidhi language <name>`, `aninidhi medium <name>`.
+
+---
 
 ## Install
 
@@ -17,23 +21,145 @@ Muse India, Prime Video, and JioHotstar — as a Python library and a CLI.
 pip install aninidhi
 ```
 
-## Use it as a library
+---
+
+## Developer Integrations & Use Cases
+
+`aninidhi` is built specifically for developers to power anime apps, bots, and automation workflows. Here are common integration recipes:
+
+### 1. Discord Bot Integration (`discord.py`)
+
+Build a Discord bot command that responds to `/dub <anime>` or sends daily dub release alerts:
+
+```python
+import discord
+from discord.ext import commands
+import aninidhi
+
+bot = commands.Bot(command_prefix="!")
+
+@bot.command(name="dub")
+async def dub_info(ctx, *, title: str):
+    results = aninidhi.get_dub_info(title)
+    if not results:
+        await ctx.send(f"No official dub found for '{title}'.")
+        return
+    
+    anime = results[0]
+    dubs = anime.get("dubs") or anime.get("hindi_dubs") or []
+    lines = [f"**{anime['title']}** [{anime.get('status', 'Finished')}]"]
+    for d in dubs:
+        lang = d.get("language", "Hindi")
+        lines.append(f"• **{lang}**: {d['platform']} ({d.get('release_date', 'N/A')})")
+    
+    await ctx.send("\n".join(lines))
+```
+
+### 2. Telegram Bot Integration (`python-telegram-bot`)
+
+Add regional anime dub search commands to your Telegram channel or group bot:
+
+```python
+from telegram import Update
+from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+import aninidhi
+
+async def search_dub(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    query = " ".join(context.args)
+    if not query:
+        await update.message.reply_text("Usage: /dub <anime title>")
+        return
+
+    results = aninidhi.get_dub_info(query)
+    if not results:
+        await update.message.reply_text(f"No official dub found for '{query}'.")
+        return
+
+    anime = results[0]
+    dubs = anime.get("dubs") or anime.get("hindi_dubs") or []
+    lines = [f"🎬 *{anime['title']}* [{anime.get('status', 'Finished')}]"]
+    for d in dubs:
+        lang = d.get("language", "Hindi")
+        lines.append(f"• *{lang}*: {d['platform']} ({d.get('release_date', 'N/A')})")
+
+    await update.message.reply_text("\n".join(lines), parse_mode="Markdown")
+
+app = ApplicationBuilder().token("YOUR_TELEGRAM_BOT_TOKEN").build()
+app.add_handler(CommandHandler("dub", search_dub))
+app.run_polling()
+```
+
+### 3. Lightweight Web API (FastAPI / Flask)
+
+Expose a REST API to power web apps, mobile applications (Flutter/React Native), or dashboards:
+
+```python
+from fastapi import FastAPI
+import aninidhi
+
+app = FastAPI(title="Indian Anime Dub API")
+
+@app.get("/api/latest")
+def latest_dubs(limit: int = 10, language: str = None):
+    return aninidhi.get_latest(limit=limit, language=language)
+
+@app.get("/api/search")
+def search_anime(q: str):
+    return aninidhi.search(q)
+
+@app.get("/api/language/{lang}")
+def by_language(lang: str):
+    return aninidhi.get_by_language(lang)
+```
+
+### 4. CLI & Shell Automation with `jq`
+
+Use `aninidhi` in bash scripts or cron jobs to trigger webhooks or notifications when new dubs release:
+
+```bash
+# Get 5 latest releases in JSON and format with jq
+aninidhi latest -n 5 --json | jq '.[] | {title: .title, dubs: .dubs}'
+
+# Query dubs on TV channels
+aninidhi medium TV --json
+```
+
+### 5. Data Analytics & Platform Stats
+
+Track distribution trends across OTT platforms and Indian TV channels:
+
+```python
+import aninidhi
+
+stats = aninidhi.platform_stats()
+print("Top Dub Platforms & Channels:")
+for platform, count in sorted(stats.items(), key=lambda kv: -kv[1]):
+    print(f"  - {platform}: {count} dubs")
+```
+
+---
+
+## Python SDK Reference
 
 ```python
 import aninidhi
 
 aninidhi.get_series_info("Slime")         # full franchise & season breakdown
 aninidhi.get_airing()                     # all anime currently marked as Airing
-aninidhi.get_latest(limit=5)              # most recent dub activity, any platform
+aninidhi.get_upcoming()                   # all scheduled & TBA upcoming dubs
+aninidhi.get_latest(limit=5)              # most recent dub activity
 aninidhi.search("naruto")                 # title search
-aninidhi.get_by_platform("crunchyroll")   # anime with a Crunchyroll Hindi dub
+aninidhi.get_by_language("Hindi")         # anime dubbed in Hindi
+aninidhi.get_by_language("Tamil")         # anime dubbed in Tamil
+aninidhi.get_by_medium("TV")              # anime airing on TV channels (Sony YAY!, Zee Cafe, etc.)
+aninidhi.get_by_platform("crunchyroll")   # anime on Crunchyroll
 aninidhi.get_dub_info("Dan Da Dan")       # full per-platform breakdown for one title
 aninidhi.multi_platform_dubs()            # anime dubbed on 2+ platforms
-aninidhi.platform_stats()                 # {"Crunchyroll": 298, "Prime Video": 85, ...}
-aninidhi.list_all()                       # everything
+aninidhi.platform_stats()                 # {"Crunchyroll": 298, "Sony YAY!": 42, ...}
+aninidhi.list_all()                       # complete dataset
 ```
 
-Every function returns a list of dicts (or series info object) shaped like this:
+Every function returns structured data shaped like this:
 
 ```json
 {
@@ -42,59 +168,48 @@ Every function returns a list of dicts (or series info object) shaped like this:
   "status": "Airing",
   "season": 4,
   "hindi_available": true,
-  "hindi_dubs": [
-    { "platform": "Crunchyroll", "release_date": "2026-07-31", "status": "Finished", "media_type": "series", "episodes": "EP 1-10" },
-    { "platform": "Anime Times (Prime Video)", "release_date": "2026-06-02", "status": "Airing", "media_type": "series" },
-    { "platform": "Muse India", "release_date": "2026-08-29", "status": "Airing", "media_type": "series" }
+  "dubs": [
+    { "language": "Hindi", "platform": "Crunchyroll", "medium": "OTT", "release_date": "2026-07-31", "status": "Finished", "media_type": "series" },
+    { "language": "Hindi", "platform": "Sony YAY!", "medium": "TV", "release_date": "2026-06-02", "status": "Airing", "media_type": "series" },
+    { "language": "Tamil", "platform": "Muse India", "medium": "YouTube", "release_date": "2026-08-29", "status": "Airing", "media_type": "series" }
   ]
 }
 ```
 
-## Use it from the command line
+---
+
+## Command Line Usage
 
 ```bash
 aninidhi series That Time I Got Reincarnated as a Slime   # season & platform breakdown
 aninidhi airing                                           # list currently Airing dubs
-aninidhi latest -n 5
+aninidhi upcoming                                         # list scheduled & TBA upcoming dubs
+aninidhi latest -n 5 -l Hindi                             # 5 latest Hindi dubs
 aninidhi search Naruto
-aninidhi info "Dan Da Dan"                                # per-platform breakdown for one title
-aninidhi platform crunchyroll
+aninidhi language Tamil                                   # list Tamil dubs
+aninidhi medium TV                                        # list TV channel dubs
+aninidhi platform "Sony YAY!"
 aninidhi multi                                            # anime dubbed on 2+ platforms
-aninidhi stats                                            # dub count per platform
+aninidhi stats                                            # dub count per platform/channel
 aninidhi all --json
 ```
 
-## Staying fresh
+---
 
-`aninidhi` refreshes itself automatically — no setup required. Once a day,
-it checks a hosted copy of the dataset and updates its local cache, so you
-get new dubs without waiting for a new package release. If it can't reach
-the network, it silently falls back to whatever's cached, then to the
-snapshot bundled in the package - a query never fails just because you're
-offline.
+## Staying Fresh & Data Sync
 
-To point it at your own copy of the dataset instead, or to turn off the
-automatic check entirely:
+`aninidhi` refreshes itself automatically once a day from the remote repository. If offline, it seamlessly falls back to cached data or local bundled snapshots so queries never fail.
 
+To override or disable network checks:
 ```bash
 export ANINIDHI_SOURCE_URL="https://raw.githubusercontent.com/you/your-fork/main/anime.json"
-# or, to disable the network check completely:
+# or to disable network check completely:
 export ANINIDHI_SOURCE_URL=""
 ```
 
-Force an immediate refresh any time with `aninidhi.refresh(force=True)`
-or `aninidhi refresh` on the CLI.
+Force an immediate refresh anytime with `aninidhi.refresh(force=True)` or `aninidhi refresh` on the CLI.
 
-## Development
-
-```bash
-git clone https://github.com/AniNidhi/aninidhi.git
-cd aninidhi
-pip install -e .
-python -m unittest discover -s tests
-```
-
-See `CONTRIBUTING.md` for how the dataset is sourced and kept up to date.
+---
 
 ## License
 

@@ -50,7 +50,13 @@ def clean_synopsis(text: str | None) -> str | None:
 def query_anilist(title: str) -> dict | None:
     payload = json.dumps({"query": QUERY, "variables": {"search": title}}).encode("utf-8")
     req = urllib.request.Request(
-        ANILIST_URL, data=payload, headers={"Content-Type": "application/json", "Accept": "application/json"}
+        ANILIST_URL,
+        data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AniNidhi/0.3.2",
+        },
     )
     with urllib.request.urlopen(req, timeout=15) as resp:
         body = json.loads(resp.read())

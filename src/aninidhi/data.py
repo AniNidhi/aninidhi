@@ -57,8 +57,20 @@ def refresh(url: str | None = None, force: bool = False) -> int:
     return len(data)
 
 
+def _bundled_mtime() -> float:
+    try:
+        p = _bundled_data_path()
+        if hasattr(p, "stat"):
+            return p.stat().st_mtime
+    except Exception:
+        pass
+    return 0.0
+
+
 def load_all(auto_refresh: bool = True) -> List[dict]:
     """Return every known anime entry."""
+    bundled_data = _load_json(_bundled_data_path())
+
     if auto_refresh and DEFAULT_SOURCE_URL and not _cache_is_fresh():
         try:
             refresh()
@@ -66,8 +78,15 @@ def load_all(auto_refresh: bool = True) -> List[dict]:
             pass
 
     if CACHE_FILE.exists():
-        return _load_json(CACHE_FILE)
-    return _load_json(_bundled_data_path())
+        try:
+            # If bundled file was modified after CACHE_FILE was created, prefer bundled
+            if _bundled_mtime() > CACHE_FILE.stat().st_mtime:
+                return bundled_data
+            return _load_json(CACHE_FILE)
+        except Exception:
+            pass
+
+    return bundled_data
 
 
 def data_source() -> str:

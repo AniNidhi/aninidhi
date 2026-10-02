@@ -1,0 +1,17 @@
+# Package Data Inclusions
+include README.md
+include LICENSE
+recursive-include src/aninidhi/data *.json
+
+# Exclude Local Secrets, Cookies, Session Files, and Review Cache (Strict PyPI Leak Proofing)
+exclude .env*
+exclude *.env
+exclude *.env.*
+exclude *cookies*.txt
+exclude *.session
+exclude *.key
+exclude *.token
+exclude *.log
+exclude pending_review.json
+recursive-exclude config *cookies*
+recursive-exclude config *.session

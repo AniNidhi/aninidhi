@@ -9,10 +9,13 @@ from typing import Any, List
 
 from . import (
     get_airing,
+    get_by_language,
+    get_by_medium,
     get_by_platform,
     get_dub_info,
     get_latest,
     get_series_info,
+    get_upcoming,
     list_all,
     multi_platform_dubs,
     platform_stats,
@@ -26,16 +29,17 @@ def _print_table(entries: List[dict[str, Any]]) -> None:
         print("No matching anime found.")
         return
     for a in entries:
-        dubs = a.get("hindi_dubs") or []
+        dubs = a.get("dubs") or a.get("hindi_dubs") or []
         status_tag = f" [{a.get('status')}]" if a.get("status") else ""
         if dubs:
             parts = ", ".join(
-                f"{d['platform']} ({d['release_date']})" + (f" [{d['episodes']}]" if d.get("episodes") else "")
+                f"{d.get('language', 'Hindi')}: {d['platform']} ({d['release_date']})"
+                + (f" [{d['medium']}]" if d.get("medium") else "")
                 for d in dubs
             )
             print(f"- {a.get('title')}{status_tag}  [{parts}]")
         else:
-            print(f"- {a.get('title')}{status_tag}  [no Hindi dub yet]")
+            print(f"- {a.get('title')}{status_tag}  [no dub tracked yet]")
 
 
 def _print_latest_table(entries: List[dict[str, Any]]) -> None:
@@ -43,14 +47,15 @@ def _print_latest_table(entries: List[dict[str, Any]]) -> None:
         print("No matching anime found.")
         return
     for a in entries:
-        dubs = a.get("hindi_dubs") or []
+        dubs = a.get("dubs") or a.get("hindi_dubs") or []
         status_tag = f" [{a.get('status')}]" if a.get("status") else ""
         if dubs:
-            newest = max(dubs, key=lambda d: d["release_date"])
-            ep_tag = f" [{newest['episodes']}]" if newest.get("episodes") else ""
-            print(f"- {a.get('title')}{status_tag}  [{newest['platform']} ({newest['release_date']}){ep_tag}]")
+            newest = max(dubs, key=lambda d: str(d.get("release_date", "")))
+            lang = newest.get("language", "Hindi")
+            med = f" ({newest['medium']})" if newest.get("medium") else ""
+            print(f"- {a.get('title')}{status_tag}  [{lang} Dub | {newest['platform']}{med} ({newest.get('release_date', 'N/A')})]")
         else:
-            print(f"- {a.get('title')}{status_tag}  [no Hindi dub yet]")
+            print(f"- {a.get('title')}{status_tag}  [no dub tracked yet]")
 
 
 def _print_info(entries: List[dict[str, Any]]) -> None:
@@ -60,13 +65,15 @@ def _print_info(entries: List[dict[str, Any]]) -> None:
     for a in entries:
         status_badge = f" [{a.get('status')}]" if a.get("status") else ""
         print(f"\n{a.get('title')}{status_badge}")
-        dubs = a.get("hindi_dubs") or []
+        dubs = a.get("dubs") or a.get("hindi_dubs") or []
         if not dubs:
-            print("  No Hindi dub yet.")
+            print("  No dub tracked yet.")
             continue
-        for d in sorted(dubs, key=lambda d: d["release_date"]):
-            ep_str = f" [{d['episodes']}]" if d.get("episodes") else ""
-            print(f"  - {d['platform']}: {d['release_date']} ({d.get('status', 'Finished')}){ep_str}")
+        for d in sorted(dubs, key=lambda d: str(d.get("release_date", ""))):
+            lang = d.get("language", "Hindi")
+            med = f" [{d['medium']}]" if d.get("medium") else ""
+            ep_str = f" ({d['episodes']})" if d.get("episodes") else ""
+            print(f"  - [{lang}] {d['platform']}{med}: {d.get('release_date', 'N/A')} ({d.get('status', 'Finished')}){ep_str}")
 
 
 def _print_series(series_info: dict[str, Any]) -> None:
@@ -80,9 +87,11 @@ def _print_series(series_info: dict[str, Any]) -> None:
     print("\nSeasons & Dub Platforms Breakdown:")
     for s in series_info.get("seasons", []):
         print(f"  - {s['title']} [{s['status']}]")
-        for d in s.get("hindi_dubs", []):
-            ep_info = f" [{d['episodes']}]" if d.get("episodes") else ""
-            print(f"      • {d['platform']}: {d['release_date']} ({d.get('status', 'Finished')}){ep_info}")
+        dubs = s.get("dubs") or s.get("hindi_dubs", [])
+        for d in dubs:
+            lang = d.get("language", "Hindi")
+            med = f" [{d['medium']}]" if d.get("medium") else ""
+            print(f"      • [{lang}] {d['platform']}{med}: {d.get('release_date', 'N/A')} ({d.get('status', 'Finished')})")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -92,13 +101,17 @@ def build_parser() -> argparse.ArgumentParser:
     )
 
     parser = argparse.ArgumentParser(
-        prog="aninidhi", description="Track which anime have official Hindi dubs."
+        prog="aninidhi", description="Track official Indian regional and Hindi anime dubs."
     )
     parser.add_argument("--json", action="store_true", default=False, help="print raw JSON instead of a table")
     sub = parser.add_subparsers(dest="command", required=True)
 
-    p_latest = sub.add_parser("latest", help="most recently Hindi-dubbed anime", parents=[json_flag])
+    p_latest = sub.add_parser("latest", help="most recently dubbed anime", parents=[json_flag])
     p_latest.add_argument("-n", "--limit", type=int, default=10)
+    p_latest.add_argument("-l", "--language", type=str, default=None, help="filter by language (Hindi, Tamil, Telugu, etc.)")
+
+    p_upcoming = sub.add_parser("upcoming", help="scheduled or announced upcoming dubs", parents=[json_flag])
+    p_upcoming.add_argument("-l", "--language", type=str, default=None, help="filter by language (Hindi, Tamil, Telugu, etc.)")
 
     p_search = sub.add_parser("search", help="search anime by title", parents=[json_flag])
     p_search.add_argument("query", nargs="+", help="anime title query")
@@ -116,9 +129,19 @@ def build_parser() -> argparse.ArgumentParser:
     sub.add_parser("airing", help="list anime currently Airing", parents=[json_flag])
 
     p_platform = sub.add_parser(
-        "platform", help="Hindi-dubbed anime on a given platform", parents=[json_flag]
+        "platform", help="dubbed anime on a given platform or TV channel", parents=[json_flag]
     )
-    p_platform.add_argument("name", nargs="+", help="platform name")
+    p_platform.add_argument("name", nargs="+", help="platform/channel name")
+
+    p_lang = sub.add_parser(
+        "language", help="dubbed anime in a given language (Hindi, Tamil, Telugu, etc.)", parents=[json_flag]
+    )
+    p_lang.add_argument("name", help="language name")
+
+    p_medium = sub.add_parser(
+        "medium", help="dubbed anime on a given medium (TV, OTT, YouTube)", parents=[json_flag]
+    )
+    p_medium.add_argument("name", help="medium name (TV, OTT, YouTube)")
 
     sub.add_parser("all", help="list every known anime entry", parents=[json_flag])
     sub.add_parser("multi", help="anime dubbed on 2+ platforms", parents=[json_flag])
@@ -135,9 +158,14 @@ def main(argv: List[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     if args.command == "latest":
-        results = get_latest(limit=args.limit)
+        results = get_latest(limit=args.limit, language=getattr(args, "language", None))
         if not args.json:
             _print_latest_table(results)
+            return 0
+    elif args.command == "upcoming":
+        results = get_upcoming(language=getattr(args, "language", None))
+        if not args.json:
+            _print_table(results)
             return 0
     elif args.command == "search":
         query_str = " ".join(args.query)
@@ -161,6 +189,10 @@ def main(argv: List[str] | None = None) -> int:
     elif args.command == "platform":
         platform_str = " ".join(args.name)
         results = get_by_platform(platform_str)
+    elif args.command == "language":
+        results = get_by_language(args.name)
+    elif args.command == "medium":
+        results = get_by_medium(args.name)
     elif args.command == "all":
         results = list_all()
     elif args.command == "multi":
