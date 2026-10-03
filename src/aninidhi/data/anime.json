@@ -9841,36 +9841,6 @@
   },
   {
     "id": 324,
-    "title": "JoJo's Bizarre Adventure (Season 1-2)",
-    "original_title": null,
-    "genres": [],
-    "season": 1,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "JioHotstar",
-        "release_date": "2025-12-04",
-        "status": "Finished",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished"
-  },
-  {
-    "id": 325,
     "title": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
     "original_title": null,
     "genres": [],
@@ -9912,7 +9882,7 @@
     "status": "Finished"
   },
   {
-    "id": 326,
+    "id": 325,
     "title": "Fairy Tail (Season 5)",
     "original_title": null,
     "genres": [],
@@ -9942,7 +9912,7 @@
     "status": "Finished"
   },
   {
-    "id": 327,
+    "id": 326,
     "title": "Sword Art Online (Season 1-2)",
     "original_title": null,
     "genres": [],
@@ -9972,7 +9942,7 @@
     "status": "Finished"
   },
   {
-    "id": 328,
+    "id": 327,
     "title": "My Clueless First Friend",
     "original_title": null,
     "genres": [],
@@ -10002,7 +9972,7 @@
     "status": "Finished"
   },
   {
-    "id": 329,
+    "id": 328,
     "title": "Goblin Slayer",
     "original_title": null,
     "genres": [],
@@ -10032,7 +10002,7 @@
     "status": "Finished"
   },
   {
-    "id": 330,
+    "id": 329,
     "title": "Bofuri: I Don't Want to Get Hurt, so I'll Max Out My Defense (Season 1)",
     "original_title": null,
     "genres": [],
@@ -10062,7 +10032,7 @@
     "status": "Finished"
   },
   {
-    "id": 331,
+    "id": 330,
     "title": "One Punch Man (Season 3)",
     "original_title": null,
     "genres": [],
@@ -10092,7 +10062,7 @@
     "status": "Finished"
   },
   {
-    "id": 332,
+    "id": 331,
     "title": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
     "original_title": null,
     "genres": [],
@@ -10128,7 +10098,7 @@
     "status": "Finished"
   },
   {
-    "id": 333,
+    "id": 332,
     "title": "Weathering With You (Movie)",
     "original_title": null,
     "genres": [],
@@ -10158,7 +10128,7 @@
     "status": "Finished"
   },
   {
-    "id": 334,
+    "id": 333,
     "title": "Your Name (Movie)",
     "original_title": null,
     "genres": [],
@@ -10188,7 +10158,7 @@
     "status": "Finished"
   },
   {
-    "id": 335,
+    "id": 334,
     "title": "If My Favorite Pop Idol Made It to the Budokan, I Would Die",
     "original_title": null,
     "genres": [],
@@ -10218,7 +10188,7 @@
     "status": "Finished"
   },
   {
-    "id": 336,
+    "id": 335,
     "title": "Fairy Tail (Season 6)",
     "original_title": null,
     "genres": [],
@@ -10248,7 +10218,7 @@
     "status": "Finished"
   },
   {
-    "id": 337,
+    "id": 336,
     "title": "My Hero Academia (Season 1-3)",
     "original_title": null,
     "genres": [],
@@ -10278,7 +10248,7 @@
     "status": "Finished"
   },
   {
-    "id": 338,
+    "id": 337,
     "title": "Sentenced to Be a Hero",
     "original_title": null,
     "genres": [],
@@ -10308,7 +10278,7 @@
     "status": "Finished"
   },
   {
-    "id": 339,
+    "id": 338,
     "title": "Hana-Kimi",
     "original_title": null,
     "genres": [],
@@ -10338,7 +10308,7 @@
     "status": "Finished"
   },
   {
-    "id": 340,
+    "id": 339,
     "title": "Dark Moon: The Blood Altar",
     "original_title": null,
     "genres": [],
@@ -10368,7 +10338,7 @@
     "status": "Finished"
   },
   {
-    "id": 341,
+    "id": 340,
     "title": "Fire Force (Season 3 Cour 2)",
     "original_title": null,
     "genres": [],
@@ -10398,7 +10368,7 @@
     "status": "Finished"
   },
   {
-    "id": 342,
+    "id": 341,
     "title": "The daily life of the immortal King (Season 5)",
     "original_title": null,
     "genres": [],
@@ -10428,7 +10398,7 @@
     "status": "Finished"
   },
   {
-    "id": 343,
+    "id": 342,
     "title": "You and I Are Polar Opposites",
     "original_title": null,
     "genres": [],
@@ -10458,7 +10428,7 @@
     "status": "Finished"
   },
   {
-    "id": 344,
+    "id": 343,
     "title": "My Hero Academia (Season 4-7)",
     "original_title": null,
     "genres": [],
@@ -10488,7 +10458,7 @@
     "status": "Finished"
   },
   {
-    "id": 345,
+    "id": 344,
     "title": "Theatre of Darkness: Yamishibai (Season 1)",
     "original_title": null,
     "genres": [],
@@ -10518,7 +10488,7 @@
     "status": "Finished"
   },
   {
-    "id": 346,
+    "id": 345,
     "title": "Kunon the Sorcerer Can See",
     "original_title": null,
     "genres": [],
@@ -10548,7 +10518,7 @@
     "status": "Finished"
   },
   {
-    "id": 347,
+    "id": 346,
     "title": "There Was a Cute Girl in the Hero's Party, So I Tried Confessing to Her",
     "original_title": null,
     "genres": [],
@@ -10578,7 +10548,7 @@
     "status": "Finished"
   },
   {
-    "id": 348,
+    "id": 347,
     "title": "Fairy Tail (Season 7)",
     "original_title": null,
     "genres": [],
@@ -10608,7 +10578,7 @@
     "status": "Finished"
   },
   {
-    "id": 349,
+    "id": 348,
     "title": "An Adventurer's Daily Grind at Age 29",
     "original_title": null,
     "genres": [],
@@ -10638,7 +10608,7 @@
     "status": "Finished"
   },
   {
-    "id": 350,
+    "id": 349,
     "title": "Jujutsu Kaisen: The Culling Game Part 1 (Season 3)",
     "original_title": null,
     "genres": [],
@@ -10668,7 +10638,7 @@
     "status": "Finished"
   },
   {
-    "id": 351,
+    "id": 350,
     "title": "Roll Over and Die",
     "original_title": null,
     "genres": [],
@@ -10698,7 +10668,7 @@
     "status": "Finished"
   },
   {
-    "id": 352,
+    "id": 351,
     "title": "A Misanthrope Teaches a Class for Demi-Humans",
     "original_title": null,
     "genres": [],
@@ -10728,7 +10698,7 @@
     "status": "Finished"
   },
   {
-    "id": 353,
+    "id": 352,
     "title": "Trigun Stargaze",
     "original_title": null,
     "genres": [],
@@ -10758,7 +10728,7 @@
     "status": "Finished"
   },
   {
-    "id": 354,
+    "id": 353,
     "title": "Frieren: Beyond Journey's End (Season 2)",
     "original_title": null,
     "genres": [],
@@ -10788,7 +10758,7 @@
     "status": "Finished"
   },
   {
-    "id": 355,
+    "id": 354,
     "title": "Yuri on Ice",
     "original_title": null,
     "genres": [],
@@ -10818,7 +10788,7 @@
     "status": "Finished"
   },
   {
-    "id": 356,
+    "id": 355,
     "title": "Terror In Resonance",
     "original_title": null,
     "genres": [],
@@ -10848,7 +10818,7 @@
     "status": "Finished"
   },
   {
-    "id": 357,
+    "id": 356,
     "title": "Baki-Dou: The Invincible Samurai",
     "original_title": null,
     "genres": [],
@@ -10878,7 +10848,7 @@
     "status": "Finished"
   },
   {
-    "id": 358,
+    "id": 357,
     "title": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability (Season 2)",
     "original_title": null,
     "genres": [],
@@ -10914,7 +10884,7 @@
     "status": "Finished"
   },
   {
-    "id": 359,
+    "id": 358,
     "title": "Jack-of-All-Trades, Party of None",
     "original_title": null,
     "genres": [],
@@ -10944,7 +10914,7 @@
     "status": "Finished"
   },
   {
-    "id": 360,
+    "id": 359,
     "title": "Easygoing Territory Defense by the Optimistic Lord",
     "original_title": null,
     "genres": [],
@@ -10974,7 +10944,7 @@
     "status": "Finished"
   },
   {
-    "id": 361,
+    "id": 360,
     "title": "To Be Hero X",
     "original_title": null,
     "genres": [],
@@ -11004,7 +10974,7 @@
     "status": "Finished"
   },
   {
-    "id": 362,
+    "id": 361,
     "title": "Bofuri: I Don't Want to Get Hurt, so I'll Max Out My Defense (Season 2)",
     "original_title": null,
     "genres": [],
@@ -11034,7 +11004,7 @@
     "status": "Finished"
   },
   {
-    "id": 363,
+    "id": 362,
     "title": "Scum of the Brave",
     "original_title": null,
     "genres": [],
@@ -11064,7 +11034,7 @@
     "status": "Finished"
   },
   {
-    "id": 364,
+    "id": 363,
     "title": "Attack on Titan (Season 1)",
     "original_title": null,
     "genres": [],
@@ -11100,7 +11070,7 @@
     "status": "Finished"
   },
   {
-    "id": 365,
+    "id": 364,
     "title": "Captain Tsubasa",
     "original_title": null,
     "genres": [],
@@ -11130,7 +11100,7 @@
     "status": "Finished"
   },
   {
-    "id": 366,
+    "id": 365,
     "title": "Steel Ball Run: JoJo's Bizarre Adventure (1st Stage)",
     "original_title": null,
     "genres": [],
@@ -11160,7 +11130,7 @@
     "status": "Finished"
   },
   {
-    "id": 367,
+    "id": 366,
     "title": "The Rising of the Shield Hero (Season 1-2)",
     "original_title": null,
     "genres": [],
@@ -11190,7 +11160,7 @@
     "status": "Finished"
   },
   {
-    "id": 368,
+    "id": 367,
     "title": "Release That Witch",
     "original_title": null,
     "genres": [],
@@ -11220,7 +11190,7 @@
     "status": "Finished"
   },
   {
-    "id": 369,
+    "id": 368,
     "title": "Dr. Stone: Science Future (Season 4 Cour-3)",
     "original_title": null,
     "genres": [],
@@ -11250,7 +11220,7 @@
     "status": "Finished"
   },
   {
-    "id": 370,
+    "id": 369,
     "title": "Grand Blue Dreaming",
     "original_title": null,
     "genres": [],
@@ -11280,7 +11250,7 @@
     "status": "Finished"
   },
   {
-    "id": 371,
+    "id": 370,
     "title": "Final Fantasy: The Spirits Within (2001)",
     "original_title": null,
     "genres": [],
@@ -11310,7 +11280,7 @@
     "status": "Finished"
   },
   {
-    "id": 372,
+    "id": 371,
     "title": "Attack on Titan (Season 2)",
     "original_title": null,
     "genres": [],
@@ -11346,7 +11316,7 @@
     "status": "Finished"
   },
   {
-    "id": 373,
+    "id": 372,
     "title": "Cells At Work! (Season 1)",
     "original_title": null,
     "genres": [],
@@ -11382,7 +11352,7 @@
     "status": "Finished"
   },
   {
-    "id": 374,
+    "id": 373,
     "title": "Dandelion",
     "original_title": null,
     "genres": [],
@@ -11412,7 +11382,7 @@
     "status": "Finished"
   },
   {
-    "id": 375,
+    "id": 374,
     "title": "Agents of the Four Seasons: Dance of Spring",
     "original_title": null,
     "genres": [],
@@ -11442,7 +11412,7 @@
     "status": "Finished"
   },
   {
-    "id": 376,
+    "id": 375,
     "title": "Reborn as a Vending Machine, I Now Wander the Dungeon (Season 3)",
     "original_title": null,
     "genres": [],
@@ -11472,7 +11442,7 @@
     "status": "Finished"
   },
   {
-    "id": 377,
+    "id": 376,
     "title": "The Beginning After the End (Season 2)",
     "original_title": null,
     "genres": [],
@@ -11502,7 +11472,7 @@
     "status": "Finished"
   },
   {
-    "id": 378,
+    "id": 377,
     "title": "Witch Hat Atelier",
     "original_title": null,
     "genres": [],
@@ -11532,7 +11502,7 @@
     "status": "Finished"
   },
   {
-    "id": 379,
+    "id": 378,
     "title": "Bofuri: I Don't Want to Get Hurt, so I'll Max Out My Defense (S1-2)",
     "original_title": null,
     "genres": [],
@@ -11562,7 +11532,7 @@
     "status": "Finished"
   },
   {
-    "id": 380,
+    "id": 379,
     "title": "Dorohedoro (Season 1)",
     "original_title": null,
     "genres": [],
@@ -11592,7 +11562,7 @@
     "status": "Finished"
   },
   {
-    "id": 381,
+    "id": 380,
     "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess",
     "original_title": null,
     "genres": [],
@@ -11622,7 +11592,7 @@
     "status": "Finished"
   },
   {
-    "id": 382,
+    "id": 381,
     "title": "The Angel Next Door Spoils Me Rotten (Season 2)",
     "original_title": null,
     "genres": [],
@@ -11652,7 +11622,7 @@
     "status": "Finished"
   },
   {
-    "id": 383,
+    "id": 382,
     "title": "Tokyo Ghoul: Pinto (OVA)",
     "original_title": null,
     "genres": [],
@@ -11682,7 +11652,7 @@
     "status": "Finished"
   },
   {
-    "id": 384,
+    "id": 383,
     "title": "Liar Game",
     "original_title": null,
     "genres": [],
@@ -11712,7 +11682,7 @@
     "status": "Airing"
   },
   {
-    "id": 385,
+    "id": 384,
     "title": "Fairy Tail (Season 8)",
     "original_title": null,
     "genres": [],
@@ -11742,7 +11712,7 @@
     "status": "Finished"
   },
   {
-    "id": 386,
+    "id": 385,
     "title": "Marriagetoxin",
     "original_title": null,
     "genres": [],
@@ -11772,7 +11742,7 @@
     "status": "Finished"
   },
   {
-    "id": 387,
+    "id": 386,
     "title": "Eren the Southpaw",
     "original_title": null,
     "genres": [],
@@ -11802,7 +11772,7 @@
     "status": "Finished"
   },
   {
-    "id": 388,
+    "id": 387,
     "title": "Tokyo Ghoul: Jack (OVA)",
     "original_title": null,
     "genres": [],
@@ -11832,7 +11802,7 @@
     "status": "Finished"
   },
   {
-    "id": 389,
+    "id": 388,
     "title": "The Warrior Princess and the Barbaric King",
     "original_title": null,
     "genres": [],
@@ -11862,7 +11832,7 @@
     "status": "Finished"
   },
   {
-    "id": 390,
+    "id": 389,
     "title": "Chainsaw Man – The Movie: Reze Arc",
     "original_title": null,
     "genres": [],
@@ -11892,7 +11862,7 @@
     "status": "Finished"
   },
   {
-    "id": 391,
+    "id": 390,
     "title": "My Hero Academia (Season 8)",
     "original_title": null,
     "genres": [],
@@ -11928,7 +11898,7 @@
     "status": "Finished"
   },
   {
-    "id": 392,
+    "id": 391,
     "title": "Wistoria: Wand and Sword (Season 2)",
     "original_title": null,
     "genres": [],
@@ -11958,7 +11928,7 @@
     "status": "Finished"
   },
   {
-    "id": 393,
+    "id": 392,
     "title": "Cells at Work! (Season 2)",
     "original_title": null,
     "genres": [],
@@ -11988,7 +11958,7 @@
     "status": "Finished"
   },
   {
-    "id": 394,
+    "id": 393,
     "title": "Cells at Work! Code Black",
     "original_title": null,
     "genres": [],
@@ -12018,7 +11988,7 @@
     "status": "Finished"
   },
   {
-    "id": 395,
+    "id": 394,
     "title": "Karna The Guardian",
     "original_title": null,
     "genres": [],
@@ -12048,7 +12018,7 @@
     "status": "Finished"
   },
   {
-    "id": 396,
+    "id": 395,
     "title": "Re:Zero – Starting Life in Another World (Season 1)",
     "original_title": null,
     "genres": [],
@@ -12078,7 +12048,7 @@
     "status": "Finished"
   },
   {
-    "id": 397,
+    "id": 396,
     "title": "Grand Blue Dreaming (Season 2)",
     "original_title": null,
     "genres": [],
@@ -12108,7 +12078,7 @@
     "status": "Finished"
   },
   {
-    "id": 398,
+    "id": 397,
     "title": "Dorohedoro (Season 2)",
     "original_title": null,
     "genres": [],
@@ -12138,7 +12108,7 @@
     "status": "Finished"
   },
   {
-    "id": 399,
+    "id": 398,
     "title": "Fullmetal Alchemist (2003)",
     "original_title": null,
     "genres": [],
@@ -12168,7 +12138,7 @@
     "status": "Finished"
   },
   {
-    "id": 400,
+    "id": 399,
     "title": "Ironman: Rise of Technovore (2013)",
     "original_title": null,
     "genres": [],
@@ -12198,7 +12168,7 @@
     "status": "Finished"
   },
   {
-    "id": 401,
+    "id": 400,
     "title": "Naruto",
     "original_title": null,
     "genres": [],
@@ -12229,7 +12199,7 @@
     "status": "Finished"
   },
   {
-    "id": 402,
+    "id": 401,
     "title": "Scarlet (2025)",
     "original_title": null,
     "genres": [],
@@ -12259,7 +12229,7 @@
     "status": "Finished"
   },
   {
-    "id": 403,
+    "id": 402,
     "title": "One-Punch Man (Season 3)",
     "original_title": null,
     "genres": [],
@@ -12289,7 +12259,7 @@
     "status": "Finished"
   },
   {
-    "id": 404,
+    "id": 403,
     "title": "Spy x Family (Season 3)",
     "original_title": null,
     "genres": [],
@@ -12325,7 +12295,7 @@
     "status": "Finished"
   },
   {
-    "id": 405,
+    "id": 404,
     "title": "Snowball Earth",
     "original_title": null,
     "genres": [],
@@ -12361,7 +12331,7 @@
     "status": "Finished"
   },
   {
-    "id": 406,
+    "id": 405,
     "title": "One-Punch Man (Season 1)",
     "original_title": null,
     "genres": [],
@@ -12397,7 +12367,7 @@
     "status": "Finished"
   },
   {
-    "id": 407,
+    "id": 406,
     "title": "One-Punch Man (Season 2)",
     "original_title": null,
     "genres": [],
@@ -12433,7 +12403,7 @@
     "status": "Finished"
   },
   {
-    "id": 408,
+    "id": 407,
     "title": "One Piece: Egghead Arc",
     "original_title": null,
     "genres": [],
@@ -12478,7 +12448,7 @@
     "status": "Finished"
   },
   {
-    "id": 409,
+    "id": 408,
     "title": "Milky Subway: The Galactic Limited Express – The Movie (2026)",
     "original_title": null,
     "genres": [],
@@ -12508,7 +12478,7 @@
     "status": "Finished"
   },
   {
-    "id": 410,
+    "id": 409,
     "title": "Gantz (Season 1)",
     "original_title": null,
     "genres": [],
@@ -12538,7 +12508,7 @@
     "status": "Finished"
   },
   {
-    "id": 411,
+    "id": 410,
     "title": "Re: Zero – Starting Life in Another World (Season 4)",
     "original_title": null,
     "genres": [],
@@ -12574,7 +12544,7 @@
     "status": "Finished"
   },
   {
-    "id": 412,
+    "id": 411,
     "title": "Re:Zero – Starting Life in Another World -Memory Snow- (OVA)",
     "original_title": null,
     "genres": [],
@@ -12604,7 +12574,7 @@
     "status": "Finished"
   },
   {
-    "id": 413,
+    "id": 412,
     "title": "Re:Zero – Starting Life in Another World -The Frozen Bond- (OVA)",
     "original_title": null,
     "genres": [],
@@ -12634,7 +12604,7 @@
     "status": "Finished"
   },
   {
-    "id": 414,
+    "id": 413,
     "title": "Re:Zero – Starting Life in Another World (Season 2)",
     "original_title": null,
     "genres": [],
@@ -12664,7 +12634,7 @@
     "status": "Finished"
   },
   {
-    "id": 415,
+    "id": 414,
     "title": "Skeleton Knight in Another World (Season 1)",
     "original_title": null,
     "genres": [],
@@ -12694,7 +12664,7 @@
     "status": "Finished"
   },
   {
-    "id": 416,
+    "id": 415,
     "title": "My Hero Academia (Season 1)",
     "original_title": null,
     "genres": [],
@@ -12730,7 +12700,7 @@
     "status": "Finished"
   },
   {
-    "id": 417,
+    "id": 416,
     "title": "Naruto the Movie: Ninja Clash in the Land of Snow (2004)",
     "original_title": null,
     "genres": [],
@@ -12760,7 +12730,7 @@
     "status": "Finished"
   },
   {
-    "id": 418,
+    "id": 417,
     "title": "Farming Life in Another World (Season 1)",
     "original_title": null,
     "genres": [],
@@ -12790,7 +12760,7 @@
     "status": "Finished"
   },
   {
-    "id": 419,
+    "id": 418,
     "title": "Farming Life in Another World (Season 2)",
     "original_title": null,
     "genres": [],
@@ -12820,7 +12790,7 @@
     "status": "Finished"
   },
   {
-    "id": 420,
+    "id": 419,
     "title": "Watari-kun's Collapse",
     "original_title": null,
     "genres": [],
@@ -12850,7 +12820,7 @@
     "status": "Finished"
   },
   {
-    "id": 421,
+    "id": 420,
     "title": "The Rising of the Shield Hero (Season 3)",
     "original_title": null,
     "genres": [],
@@ -12880,7 +12850,7 @@
     "status": "Finished"
   },
   {
-    "id": 422,
+    "id": 421,
     "title": "The Rising of the Shield Hero (Season 4)",
     "original_title": null,
     "genres": [],
@@ -12910,7 +12880,7 @@
     "status": "Finished"
   },
   {
-    "id": 423,
+    "id": 422,
     "title": "Baki-Dou: The Invincible Samurai (Cour-2)",
     "original_title": null,
     "genres": [],
@@ -12940,7 +12910,7 @@
     "status": "Finished"
   },
   {
-    "id": 424,
+    "id": 423,
     "title": "Classroom of the Elite (Season 1)",
     "original_title": null,
     "genres": [],
@@ -12970,7 +12940,7 @@
     "status": "Finished"
   },
   {
-    "id": 425,
+    "id": 424,
     "title": "Arifureta: From Commonplace to World's Strongest (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13000,7 +12970,7 @@
     "status": "Finished"
   },
   {
-    "id": 426,
+    "id": 425,
     "title": "Blue Box (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13030,7 +13000,7 @@
     "status": "Finished"
   },
   {
-    "id": 427,
+    "id": 426,
     "title": "Classroom of the Elite (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13060,7 +13030,7 @@
     "status": "Finished"
   },
   {
-    "id": 428,
+    "id": 427,
     "title": "Gantz (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13090,7 +13060,7 @@
     "status": "Finished"
   },
   {
-    "id": 429,
+    "id": 428,
     "title": "Re:Zero – Starting Life in Another World (Season 3)",
     "original_title": null,
     "genres": [],
@@ -13120,7 +13090,7 @@
     "status": "Finished"
   },
   {
-    "id": 430,
+    "id": 429,
     "title": "Daemons of the Shadow Realm",
     "original_title": null,
     "genres": [],
@@ -13156,7 +13126,7 @@
     "status": "Airing"
   },
   {
-    "id": 431,
+    "id": 430,
     "title": "Sparks of Tomorrow",
     "original_title": null,
     "genres": [],
@@ -13186,7 +13156,7 @@
     "status": "Airing"
   },
   {
-    "id": 432,
+    "id": 431,
     "title": "Clevatess (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13216,7 +13186,7 @@
     "status": "Airing"
   },
   {
-    "id": 433,
+    "id": 432,
     "title": "Thunder 3",
     "original_title": null,
     "genres": [],
@@ -13246,7 +13216,7 @@
     "status": "Airing"
   },
   {
-    "id": 434,
+    "id": 433,
     "title": "Smoking Behind the Supermarket with You",
     "original_title": null,
     "genres": [],
@@ -13276,7 +13246,7 @@
     "status": "Airing"
   },
   {
-    "id": 435,
+    "id": 434,
     "title": "Classroom of the Elite (Season 3)",
     "original_title": null,
     "genres": [],
@@ -13306,7 +13276,7 @@
     "status": "Finished"
   },
   {
-    "id": 436,
+    "id": 435,
     "title": "Captain Tsubasa (Season 2: Jr. Youth Arc)",
     "original_title": null,
     "genres": [],
@@ -13336,7 +13306,7 @@
     "status": "Airing"
   },
   {
-    "id": 437,
+    "id": 436,
     "title": "Arifureta: From Commonplace to World's Strongest (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13366,7 +13336,7 @@
     "status": "Finished"
   },
   {
-    "id": 438,
+    "id": 437,
     "title": "Haikyu!! (Season 4 Cour-1)",
     "original_title": null,
     "genres": [],
@@ -13402,7 +13372,7 @@
     "status": "Finished"
   },
   {
-    "id": 439,
+    "id": 438,
     "title": "Haikyu!! OVA (4&5)",
     "original_title": null,
     "genres": [],
@@ -13432,7 +13402,7 @@
     "status": "Finished"
   },
   {
-    "id": 440,
+    "id": 439,
     "title": "Chainsmoker Cat",
     "original_title": null,
     "genres": [],
@@ -13462,7 +13432,7 @@
     "status": "Airing"
   },
   {
-    "id": 441,
+    "id": 440,
     "title": "Welcome to Demon School! Iruma-Kun (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13498,7 +13468,7 @@
     "status": "Finished"
   },
   {
-    "id": 442,
+    "id": 441,
     "title": "My Hero Academia (SP1: More)",
     "original_title": null,
     "genres": [],
@@ -13528,7 +13498,7 @@
     "status": "Finished"
   },
   {
-    "id": 443,
+    "id": 442,
     "title": "Campfire Cooking in Another World with My Absurd Skill (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13564,7 +13534,7 @@
     "status": "Airing"
   },
   {
-    "id": 444,
+    "id": 443,
     "title": "Tokyo Ghoul (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13600,7 +13570,7 @@
     "status": "Finished"
   },
   {
-    "id": 445,
+    "id": 444,
     "title": "My Hero Academia: Vigilantes (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13636,7 +13606,7 @@
     "status": "Finished"
   },
   {
-    "id": 446,
+    "id": 445,
     "title": "Oshi no Ko (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13666,7 +13636,7 @@
     "status": "Finished"
   },
   {
-    "id": 447,
+    "id": 446,
     "title": "I Became a Legend after My 10 Year-Long Last Stand",
     "original_title": null,
     "genres": [],
@@ -13696,7 +13666,7 @@
     "status": "Airing"
   },
   {
-    "id": 448,
+    "id": 447,
     "title": "Daemons of the Shadow Realm (Season 1 Cour-2)",
     "original_title": null,
     "genres": [],
@@ -13726,7 +13696,7 @@
     "status": "Airing"
   },
   {
-    "id": 449,
+    "id": 448,
     "title": "Mob Psycho 100 (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13762,7 +13732,7 @@
     "status": "Finished"
   },
   {
-    "id": 450,
+    "id": 449,
     "title": "Liar Game (Season 1 Cour-2)",
     "original_title": null,
     "genres": [],
@@ -13792,7 +13762,7 @@
     "status": "Airing"
   },
   {
-    "id": 451,
+    "id": 450,
     "title": "Demon Slayer: Infinity Castle (Movie)",
     "original_title": null,
     "genres": [],
@@ -13822,7 +13792,7 @@
     "status": "Finished"
   },
   {
-    "id": 452,
+    "id": 451,
     "title": "Trapped in a Dating Sim (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13852,7 +13822,7 @@
     "status": "Airing"
   },
   {
-    "id": 453,
+    "id": 452,
     "title": "Tomb Raider King",
     "original_title": null,
     "genres": [],
@@ -13882,7 +13852,7 @@
     "status": "Airing"
   },
   {
-    "id": 454,
+    "id": 453,
     "title": "My Hero Academia: Vigilantes (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13918,7 +13888,7 @@
     "status": "Finished"
   },
   {
-    "id": 455,
+    "id": 454,
     "title": "Oshi no Ko (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13948,7 +13918,7 @@
     "status": "Finished"
   },
   {
-    "id": 456,
+    "id": 455,
     "title": "My Unique Skill Makes Me OP even at Level 1",
     "original_title": null,
     "genres": [],
@@ -13984,7 +13954,7 @@
     "status": "Finished"
   },
   {
-    "id": 457,
+    "id": 456,
     "title": "Hanaori-san Still Wants to Fight in the Next Life",
     "original_title": null,
     "genres": [],
@@ -14014,7 +13984,7 @@
     "status": "Airing"
   },
   {
-    "id": 458,
+    "id": 457,
     "title": "Arifureta: From Commonplace to World's Strongest (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14044,7 +14014,7 @@
     "status": "Finished"
   },
   {
-    "id": 459,
+    "id": 458,
     "title": "The Elusive Samurai (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14074,7 +14044,7 @@
     "status": "Airing"
   },
   {
-    "id": 460,
+    "id": 459,
     "title": "Mob Psycho 100 (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14110,7 +14080,7 @@
     "status": "Finished"
   },
   {
-    "id": 461,
+    "id": 460,
     "title": "The Ribbon Hero",
     "original_title": null,
     "genres": [],
@@ -14140,7 +14110,7 @@
     "status": "Finished"
   },
   {
-    "id": 462,
+    "id": 461,
     "title": "Welcome to Demon School! Iruma-Kun (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14176,7 +14146,7 @@
     "status": "Finished"
   },
   {
-    "id": 463,
+    "id": 462,
     "title": "Bleach: Thousand-Year Blood War (Part 4: The Calamity)",
     "original_title": null,
     "genres": [],
@@ -14206,7 +14176,7 @@
     "status": "Finished"
   },
   {
-    "id": 464,
+    "id": 463,
     "title": "Tokyo Ghoul: √A (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14242,7 +14212,7 @@
     "status": "Finished"
   },
   {
-    "id": 465,
+    "id": 464,
     "title": "Oshi no Ko (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14272,7 +14242,7 @@
     "status": "Finished"
   },
   {
-    "id": 466,
+    "id": 465,
     "title": "Mushoku Tensei (Season 2 Cour 2)",
     "original_title": null,
     "genres": [],
@@ -14302,7 +14272,7 @@
     "status": "Finished"
   },
   {
-    "id": 467,
+    "id": 466,
     "title": "Konosuba (Season 1)",
     "original_title": null,
     "genres": [],
@@ -14332,7 +14302,7 @@
     "status": "Finished"
   },
   {
-    "id": 468,
+    "id": 467,
     "title": "Overlord (Season 1)",
     "original_title": null,
     "genres": [],
@@ -14368,7 +14338,7 @@
     "status": "Finished"
   },
   {
-    "id": 469,
+    "id": 468,
     "title": "Mob Psycho 100 (OVA)",
     "original_title": null,
     "genres": [],
@@ -14398,7 +14368,7 @@
     "status": "Finished"
   },
   {
-    "id": 470,
+    "id": 469,
     "title": "Mob Psycho 100 (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14428,7 +14398,7 @@
     "status": "Finished"
   },
   {
-    "id": 471,
+    "id": 470,
     "title": "Overlord (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14464,7 +14434,7 @@
     "status": "Finished"
   },
   {
-    "id": 472,
+    "id": 471,
     "title": "Hana-Kimi (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14494,7 +14464,7 @@
     "status": "Airing"
   },
   {
-    "id": 473,
+    "id": 472,
     "title": "That Time I Got Reincarnated as a Slime (Season 4)",
     "original_title": null,
     "genres": [],
@@ -14537,7 +14507,7 @@
     "status": "Airing"
   },
   {
-    "id": 474,
+    "id": 473,
     "title": "The Exiled Heavy Knight Knows How to Game the System",
     "original_title": null,
     "genres": [],
@@ -14573,7 +14543,7 @@
     "status": "Airing"
   },
   {
-    "id": 475,
+    "id": 474,
     "title": "Black Torch",
     "original_title": null,
     "genres": [],
@@ -14603,7 +14573,7 @@
     "status": "Airing"
   },
   {
-    "id": 476,
+    "id": 475,
     "title": "Mushoku Tensei (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14633,7 +14603,7 @@
     "status": "Airing"
   },
   {
-    "id": 477,
+    "id": 476,
     "title": "Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe",
     "original_title": null,
     "genres": [],
@@ -14663,7 +14633,7 @@
     "status": "Finished"
   },
   {
-    "id": 478,
+    "id": 477,
     "title": "Welcome to Demon School! Iruma-Kun (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14693,7 +14663,7 @@
     "status": "Airing"
   },
   {
-    "id": 479,
+    "id": 478,
     "title": "Grand Blue Dreaming (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14723,7 +14693,7 @@
     "status": "Airing"
   },
   {
-    "id": 480,
+    "id": 479,
     "title": "Tokyo Ghoul: re (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14759,7 +14729,7 @@
     "status": "Finished"
   },
   {
-    "id": 481,
+    "id": 480,
     "title": "JoJo's Bizarre Adventure (Season 3: Diamond Is Unbreakable)",
     "original_title": null,
     "genres": [],
@@ -14789,7 +14759,7 @@
     "status": "Airing"
   },
   {
-    "id": 482,
+    "id": 481,
     "title": "Overlord (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14825,7 +14795,7 @@
     "status": "Finished"
   },
   {
-    "id": 483,
+    "id": 482,
     "title": "Death Note: Relight – Visions of a God (Special)",
     "original_title": null,
     "genres": [],
@@ -14855,7 +14825,7 @@
     "status": "Finished"
   },
   {
-    "id": 484,
+    "id": 483,
     "title": "Fullmetal Alchemist: Brotherhood",
     "original_title": null,
     "genres": [],
@@ -14906,7 +14876,7 @@
     "status": "Finished"
   },
   {
-    "id": 485,
+    "id": 484,
     "title": "Naruto Shippuden",
     "original_title": null,
     "genres": [],
@@ -14965,7 +14935,7 @@
     "status": "Finished"
   },
   {
-    "id": 486,
+    "id": 485,
     "title": "Sword Art Online (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15001,7 +14971,7 @@
     "status": "Finished"
   },
   {
-    "id": 487,
+    "id": 486,
     "title": "Lord of Mysteries (Special 1-3)",
     "original_title": null,
     "genres": [],
@@ -15031,7 +15001,7 @@
     "status": "Finished"
   },
   {
-    "id": 488,
+    "id": 487,
     "title": "Konosuba (Season 2)",
     "original_title": null,
     "genres": [],
@@ -15061,7 +15031,7 @@
     "status": "Finished"
   },
   {
-    "id": 489,
+    "id": 488,
     "title": "Overlord (Season 4)",
     "original_title": null,
     "genres": [],
@@ -15097,7 +15067,7 @@
     "status": "Finished"
   },
   {
-    "id": 490,
+    "id": 489,
     "title": "Death Note: Relight 2 – L's Successors (Special)",
     "original_title": null,
     "genres": [],
@@ -15127,7 +15097,7 @@
     "status": "Finished"
   },
   {
-    "id": 491,
+    "id": 490,
     "title": "Kaiju No. 8: Narumi's Week at Work (OVA 1-2)",
     "original_title": null,
     "genres": [],
@@ -15157,7 +15127,7 @@
     "status": "Finished"
   },
   {
-    "id": 492,
+    "id": 491,
     "title": "Steel Ball Run: JoJo's Bizarre Adventure (2nd-3rd Stage)",
     "original_title": null,
     "genres": [],
@@ -15187,7 +15157,7 @@
     "status": "Finished"
   },
   {
-    "id": 493,
+    "id": 492,
     "title": "Mononoke: Chapter III – The Curse of the Serpent",
     "original_title": null,
     "genres": [],
@@ -15217,7 +15187,7 @@
     "status": "Finished"
   },
   {
-    "id": 494,
+    "id": 493,
     "title": "The Ramparts of Ice (Season 2)",
     "original_title": "Koori no Jouheki",
     "genres": [
@@ -15250,6 +15220,52 @@
     ],
     "notes": "Ep 1 released 2026-10-02; weekly airing schedule",
     "status": "Airing"
+  },
+  {
+    "id": 494,
+    "title": "JoJo's Bizarre Adventure (Season 1-2)",
+    "original_title": null,
+    "genres": [],
+    "season": 1,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "JioHotstar",
+        "release_date": "2025-12-04",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
   },
   {
     "id": 495,
