@@ -14279,49 +14279,6 @@
   },
   {
     "id": 467,
-    "title": "That Time I Got Reincarnated as a Slime (Season 4)",
-    "original_title": null,
-    "genres": [],
-    "season": 4,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Crunchyroll",
-        "release_date": "2026-07-31",
-        "status": "Finished",
-        "media_type": "series",
-        "episodes": "EP 1-10"
-      },
-      {
-        "platform": "Anime Times (Prime Video)",
-        "release_date": "2026-06-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-08-29",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Airing"
-  },
-  {
-    "id": 468,
     "title": "The Exiled Heavy Knight Knows How to Game the System",
     "original_title": null,
     "genres": [],
@@ -14357,7 +14314,7 @@
     "status": "Airing"
   },
   {
-    "id": 469,
+    "id": 468,
     "title": "Black Torch",
     "original_title": null,
     "genres": [],
@@ -14387,7 +14344,7 @@
     "status": "Airing"
   },
   {
-    "id": 470,
+    "id": 469,
     "title": "Mushoku Tensei (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14417,7 +14374,7 @@
     "status": "Airing"
   },
   {
-    "id": 471,
+    "id": 470,
     "title": "Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe",
     "original_title": null,
     "genres": [],
@@ -14447,7 +14404,7 @@
     "status": "Finished"
   },
   {
-    "id": 472,
+    "id": 471,
     "title": "Welcome to Demon School! Iruma-Kun (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14477,7 +14434,7 @@
     "status": "Airing"
   },
   {
-    "id": 473,
+    "id": 472,
     "title": "Grand Blue Dreaming (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14507,7 +14464,7 @@
     "status": "Airing"
   },
   {
-    "id": 474,
+    "id": 473,
     "title": "Tokyo Ghoul: re (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14543,7 +14500,7 @@
     "status": "Finished"
   },
   {
-    "id": 475,
+    "id": 474,
     "title": "Overlord (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14579,7 +14536,7 @@
     "status": "Finished"
   },
   {
-    "id": 476,
+    "id": 475,
     "title": "Death Note: Relight – Visions of a God (Special)",
     "original_title": null,
     "genres": [],
@@ -14609,7 +14566,7 @@
     "status": "Finished"
   },
   {
-    "id": 477,
+    "id": 476,
     "title": "Fullmetal Alchemist: Brotherhood",
     "original_title": null,
     "genres": [],
@@ -14660,7 +14617,7 @@
     "status": "Finished"
   },
   {
-    "id": 478,
+    "id": 477,
     "title": "Naruto Shippuden",
     "original_title": null,
     "genres": [],
@@ -14719,7 +14676,7 @@
     "status": "Finished"
   },
   {
-    "id": 479,
+    "id": 478,
     "title": "Sword Art Online (Season 1)",
     "original_title": null,
     "genres": [],
@@ -14755,7 +14712,7 @@
     "status": "Finished"
   },
   {
-    "id": 480,
+    "id": 479,
     "title": "Lord of Mysteries (Special 1-3)",
     "original_title": null,
     "genres": [],
@@ -14785,7 +14742,7 @@
     "status": "Finished"
   },
   {
-    "id": 481,
+    "id": 480,
     "title": "Konosuba (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14815,7 +14772,7 @@
     "status": "Finished"
   },
   {
-    "id": 482,
+    "id": 481,
     "title": "Overlord (Season 4)",
     "original_title": null,
     "genres": [],
@@ -14851,7 +14808,7 @@
     "status": "Finished"
   },
   {
-    "id": 483,
+    "id": 482,
     "title": "Death Note: Relight 2 – L's Successors (Special)",
     "original_title": null,
     "genres": [],
@@ -14881,7 +14838,7 @@
     "status": "Finished"
   },
   {
-    "id": 484,
+    "id": 483,
     "title": "Kaiju No. 8: Narumi's Week at Work (OVA 1-2)",
     "original_title": null,
     "genres": [],
@@ -14911,7 +14868,7 @@
     "status": "Finished"
   },
   {
-    "id": 485,
+    "id": 484,
     "title": "Steel Ball Run: JoJo's Bizarre Adventure (2nd-3rd Stage)",
     "original_title": null,
     "genres": [],
@@ -14941,7 +14898,7 @@
     "status": "Finished"
   },
   {
-    "id": 486,
+    "id": 485,
     "title": "Mononoke: Chapter III – The Curse of the Serpent",
     "original_title": null,
     "genres": [],
@@ -14971,7 +14928,7 @@
     "status": "Finished"
   },
   {
-    "id": 487,
+    "id": 486,
     "title": "The Ramparts of Ice (Season 2)",
     "original_title": "Koori no Jouheki",
     "genres": [
@@ -15006,53 +14963,7 @@
     "status": "Airing"
   },
   {
-    "id": 488,
-    "title": "JoJo's Bizarre Adventure (Season 2 Part-1: Stardust Crusaders)",
-    "original_title": null,
-    "genres": [],
-    "season": 2,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Muse India",
-        "release_date": "2025-05-07",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 489,
+    "id": 487,
     "title": "JoJo's Bizarre Adventure (Season 1 Part-2: Battle Tendency)",
     "original_title": null,
     "genres": [],
@@ -15098,7 +15009,7 @@
     ]
   },
   {
-    "id": 490,
+    "id": 488,
     "title": "JoJo's Bizarre Adventure (Season 1 Part-1: Phantom Blood)",
     "original_title": null,
     "genres": [],
@@ -15144,7 +15055,7 @@
     ]
   },
   {
-    "id": 491,
+    "id": 489,
     "title": "The God of High School",
     "original_title": null,
     "genres": [],
@@ -15196,7 +15107,66 @@
     ]
   },
   {
-    "id": 492,
+    "id": 490,
+    "title": "That Time I Got Reincarnated as a Slime (Season 4)",
+    "original_title": null,
+    "genres": [],
+    "season": 4,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Crunchyroll",
+        "release_date": "2026-07-31",
+        "status": "Finished",
+        "media_type": "series",
+        "episodes": "EP 1-10"
+      },
+      {
+        "platform": "Anime Times (Prime Video)",
+        "release_date": "2026-06-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-08-29",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Airing",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 491,
     "title": "That Time I Got Reincarnated as a Slime (Season 3)",
     "original_title": null,
     "genres": [],
@@ -15248,7 +15218,7 @@
     ]
   },
   {
-    "id": 493,
+    "id": 492,
     "title": "JoJo's Bizarre Adventure (Season 2 Part-2: Stardust Crusaders – Battle in Egypt)",
     "original_title": null,
     "genres": [],
@@ -15308,59 +15278,7 @@
     ]
   },
   {
-    "id": 494,
-    "title": "Assassination Classroom (Season 2)",
-    "original_title": null,
-    "genres": [],
-    "season": 2,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Crunchyroll",
-        "release_date": "2024-08-28",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "JioHotstar",
-        "release_date": "2024-05-14",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 495,
+    "id": 493,
     "title": "That Time I Got Reincarnated as a Slime (Season 2)",
     "original_title": null,
     "genres": [],
@@ -15412,7 +15330,7 @@
     ]
   },
   {
-    "id": 496,
+    "id": 494,
     "title": "JoJo's Bizarre Adventure (Season 1-2)",
     "original_title": null,
     "genres": [],
@@ -15472,7 +15390,7 @@
     ]
   },
   {
-    "id": 497,
+    "id": 495,
     "title": "That Time I Got Reincarnated as a Slime (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15530,7 +15448,7 @@
     ]
   },
   {
-    "id": 498,
+    "id": 496,
     "title": "Assassination Classroom (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15582,7 +15500,7 @@
     ]
   },
   {
-    "id": 499,
+    "id": 497,
     "title": "JoJo's Bizarre Adventure (Season 3: Diamond Is Unbreakable)",
     "original_title": null,
     "genres": [],
@@ -15642,6 +15560,146 @@
     ]
   },
   {
+    "id": 498,
+    "title": "JoJo's Bizarre Adventure (Season 2 Part-1: Stardust Crusaders)",
+    "original_title": null,
+    "genres": [],
+    "season": 2,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Muse India",
+        "release_date": "2025-05-07",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "title": "Assassination Classroom (Season 2)",
+    "original_title": null,
+    "genres": [],
+    "season": 2,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Crunchyroll",
+        "release_date": "2024-08-28",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "JioHotstar",
+        "release_date": "2024-05-14",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
     "id": 500,
     "title": "Tokyo Revengers (Season 1)",
     "original_title": null,
@@ -15684,6 +15742,12 @@
         "release_date": "2026-10-03",
         "status": "Airing",
         "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
       }
     ],
     "notes": null,
@@ -15702,6 +15766,14 @@
         "platform": "Muse India",
         "medium": "YouTube",
         "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
         "status": "Airing",
         "media_type": "series"
       }
@@ -15738,6 +15810,12 @@
         "release_date": "2026-10-03",
         "status": "Airing",
         "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
       }
     ],
     "dubs": [
@@ -15754,6 +15832,14 @@
         "platform": "Muse India",
         "medium": "YouTube",
         "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
         "status": "Airing",
         "media_type": "series"
       }
