@@ -15179,66 +15179,6 @@
   },
   {
     "id": 491,
-    "title": "JoJo's Bizarre Adventure (Season 1-2)",
-    "original_title": null,
-    "genres": [],
-    "season": 1,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "JioHotstar",
-        "release_date": "2025-12-04",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 492,
     "title": "That Time I Got Reincarnated as a Slime (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15296,7 +15236,7 @@
     ]
   },
   {
-    "id": 493,
+    "id": 492,
     "title": "JoJo's Bizarre Adventure (Season 3: Diamond Is Unbreakable)",
     "original_title": null,
     "genres": [],
@@ -15356,7 +15296,7 @@
     ]
   },
   {
-    "id": 494,
+    "id": 493,
     "title": "JoJo's Bizarre Adventure (Season 2 Part-2: Stardust Crusaders – Battle in Egypt)",
     "original_title": null,
     "genres": [],
@@ -15430,7 +15370,7 @@
     ]
   },
   {
-    "id": 495,
+    "id": 494,
     "title": "JoJo's Bizarre Adventure (Season 1 Part-1: Phantom Blood)",
     "original_title": null,
     "genres": [],
@@ -15504,7 +15444,7 @@
     ]
   },
   {
-    "id": 496,
+    "id": 495,
     "title": "JoJo's Bizarre Adventure (Season 1 Part-2: Battle Tendency)",
     "original_title": null,
     "genres": [],
@@ -15578,73 +15518,7 @@
     ]
   },
   {
-    "id": 497,
-    "title": "Assassination Classroom (Season 1)",
-    "original_title": null,
-    "genres": [],
-    "season": 1,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Crunchyroll",
-        "release_date": "2024-08-28",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "JioHotstar",
-        "release_date": "2024-05-11",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 498,
+    "id": 496,
     "title": "JoJo's Bizarre Adventure (Season 2 Part-1: Stardust Crusaders)",
     "original_title": null,
     "genres": [],
@@ -15718,7 +15592,7 @@
     ]
   },
   {
-    "id": 499,
+    "id": 497,
     "title": "Assassination Classroom (Season 2)",
     "original_title": null,
     "genres": [],
@@ -15784,7 +15658,248 @@
     ]
   },
   {
+    "id": 498,
+    "title": "Blue Box (Season 2)",
+    "original_title": "Ao no Hako",
+    "genres": [
+      "Romance",
+      "Slice of Life",
+      "Sports"
+    ],
+    "season": 2,
+    "season_year": 2026,
+    "episodes": 25,
+    "studio": "Telecom Animation Film",
+    "synopsis": "Taiki Inomata loves badminton, but he has a long way to go before he can reach nationals. When Taiki sees upperclassman Chinatsu Kano practicing her heart out on the girls' basketball team, he falls for her hard.",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170942-KKcLfQzV57nG.jpg",
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": 170942,
+    "anilist_url": "https://anilist.co/anime/170942",
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Netflix",
+        "release_date": "2026-10-04",
+        "status": "Upcoming",
+        "media_type": "series"
+      }
+    ],
+    "notes": "Scheduled for October 04, 2026",
+    "status": "Upcoming"
+  },
+  {
+    "id": 499,
+    "title": "Campfire Cooking in Another World - (S2E12) | Muse IN",
+    "original_title": null,
+    "genres": [],
+    "season": null,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": "Auto-added from Muse India"
+  },
+  {
     "id": 500,
+    "title": "JoJo's Bizarre Adventure (Season 1-2)",
+    "original_title": null,
+    "genres": [],
+    "season": 1,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "JioHotstar",
+        "release_date": "2025-12-04",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 501,
+    "title": "Assassination Classroom (Season 1)",
+    "original_title": null,
+    "genres": [],
+    "season": 1,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Crunchyroll",
+        "release_date": "2024-08-28",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "JioHotstar",
+        "release_date": "2024-05-11",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 502,
     "title": "Tokyo Revengers (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15832,6 +15947,12 @@
         "release_date": "2026-10-04",
         "status": "Airing",
         "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
       }
     ],
     "notes": null,
@@ -15860,11 +15981,19 @@
         "release_date": "2026-10-04",
         "status": "Airing",
         "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
       }
     ]
   },
   {
-    "id": 501,
+    "id": 503,
     "title": "HUNTER×HUNTER - | Muse IN",
     "original_title": null,
     "genres": [],
@@ -15900,6 +16029,12 @@
         "release_date": "2026-10-04",
         "status": "Airing",
         "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
       }
     ],
     "dubs": [
@@ -15926,77 +16061,12 @@
         "release_date": "2026-10-04",
         "status": "Airing",
         "media_type": "series"
-      }
-    ],
-    "notes": "Auto-added from Muse India"
-  },
-  {
-    "id": 502,
-    "title": "Blue Box (Season 2)",
-    "original_title": "Ao no Hako",
-    "genres": [
-      "Romance",
-      "Slice of Life",
-      "Sports"
-    ],
-    "season": 2,
-    "season_year": 2026,
-    "episodes": 25,
-    "studio": "Telecom Animation Film",
-    "synopsis": "Taiki Inomata loves badminton, but he has a long way to go before he can reach nationals. When Taiki sees upperclassman Chinatsu Kano practicing her heart out on the girls' basketball team, he falls for her hard.",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170942-KKcLfQzV57nG.jpg",
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": 170942,
-    "anilist_url": "https://anilist.co/anime/170942",
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Netflix",
-        "release_date": "2026-10-04",
-        "status": "Upcoming",
-        "media_type": "series"
-      }
-    ],
-    "notes": "Scheduled for October 04, 2026",
-    "status": "Upcoming"
-  },
-  {
-    "id": 503,
-    "title": "Campfire Cooking in Another World - (S2E12) | Muse IN",
-    "original_title": null,
-    "genres": [],
-    "season": null,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "dubs": [
+      },
       {
         "language": "Hindi",
         "platform": "Muse India",
         "medium": "YouTube",
-        "release_date": "2026-10-04",
+        "release_date": "2026-10-05",
         "status": "Airing",
         "media_type": "series"
       }
