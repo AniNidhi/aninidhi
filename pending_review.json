@@ -795,5 +795,26 @@
     "confidence_score": 30,
     "confidence_reason": "Lineup / multi-anime post requires manual splitting",
     "extracted_clean_title": "MX Player Donghua List (2026) – Complete Lineup List of Hindi-Dubbed Donghua Available on Amazon MX Player"
+  },
+  {
+    "video_id": "https://animemirchi.com/black-clover-episodes-released-in-india/",
+    "video_title": "[AnimeMirchi] Black Clover Episodes Released in India (Season 1–2) List of Black Clover episodes released in India in Hindi, Tamil, Telugu, and Malayalam",
+    "video_url": "https://animemirchi.com/black-clover-episodes-released-in-india/",
+    "published_at": "Sat, 10 Oct 2026 11:30:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Hindi",
+      "Tamil",
+      "Telugu",
+      "Malayalam"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "is_lineup": true,
+    "status": "needs_review",
+    "notes": "⚠️ LINEUP / MULTI-ANIME ARTICLE: Do NOT accept as a single entry! Open link to extract individual anime titles.",
+    "confidence_score": 30,
+    "confidence_reason": "Lineup / multi-anime post requires manual splitting",
+    "extracted_clean_title": "Black Clover Episodes Released in India (Season 1–2) List of Black Clover episodes released in India in Hindi, Tamil, Telugu, and Malayalam"
   }
 ]
