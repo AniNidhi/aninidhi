@@ -15016,58 +15016,6 @@
   },
   {
     "id": 488,
-    "title": "That Time I Got Reincarnated as a Slime (Season 2)",
-    "original_title": null,
-    "genres": [],
-    "season": 2,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Crunchyroll",
-        "release_date": "2024-08-14",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2024-09-07",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 489,
     "title": "That Time I Got Reincarnated as a Slime (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15125,7 +15073,7 @@
     ]
   },
   {
-    "id": 490,
+    "id": 489,
     "title": "Blue Box (Season 2)",
     "original_title": "Ao no Hako",
     "genres": [
@@ -15159,7 +15107,7 @@
     "status": "Upcoming"
   },
   {
-    "id": 491,
+    "id": 490,
     "title": "Campfire Cooking in Another World - (S2E12) | Muse IN",
     "original_title": null,
     "genres": [],
@@ -15198,151 +15146,7 @@
     "notes": "Auto-added from Muse India"
   },
   {
-    "id": 492,
-    "title": "JoJo's Bizarre Adventure (Season 3: Diamond Is Unbreakable)",
-    "original_title": null,
-    "genres": [],
-    "season": 3,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Muse India",
-        "release_date": "2026-09-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-05",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-07",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-06",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-09",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-08",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Airing",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-05",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-07",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-06",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-09",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-08",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 493,
+    "id": 491,
     "title": "JoJo's Bizarre Adventure (Season 1-2)",
     "original_title": null,
     "genres": [],
@@ -15486,7 +15290,7 @@
     ]
   },
   {
-    "id": 494,
+    "id": 492,
     "title": "JoJo's Bizarre Adventure (Season 2 Part-2: Stardust Crusaders – Battle in Egypt)",
     "original_title": null,
     "genres": [],
@@ -15624,6 +15428,230 @@
         "platform": "Muse India",
         "medium": "YouTube",
         "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 493,
+    "title": "That Time I Got Reincarnated as a Slime (Season 2)",
+    "original_title": null,
+    "genres": [],
+    "season": 2,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Crunchyroll",
+        "release_date": "2024-08-14",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2024-09-07",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 494,
+    "title": "JoJo's Bizarre Adventure (Season 3: Diamond Is Unbreakable)",
+    "original_title": null,
+    "genres": [],
+    "season": 3,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Muse India",
+        "release_date": "2026-09-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-06",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Airing",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-06",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-10",
         "status": "Airing",
         "media_type": "series"
       }
