@@ -15016,65 +15016,6 @@
   },
   {
     "id": 488,
-    "title": "That Time I Got Reincarnated as a Slime (Season 4)",
-    "original_title": null,
-    "genres": [],
-    "season": 4,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Crunchyroll",
-        "release_date": "2026-07-31",
-        "status": "Finished",
-        "media_type": "series",
-        "episodes": "EP 1-10"
-      },
-      {
-        "platform": "Anime Times (Prime Video)",
-        "release_date": "2026-06-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-08-29",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Airing",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 489,
     "title": "That Time I Got Reincarnated as a Slime (Season 3)",
     "original_title": null,
     "genres": [],
@@ -15126,7 +15067,7 @@
     ]
   },
   {
-    "id": 490,
+    "id": 489,
     "title": "That Time I Got Reincarnated as a Slime (Season 2)",
     "original_title": null,
     "genres": [],
@@ -15178,7 +15119,7 @@
     ]
   },
   {
-    "id": 491,
+    "id": 490,
     "title": "That Time I Got Reincarnated as a Slime (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15236,7 +15177,7 @@
     ]
   },
   {
-    "id": 492,
+    "id": 491,
     "title": "Blue Box (Season 2)",
     "original_title": "Ao no Hako",
     "genres": [
@@ -15270,7 +15211,7 @@
     "status": "Upcoming"
   },
   {
-    "id": 493,
+    "id": 492,
     "title": "Campfire Cooking in Another World - (S2E12) | Muse IN",
     "original_title": null,
     "genres": [],
@@ -15309,137 +15250,7 @@
     "notes": "Auto-added from Muse India"
   },
   {
-    "id": 494,
-    "title": "JoJo's Bizarre Adventure (Season 2 Part-1: Stardust Crusaders)",
-    "original_title": null,
-    "genres": [],
-    "season": 2,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Muse India",
-        "release_date": "2025-05-07",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-06",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-05",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-08",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-07",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-06",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-05",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-08",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-07",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 495,
+    "id": 493,
     "title": "JoJo's Bizarre Adventure (Season 1 Part-1: Phantom Blood)",
     "original_title": null,
     "genres": [],
@@ -15583,7 +15394,7 @@
     ]
   },
   {
-    "id": 496,
+    "id": 494,
     "title": "JoJo's Bizarre Adventure (Season 3: Diamond Is Unbreakable)",
     "original_title": null,
     "genres": [],
@@ -15727,7 +15538,7 @@
     ]
   },
   {
-    "id": 497,
+    "id": 495,
     "title": "JoJo's Bizarre Adventure (Season 1-2)",
     "original_title": null,
     "genres": [],
@@ -15871,7 +15682,7 @@
     ]
   },
   {
-    "id": 498,
+    "id": 496,
     "title": "JoJo's Bizarre Adventure (Season 2 Part-2: Stardust Crusaders – Battle in Egypt)",
     "original_title": null,
     "genres": [],
@@ -16015,6 +15826,237 @@
     ]
   },
   {
+    "id": 497,
+    "title": "That Time I Got Reincarnated as a Slime (Season 4)",
+    "original_title": null,
+    "genres": [],
+    "season": 4,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Crunchyroll",
+        "release_date": "2026-07-31",
+        "status": "Finished",
+        "media_type": "series",
+        "episodes": "EP 1-10"
+      },
+      {
+        "platform": "Anime Times (Prime Video)",
+        "release_date": "2026-06-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-08-29",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Airing",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 498,
+    "title": "JoJo's Bizarre Adventure (Season 2 Part-1: Stardust Crusaders)",
+    "original_title": null,
+    "genres": [],
+    "season": 2,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Muse India",
+        "release_date": "2025-05-07",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-06",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-06",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
     "id": 499,
     "title": "Assassination Classroom (Season 1)",
     "original_title": null,
@@ -16087,6 +16129,12 @@
         "release_date": "2026-10-09",
         "status": "Airing",
         "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
       }
     ],
     "notes": null,
@@ -16145,6 +16193,14 @@
         "platform": "Muse India",
         "medium": "YouTube",
         "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-10",
         "status": "Airing",
         "media_type": "series"
       }
@@ -16815,6 +16871,45 @@
   {
     "id": 505,
     "title": "Black Clover in India: Complete Guide (Hindi, Tamil & Malayalam Dubs) Complete Guide to Black Clover in India featuring Release Dates, Hindi, Tamil, & Malayalam Dubs and Broadcast History",
+    "original_title": null,
+    "genres": [],
+    "season": null,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "OTT",
+        "release_date": "TBA",
+        "status": "Upcoming",
+        "media_type": "series"
+      }
+    ],
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "OTT",
+        "medium": "OTT",
+        "release_date": "TBA",
+        "status": "Upcoming",
+        "media_type": "series"
+      }
+    ],
+    "notes": "Auto-added from OTT"
+  },
+  {
+    "id": 506,
+    "title": "Black Clover Season 1 Streams in Hindi & Tamil Dubs on Crunchyroll India First 10 Episodes are now streaming in Hindi and Tamil Dubs",
     "original_title": null,
     "genres": [],
     "season": null,
