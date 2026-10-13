@@ -12689,36 +12689,6 @@
   },
   {
     "id": 417,
-    "title": "Re:Zero – Starting Life in Another World (Season 3)",
-    "original_title": null,
-    "genres": [],
-    "season": 3,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Muse India",
-        "release_date": "2026-07-01",
-        "status": "Finished",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished"
-  },
-  {
-    "id": 418,
     "title": "Daemons of the Shadow Realm",
     "original_title": null,
     "genres": [],
@@ -12754,7 +12724,7 @@
     "status": "Airing"
   },
   {
-    "id": 419,
+    "id": 418,
     "title": "Sparks of Tomorrow",
     "original_title": null,
     "genres": [],
@@ -12784,7 +12754,7 @@
     "status": "Airing"
   },
   {
-    "id": 420,
+    "id": 419,
     "title": "Clevatess (Season 2)",
     "original_title": null,
     "genres": [],
@@ -12814,7 +12784,7 @@
     "status": "Airing"
   },
   {
-    "id": 421,
+    "id": 420,
     "title": "Thunder 3",
     "original_title": null,
     "genres": [],
@@ -12844,7 +12814,7 @@
     "status": "Airing"
   },
   {
-    "id": 422,
+    "id": 421,
     "title": "Smoking Behind the Supermarket with You",
     "original_title": null,
     "genres": [],
@@ -12874,7 +12844,7 @@
     "status": "Airing"
   },
   {
-    "id": 423,
+    "id": 422,
     "title": "Classroom of the Elite (Season 3)",
     "original_title": null,
     "genres": [],
@@ -12904,7 +12874,7 @@
     "status": "Finished"
   },
   {
-    "id": 424,
+    "id": 423,
     "title": "Captain Tsubasa (Season 2: Jr. Youth Arc)",
     "original_title": null,
     "genres": [],
@@ -12934,7 +12904,7 @@
     "status": "Airing"
   },
   {
-    "id": 425,
+    "id": 424,
     "title": "Arifureta: From Commonplace to World's Strongest (Season 2)",
     "original_title": null,
     "genres": [],
@@ -12964,7 +12934,7 @@
     "status": "Finished"
   },
   {
-    "id": 426,
+    "id": 425,
     "title": "Haikyu!! (Season 4 Cour-1)",
     "original_title": null,
     "genres": [],
@@ -13000,7 +12970,7 @@
     "status": "Finished"
   },
   {
-    "id": 427,
+    "id": 426,
     "title": "Haikyu!! OVA (4&5)",
     "original_title": null,
     "genres": [],
@@ -13030,7 +13000,7 @@
     "status": "Finished"
   },
   {
-    "id": 428,
+    "id": 427,
     "title": "Chainsmoker Cat",
     "original_title": null,
     "genres": [],
@@ -13060,7 +13030,7 @@
     "status": "Airing"
   },
   {
-    "id": 429,
+    "id": 428,
     "title": "Welcome to Demon School! Iruma-Kun (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13096,7 +13066,7 @@
     "status": "Finished"
   },
   {
-    "id": 430,
+    "id": 429,
     "title": "My Hero Academia (SP1: More)",
     "original_title": null,
     "genres": [],
@@ -13126,7 +13096,7 @@
     "status": "Finished"
   },
   {
-    "id": 431,
+    "id": 430,
     "title": "Campfire Cooking in Another World with My Absurd Skill (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13162,7 +13132,7 @@
     "status": "Airing"
   },
   {
-    "id": 432,
+    "id": 431,
     "title": "Tokyo Ghoul (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13198,7 +13168,7 @@
     "status": "Finished"
   },
   {
-    "id": 433,
+    "id": 432,
     "title": "My Hero Academia: Vigilantes (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13234,7 +13204,7 @@
     "status": "Finished"
   },
   {
-    "id": 434,
+    "id": 433,
     "title": "Oshi no Ko (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13264,7 +13234,7 @@
     "status": "Finished"
   },
   {
-    "id": 435,
+    "id": 434,
     "title": "I Became a Legend after My 10 Year-Long Last Stand",
     "original_title": null,
     "genres": [],
@@ -13294,7 +13264,7 @@
     "status": "Airing"
   },
   {
-    "id": 436,
+    "id": 435,
     "title": "Daemons of the Shadow Realm (Season 1 Cour-2)",
     "original_title": null,
     "genres": [],
@@ -13324,7 +13294,7 @@
     "status": "Airing"
   },
   {
-    "id": 437,
+    "id": 436,
     "title": "Mob Psycho 100 (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13360,7 +13330,7 @@
     "status": "Finished"
   },
   {
-    "id": 438,
+    "id": 437,
     "title": "Liar Game (Season 1 Cour-2)",
     "original_title": null,
     "genres": [],
@@ -13390,7 +13360,7 @@
     "status": "Airing"
   },
   {
-    "id": 439,
+    "id": 438,
     "title": "Demon Slayer: Infinity Castle (Movie)",
     "original_title": null,
     "genres": [],
@@ -13420,7 +13390,7 @@
     "status": "Finished"
   },
   {
-    "id": 440,
+    "id": 439,
     "title": "Trapped in a Dating Sim (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13450,7 +13420,7 @@
     "status": "Airing"
   },
   {
-    "id": 441,
+    "id": 440,
     "title": "Tomb Raider King",
     "original_title": null,
     "genres": [],
@@ -13480,7 +13450,7 @@
     "status": "Airing"
   },
   {
-    "id": 442,
+    "id": 441,
     "title": "My Hero Academia: Vigilantes (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13516,7 +13486,7 @@
     "status": "Finished"
   },
   {
-    "id": 443,
+    "id": 442,
     "title": "Oshi no Ko (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13546,7 +13516,7 @@
     "status": "Finished"
   },
   {
-    "id": 444,
+    "id": 443,
     "title": "My Unique Skill Makes Me OP even at Level 1",
     "original_title": null,
     "genres": [],
@@ -13582,7 +13552,7 @@
     "status": "Finished"
   },
   {
-    "id": 445,
+    "id": 444,
     "title": "Hanaori-san Still Wants to Fight in the Next Life",
     "original_title": null,
     "genres": [],
@@ -13612,7 +13582,7 @@
     "status": "Airing"
   },
   {
-    "id": 446,
+    "id": 445,
     "title": "Arifureta: From Commonplace to World's Strongest (Season 3)",
     "original_title": null,
     "genres": [],
@@ -13642,7 +13612,7 @@
     "status": "Finished"
   },
   {
-    "id": 447,
+    "id": 446,
     "title": "The Elusive Samurai (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13672,7 +13642,7 @@
     "status": "Airing"
   },
   {
-    "id": 448,
+    "id": 447,
     "title": "Mob Psycho 100 (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13708,7 +13678,7 @@
     "status": "Finished"
   },
   {
-    "id": 449,
+    "id": 448,
     "title": "The Ribbon Hero",
     "original_title": null,
     "genres": [],
@@ -13738,7 +13708,7 @@
     "status": "Finished"
   },
   {
-    "id": 450,
+    "id": 449,
     "title": "Welcome to Demon School! Iruma-Kun (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13774,7 +13744,7 @@
     "status": "Finished"
   },
   {
-    "id": 451,
+    "id": 450,
     "title": "Bleach: Thousand-Year Blood War (Part 4: The Calamity)",
     "original_title": null,
     "genres": [],
@@ -13804,7 +13774,7 @@
     "status": "Finished"
   },
   {
-    "id": 452,
+    "id": 451,
     "title": "Tokyo Ghoul: √A (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13840,7 +13810,7 @@
     "status": "Finished"
   },
   {
-    "id": 453,
+    "id": 452,
     "title": "Oshi no Ko (Season 3)",
     "original_title": null,
     "genres": [],
@@ -13870,7 +13840,7 @@
     "status": "Finished"
   },
   {
-    "id": 454,
+    "id": 453,
     "title": "Mushoku Tensei (Season 2 Cour 2)",
     "original_title": null,
     "genres": [],
@@ -13900,7 +13870,7 @@
     "status": "Finished"
   },
   {
-    "id": 455,
+    "id": 454,
     "title": "Konosuba (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13930,7 +13900,7 @@
     "status": "Finished"
   },
   {
-    "id": 456,
+    "id": 455,
     "title": "Overlord (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13966,7 +13936,7 @@
     "status": "Finished"
   },
   {
-    "id": 457,
+    "id": 456,
     "title": "Mob Psycho 100 (OVA)",
     "original_title": null,
     "genres": [],
@@ -13996,7 +13966,7 @@
     "status": "Finished"
   },
   {
-    "id": 458,
+    "id": 457,
     "title": "Mob Psycho 100 (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14026,7 +13996,7 @@
     "status": "Finished"
   },
   {
-    "id": 459,
+    "id": 458,
     "title": "Overlord (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14062,7 +14032,7 @@
     "status": "Finished"
   },
   {
-    "id": 460,
+    "id": 459,
     "title": "Hana-Kimi (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14092,7 +14062,7 @@
     "status": "Airing"
   },
   {
-    "id": 461,
+    "id": 460,
     "title": "The Exiled Heavy Knight Knows How to Game the System",
     "original_title": null,
     "genres": [],
@@ -14128,7 +14098,7 @@
     "status": "Airing"
   },
   {
-    "id": 462,
+    "id": 461,
     "title": "Black Torch",
     "original_title": null,
     "genres": [],
@@ -14158,7 +14128,7 @@
     "status": "Airing"
   },
   {
-    "id": 463,
+    "id": 462,
     "title": "Mushoku Tensei (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14188,7 +14158,7 @@
     "status": "Airing"
   },
   {
-    "id": 464,
+    "id": 463,
     "title": "Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe",
     "original_title": null,
     "genres": [],
@@ -14218,7 +14188,7 @@
     "status": "Finished"
   },
   {
-    "id": 465,
+    "id": 464,
     "title": "Welcome to Demon School! Iruma-Kun (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14248,7 +14218,7 @@
     "status": "Airing"
   },
   {
-    "id": 466,
+    "id": 465,
     "title": "Grand Blue Dreaming (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14278,7 +14248,7 @@
     "status": "Airing"
   },
   {
-    "id": 467,
+    "id": 466,
     "title": "Tokyo Ghoul: re (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14314,7 +14284,7 @@
     "status": "Finished"
   },
   {
-    "id": 468,
+    "id": 467,
     "title": "Overlord (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14350,7 +14320,7 @@
     "status": "Finished"
   },
   {
-    "id": 469,
+    "id": 468,
     "title": "Death Note: Relight – Visions of a God (Special)",
     "original_title": null,
     "genres": [],
@@ -14380,7 +14350,7 @@
     "status": "Finished"
   },
   {
-    "id": 470,
+    "id": 469,
     "title": "Fullmetal Alchemist: Brotherhood",
     "original_title": null,
     "genres": [],
@@ -14431,7 +14401,7 @@
     "status": "Finished"
   },
   {
-    "id": 471,
+    "id": 470,
     "title": "Naruto Shippuden",
     "original_title": null,
     "genres": [],
@@ -14490,7 +14460,7 @@
     "status": "Finished"
   },
   {
-    "id": 472,
+    "id": 471,
     "title": "Sword Art Online (Season 1)",
     "original_title": null,
     "genres": [],
@@ -14526,7 +14496,7 @@
     "status": "Finished"
   },
   {
-    "id": 473,
+    "id": 472,
     "title": "Lord of Mysteries (Special 1-3)",
     "original_title": null,
     "genres": [],
@@ -14556,7 +14526,7 @@
     "status": "Finished"
   },
   {
-    "id": 474,
+    "id": 473,
     "title": "Konosuba (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14586,7 +14556,7 @@
     "status": "Finished"
   },
   {
-    "id": 475,
+    "id": 474,
     "title": "Overlord (Season 4)",
     "original_title": null,
     "genres": [],
@@ -14622,7 +14592,7 @@
     "status": "Finished"
   },
   {
-    "id": 476,
+    "id": 475,
     "title": "Death Note: Relight 2 – L's Successors (Special)",
     "original_title": null,
     "genres": [],
@@ -14652,7 +14622,7 @@
     "status": "Finished"
   },
   {
-    "id": 477,
+    "id": 476,
     "title": "Kaiju No. 8: Narumi's Week at Work (OVA 1-2)",
     "original_title": null,
     "genres": [],
@@ -14682,7 +14652,7 @@
     "status": "Finished"
   },
   {
-    "id": 478,
+    "id": 477,
     "title": "Steel Ball Run: JoJo's Bizarre Adventure (2nd-3rd Stage)",
     "original_title": null,
     "genres": [],
@@ -14712,7 +14682,7 @@
     "status": "Finished"
   },
   {
-    "id": 479,
+    "id": 478,
     "title": "Mononoke: Chapter III – The Curse of the Serpent",
     "original_title": null,
     "genres": [],
@@ -14742,7 +14712,7 @@
     "status": "Finished"
   },
   {
-    "id": 480,
+    "id": 479,
     "title": "The Ramparts of Ice (Season 2)",
     "original_title": "Koori no Jouheki",
     "genres": [
@@ -14777,7 +14747,7 @@
     "status": "Airing"
   },
   {
-    "id": 481,
+    "id": 480,
     "title": "The God of High School",
     "original_title": null,
     "genres": [],
@@ -14829,7 +14799,7 @@
     ]
   },
   {
-    "id": 482,
+    "id": 481,
     "title": "Blue Box (Season 2)",
     "original_title": "Ao no Hako",
     "genres": [
@@ -14863,7 +14833,7 @@
     "status": "Upcoming"
   },
   {
-    "id": 483,
+    "id": 482,
     "title": "Campfire Cooking in Another World - (S2E12) | Muse IN",
     "original_title": null,
     "genres": [],
@@ -14902,7 +14872,7 @@
     "notes": "Auto-added from Muse India"
   },
   {
-    "id": 484,
+    "id": 483,
     "title": "That Time I Got Reincarnated as a Slime (Season 1)",
     "original_title": null,
     "genres": [],
@@ -14974,7 +14944,7 @@
     ]
   },
   {
-    "id": 485,
+    "id": 484,
     "title": "That Time I Got Reincarnated as a Slime (Season 2)",
     "original_title": null,
     "genres": [],
@@ -15040,7 +15010,7 @@
     ]
   },
   {
-    "id": 486,
+    "id": 485,
     "title": "That Time I Got Reincarnated as a Slime (Season 3)",
     "original_title": null,
     "genres": [],
@@ -15106,7 +15076,7 @@
     ]
   },
   {
-    "id": 487,
+    "id": 486,
     "title": "That Time I Got Reincarnated as a Slime (Season 4)",
     "original_title": null,
     "genres": [],
@@ -15173,6 +15143,52 @@
         "platform": "Muse India",
         "medium": "YouTube",
         "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 487,
+    "title": "Re:Zero – Starting Life in Another World (Season 3)",
+    "original_title": null,
+    "genres": [],
+    "season": 3,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Muse India",
+        "release_date": "2026-07-01",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-11",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-11",
         "status": "Airing",
         "media_type": "series"
       }
@@ -15324,178 +15340,6 @@
   },
   {
     "id": 491,
-    "title": "JoJo's Bizarre Adventure (Season 1 Part-1: Phantom Blood)",
-    "original_title": null,
-    "genres": [],
-    "season": 1,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Muse India",
-        "release_date": "2025-04-11",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-06",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-05",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-08",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-07",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-09",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-10",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-11",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-06",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-05",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-08",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-07",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-09",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-10",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-11",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 492,
     "title": "Re: Zero – Starting Life in Another World (Season 3 Cour 2)",
     "original_title": null,
     "genres": [],
@@ -15541,7 +15385,7 @@
     ]
   },
   {
-    "id": 493,
+    "id": 492,
     "title": "JoJo's Bizarre Adventure (Season 3: Diamond Is Unbreakable)",
     "original_title": null,
     "genres": [],
@@ -15713,7 +15557,7 @@
     ]
   },
   {
-    "id": 494,
+    "id": 493,
     "title": "Re: Zero – Starting Life in Another World (Season 2)",
     "original_title": null,
     "genres": [],
@@ -15759,7 +15603,7 @@
     ]
   },
   {
-    "id": 495,
+    "id": 494,
     "title": "JoJo's Bizarre Adventure (Season 2 Part-2: Stardust Crusaders – Battle in Egypt)",
     "original_title": null,
     "genres": [],
@@ -15931,7 +15775,7 @@
     ]
   },
   {
-    "id": 496,
+    "id": 495,
     "title": "Re: Zero – Starting Life in Another World (Season 3 Cour 1)",
     "original_title": null,
     "genres": [],
@@ -15977,7 +15821,7 @@
     ]
   },
   {
-    "id": 497,
+    "id": 496,
     "title": "JoJo's Bizarre Adventure (Season 1-2)",
     "original_title": null,
     "genres": [],
@@ -16143,6 +15987,192 @@
         "platform": "Muse India",
         "medium": "YouTube",
         "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 497,
+    "title": "JoJo's Bizarre Adventure (Season 1 Part-1: Phantom Blood)",
+    "original_title": null,
+    "genres": [],
+    "season": 1,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Muse India",
+        "release_date": "2025-04-11",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-06",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-11",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-12",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-06",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-11",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-12",
         "status": "Airing",
         "media_type": "series"
       }
