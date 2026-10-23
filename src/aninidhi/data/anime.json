@@ -12855,42 +12855,6 @@
   },
   {
     "id": 422,
-    "title": "Welcome to Demon School! Iruma-Kun (Season 1)",
-    "original_title": null,
-    "genres": [],
-    "season": 1,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Muse India",
-        "release_date": "2026-07-17",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "JioHotstar",
-        "release_date": "2024-11-29",
-        "status": "Finished",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished"
-  },
-  {
-    "id": 423,
     "title": "My Hero Academia (SP1: More)",
     "original_title": null,
     "genres": [],
@@ -12920,7 +12884,7 @@
     "status": "Finished"
   },
   {
-    "id": 424,
+    "id": 423,
     "title": "Campfire Cooking in Another World with My Absurd Skill (Season 2)",
     "original_title": null,
     "genres": [],
@@ -12956,7 +12920,7 @@
     "status": "Airing"
   },
   {
-    "id": 425,
+    "id": 424,
     "title": "Tokyo Ghoul (Season 1)",
     "original_title": null,
     "genres": [],
@@ -12992,7 +12956,7 @@
     "status": "Finished"
   },
   {
-    "id": 426,
+    "id": 425,
     "title": "My Hero Academia: Vigilantes (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13028,7 +12992,7 @@
     "status": "Finished"
   },
   {
-    "id": 427,
+    "id": 426,
     "title": "Oshi no Ko (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13058,7 +13022,7 @@
     "status": "Finished"
   },
   {
-    "id": 428,
+    "id": 427,
     "title": "I Became a Legend after My 10 Year-Long Last Stand",
     "original_title": null,
     "genres": [],
@@ -13088,7 +13052,7 @@
     "status": "Airing"
   },
   {
-    "id": 429,
+    "id": 428,
     "title": "Daemons of the Shadow Realm (Season 1 Cour-2)",
     "original_title": null,
     "genres": [],
@@ -13118,7 +13082,7 @@
     "status": "Airing"
   },
   {
-    "id": 430,
+    "id": 429,
     "title": "Mob Psycho 100 (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13154,7 +13118,7 @@
     "status": "Finished"
   },
   {
-    "id": 431,
+    "id": 430,
     "title": "Liar Game (Season 1 Cour-2)",
     "original_title": null,
     "genres": [],
@@ -13184,7 +13148,7 @@
     "status": "Airing"
   },
   {
-    "id": 432,
+    "id": 431,
     "title": "Demon Slayer: Infinity Castle (Movie)",
     "original_title": null,
     "genres": [],
@@ -13214,7 +13178,7 @@
     "status": "Finished"
   },
   {
-    "id": 433,
+    "id": 432,
     "title": "Trapped in a Dating Sim (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13244,7 +13208,7 @@
     "status": "Airing"
   },
   {
-    "id": 434,
+    "id": 433,
     "title": "Tomb Raider King",
     "original_title": null,
     "genres": [],
@@ -13274,7 +13238,7 @@
     "status": "Airing"
   },
   {
-    "id": 435,
+    "id": 434,
     "title": "My Hero Academia: Vigilantes (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13310,7 +13274,7 @@
     "status": "Finished"
   },
   {
-    "id": 436,
+    "id": 435,
     "title": "Oshi no Ko (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13340,7 +13304,7 @@
     "status": "Finished"
   },
   {
-    "id": 437,
+    "id": 436,
     "title": "My Unique Skill Makes Me OP even at Level 1",
     "original_title": null,
     "genres": [],
@@ -13376,7 +13340,7 @@
     "status": "Finished"
   },
   {
-    "id": 438,
+    "id": 437,
     "title": "Hanaori-san Still Wants to Fight in the Next Life",
     "original_title": null,
     "genres": [],
@@ -13406,7 +13370,7 @@
     "status": "Airing"
   },
   {
-    "id": 439,
+    "id": 438,
     "title": "Arifureta: From Commonplace to World's Strongest (Season 3)",
     "original_title": null,
     "genres": [],
@@ -13436,7 +13400,7 @@
     "status": "Finished"
   },
   {
-    "id": 440,
+    "id": 439,
     "title": "The Elusive Samurai (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13466,7 +13430,7 @@
     "status": "Airing"
   },
   {
-    "id": 441,
+    "id": 440,
     "title": "Mob Psycho 100 (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13502,7 +13466,7 @@
     "status": "Finished"
   },
   {
-    "id": 442,
+    "id": 441,
     "title": "The Ribbon Hero",
     "original_title": null,
     "genres": [],
@@ -13532,7 +13496,7 @@
     "status": "Finished"
   },
   {
-    "id": 443,
+    "id": 442,
     "title": "Welcome to Demon School! Iruma-Kun (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13568,7 +13532,7 @@
     "status": "Finished"
   },
   {
-    "id": 444,
+    "id": 443,
     "title": "Bleach: Thousand-Year Blood War (Part 4: The Calamity)",
     "original_title": null,
     "genres": [],
@@ -13598,7 +13562,7 @@
     "status": "Finished"
   },
   {
-    "id": 445,
+    "id": 444,
     "title": "Tokyo Ghoul: √A (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13634,7 +13598,7 @@
     "status": "Finished"
   },
   {
-    "id": 446,
+    "id": 445,
     "title": "Oshi no Ko (Season 3)",
     "original_title": null,
     "genres": [],
@@ -13664,7 +13628,7 @@
     "status": "Finished"
   },
   {
-    "id": 447,
+    "id": 446,
     "title": "Mushoku Tensei (Season 2 Cour 2)",
     "original_title": null,
     "genres": [],
@@ -13694,7 +13658,7 @@
     "status": "Finished"
   },
   {
-    "id": 448,
+    "id": 447,
     "title": "Konosuba (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13724,7 +13688,7 @@
     "status": "Finished"
   },
   {
-    "id": 449,
+    "id": 448,
     "title": "Overlord (Season 1)",
     "original_title": null,
     "genres": [],
@@ -13760,7 +13724,7 @@
     "status": "Finished"
   },
   {
-    "id": 450,
+    "id": 449,
     "title": "Mob Psycho 100 (OVA)",
     "original_title": null,
     "genres": [],
@@ -13790,7 +13754,7 @@
     "status": "Finished"
   },
   {
-    "id": 451,
+    "id": 450,
     "title": "Mob Psycho 100 (Season 3)",
     "original_title": null,
     "genres": [],
@@ -13820,7 +13784,7 @@
     "status": "Finished"
   },
   {
-    "id": 452,
+    "id": 451,
     "title": "Overlord (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13856,7 +13820,7 @@
     "status": "Finished"
   },
   {
-    "id": 453,
+    "id": 452,
     "title": "Hana-Kimi (Season 2)",
     "original_title": null,
     "genres": [],
@@ -13886,7 +13850,7 @@
     "status": "Airing"
   },
   {
-    "id": 454,
+    "id": 453,
     "title": "The Exiled Heavy Knight Knows How to Game the System",
     "original_title": null,
     "genres": [],
@@ -13922,7 +13886,7 @@
     "status": "Airing"
   },
   {
-    "id": 455,
+    "id": 454,
     "title": "Black Torch",
     "original_title": null,
     "genres": [],
@@ -13952,7 +13916,7 @@
     "status": "Airing"
   },
   {
-    "id": 456,
+    "id": 455,
     "title": "Mushoku Tensei (Season 3)",
     "original_title": null,
     "genres": [],
@@ -13982,7 +13946,7 @@
     "status": "Airing"
   },
   {
-    "id": 457,
+    "id": 456,
     "title": "Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe",
     "original_title": null,
     "genres": [],
@@ -14012,7 +13976,7 @@
     "status": "Finished"
   },
   {
-    "id": 458,
+    "id": 457,
     "title": "Welcome to Demon School! Iruma-Kun (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14042,7 +14006,7 @@
     "status": "Airing"
   },
   {
-    "id": 459,
+    "id": 458,
     "title": "Grand Blue Dreaming (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14072,7 +14036,7 @@
     "status": "Airing"
   },
   {
-    "id": 460,
+    "id": 459,
     "title": "Tokyo Ghoul: re (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14108,7 +14072,7 @@
     "status": "Finished"
   },
   {
-    "id": 461,
+    "id": 460,
     "title": "Overlord (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14144,7 +14108,7 @@
     "status": "Finished"
   },
   {
-    "id": 462,
+    "id": 461,
     "title": "Death Note: Relight – Visions of a God (Special)",
     "original_title": null,
     "genres": [],
@@ -14174,7 +14138,7 @@
     "status": "Finished"
   },
   {
-    "id": 463,
+    "id": 462,
     "title": "Fullmetal Alchemist: Brotherhood",
     "original_title": null,
     "genres": [],
@@ -14225,7 +14189,7 @@
     "status": "Finished"
   },
   {
-    "id": 464,
+    "id": 463,
     "title": "Naruto Shippuden",
     "original_title": null,
     "genres": [],
@@ -14284,7 +14248,7 @@
     "status": "Finished"
   },
   {
-    "id": 465,
+    "id": 464,
     "title": "Sword Art Online (Season 1)",
     "original_title": null,
     "genres": [],
@@ -14320,7 +14284,7 @@
     "status": "Finished"
   },
   {
-    "id": 466,
+    "id": 465,
     "title": "Lord of Mysteries (Special 1-3)",
     "original_title": null,
     "genres": [],
@@ -14350,7 +14314,7 @@
     "status": "Finished"
   },
   {
-    "id": 467,
+    "id": 466,
     "title": "Konosuba (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14380,7 +14344,7 @@
     "status": "Finished"
   },
   {
-    "id": 468,
+    "id": 467,
     "title": "Overlord (Season 4)",
     "original_title": null,
     "genres": [],
@@ -14416,7 +14380,7 @@
     "status": "Finished"
   },
   {
-    "id": 469,
+    "id": 468,
     "title": "Death Note: Relight 2 – L's Successors (Special)",
     "original_title": null,
     "genres": [],
@@ -14446,7 +14410,7 @@
     "status": "Finished"
   },
   {
-    "id": 470,
+    "id": 469,
     "title": "Kaiju No. 8: Narumi's Week at Work (OVA 1-2)",
     "original_title": null,
     "genres": [],
@@ -14476,7 +14440,7 @@
     "status": "Finished"
   },
   {
-    "id": 471,
+    "id": 470,
     "title": "Steel Ball Run: JoJo's Bizarre Adventure (2nd-3rd Stage)",
     "original_title": null,
     "genres": [],
@@ -14506,7 +14470,7 @@
     "status": "Finished"
   },
   {
-    "id": 472,
+    "id": 471,
     "title": "Mononoke: Chapter III – The Curse of the Serpent",
     "original_title": null,
     "genres": [],
@@ -14536,7 +14500,7 @@
     "status": "Finished"
   },
   {
-    "id": 473,
+    "id": 472,
     "title": "The Ramparts of Ice (Season 2)",
     "original_title": "Koori no Jouheki",
     "genres": [
@@ -14571,7 +14535,7 @@
     "status": "Airing"
   },
   {
-    "id": 474,
+    "id": 473,
     "title": "The God of High School",
     "original_title": null,
     "genres": [],
@@ -14623,7 +14587,7 @@
     ]
   },
   {
-    "id": 475,
+    "id": 474,
     "title": "Blue Box (Season 2)",
     "original_title": "Ao no Hako",
     "genres": [
@@ -14657,7 +14621,7 @@
     "status": "Upcoming"
   },
   {
-    "id": 476,
+    "id": 475,
     "title": "Campfire Cooking in Another World - (S2E12) | Muse IN",
     "original_title": null,
     "genres": [],
@@ -14696,7 +14660,7 @@
     "notes": "Auto-added from Muse India"
   },
   {
-    "id": 477,
+    "id": 476,
     "title": "That Time I Got Reincarnated as a Slime (Season 4)",
     "original_title": null,
     "genres": [],
@@ -14783,7 +14747,7 @@
     ]
   },
   {
-    "id": 478,
+    "id": 477,
     "title": "That Time I Got Reincarnated as a Slime (Season 3)",
     "original_title": null,
     "genres": [],
@@ -14863,7 +14827,7 @@
     ]
   },
   {
-    "id": 479,
+    "id": 478,
     "title": "That Time I Got Reincarnated as a Slime (Season 2)",
     "original_title": null,
     "genres": [],
@@ -14943,7 +14907,7 @@
     ]
   },
   {
-    "id": 480,
+    "id": 479,
     "title": "That Time I Got Reincarnated as a Slime (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15029,7 +14993,7 @@
     ]
   },
   {
-    "id": 481,
+    "id": 480,
     "title": "Re: Zero – Starting Life in Another World (Season 3 Cour 1)",
     "original_title": null,
     "genres": [],
@@ -15089,7 +15053,7 @@
     ]
   },
   {
-    "id": 482,
+    "id": 481,
     "title": "Re: Zero – Starting Life in Another World (Season 2)",
     "original_title": null,
     "genres": [],
@@ -15149,7 +15113,7 @@
     ]
   },
   {
-    "id": 483,
+    "id": 482,
     "title": "Re: Zero – Starting Life in Another World (Season 3 Cour 2)",
     "original_title": null,
     "genres": [],
@@ -15209,7 +15173,7 @@
     ]
   },
   {
-    "id": 484,
+    "id": 483,
     "title": "Re:Zero – Starting Life in Another World (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15269,7 +15233,7 @@
     ]
   },
   {
-    "id": 485,
+    "id": 484,
     "title": "Re: Zero – Starting Life in Another World (Season 4)",
     "original_title": null,
     "genres": [],
@@ -15335,7 +15299,7 @@
     ]
   },
   {
-    "id": 486,
+    "id": 485,
     "title": "Re:Zero – Starting Life in Another World (Season 2)",
     "original_title": null,
     "genres": [],
@@ -15395,7 +15359,7 @@
     ]
   },
   {
-    "id": 487,
+    "id": 486,
     "title": "Re:Zero – Starting Life in Another World (Season 3)",
     "original_title": null,
     "genres": [],
@@ -15455,7 +15419,7 @@
     ]
   },
   {
-    "id": 488,
+    "id": 487,
     "title": "🔴 SPY×FAMILY (S1～S3) | Anime Marathon",
     "original_title": null,
     "genres": [],
@@ -15494,319 +15458,7 @@
     "notes": "Auto-added from Muse India"
   },
   {
-    "id": 489,
-    "title": "JoJo's Bizarre Adventure (Season 3: Diamond Is Unbreakable)",
-    "original_title": null,
-    "genres": [],
-    "season": 3,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Muse India",
-        "release_date": "2026-09-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-05",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-07",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-06",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-09",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-08",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-10",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-11",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-13",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-12",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-15",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-14",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-16",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-19",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-18",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-21",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-20",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Airing",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-02",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-05",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-07",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-06",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-09",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-08",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-10",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-11",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-13",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-12",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-15",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-14",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-16",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-19",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-18",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-21",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-20",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 490,
+    "id": 488,
     "title": "JoJo's Bizarre Adventure (Season 2 Part-2: Stardust Crusaders – Battle in Egypt)",
     "original_title": null,
     "genres": [],
@@ -16132,7 +15784,7 @@
     ]
   },
   {
-    "id": 491,
+    "id": 489,
     "title": "JoJo's Bizarre Adventure (Season 1-2)",
     "original_title": null,
     "genres": [],
@@ -16458,7 +16110,7 @@
     ]
   },
   {
-    "id": 492,
+    "id": 490,
     "title": "JoJo's Bizarre Adventure (Season 1 Part-1: Phantom Blood)",
     "original_title": null,
     "genres": [],
@@ -16784,273 +16436,7 @@
     ]
   },
   {
-    "id": 493,
-    "title": "Attack on Titan OAD (Specials)",
-    "original_title": null,
-    "genres": [],
-    "season": null,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Anime Times (Prime Video)",
-        "release_date": "2025-04-22",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-16",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-18",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-19",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-20",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-21",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-22",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-16",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-18",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-19",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-20",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-21",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-22",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 494,
-    "title": "Attack on Titan (Season 1)",
-    "original_title": null,
-    "genres": [],
-    "season": 1,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Anime Times (Prime Video)",
-        "release_date": "2024-12-27",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-03-15",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-16",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-18",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-19",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-20",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-21",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-22",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-16",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-18",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-19",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-20",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-21",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-22",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 495,
+    "id": 491,
     "title": "JoJo's Bizarre Adventure (Season 2 Part-1: Stardust Crusaders)",
     "original_title": null,
     "genres": [],
@@ -17376,7 +16762,7 @@
     ]
   },
   {
-    "id": 496,
+    "id": 492,
     "title": "Attack on Titan (Season 4 Final Part)",
     "original_title": null,
     "genres": [],
@@ -17506,325 +16892,7 @@
     ]
   },
   {
-    "id": 497,
-    "title": "Assassination Classroom (Season 1)",
-    "original_title": null,
-    "genres": [],
-    "season": 1,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Crunchyroll",
-        "release_date": "2024-08-28",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "JioHotstar",
-        "release_date": "2024-05-11",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-05",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-06",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-07",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-08",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-09",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-10",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-11",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-12",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-13",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-14",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-15",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-16",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-18",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-19",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-20",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-21",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-22",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-04",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-05",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-06",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-07",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-08",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-09",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-10",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-11",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-12",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-13",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-14",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-15",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-16",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-18",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-19",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-20",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-21",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-22",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 498,
+    "id": 493,
     "title": "JoJo's Bizarre Adventure (Season 1 Part-2: Battle Tendency)",
     "original_title": null,
     "genres": [],
@@ -18150,7 +17218,7 @@
     ]
   },
   {
-    "id": 499,
+    "id": 494,
     "title": "Attack on Titan (Season 3)",
     "original_title": null,
     "genres": [],
@@ -18294,7 +17362,7 @@
     ]
   },
   {
-    "id": 500,
+    "id": 495,
     "title": "Assassination Classroom (Season 2)",
     "original_title": null,
     "genres": [],
@@ -18612,7 +17680,7 @@
     ]
   },
   {
-    "id": 501,
+    "id": 496,
     "title": "Tokyo Revengers (Season 1)",
     "original_title": null,
     "genres": [],
@@ -18944,7 +18012,1155 @@
     ]
   },
   {
+    "id": 497,
+    "title": "Attack on Titan (Season 4)",
+    "original_title": null,
+    "genres": [],
+    "season": 4,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Anime Times (Prime Video)",
+        "release_date": "2025-03-18",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-16",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-18",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-19",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-21",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-22",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-16",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-18",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-19",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-21",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-22",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 498,
+    "title": "Welcome to Demon School! Iruma-Kun (Season 1)",
+    "original_title": null,
+    "genres": [],
+    "season": 1,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Muse India",
+        "release_date": "2026-07-17",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "JioHotstar",
+        "release_date": "2024-11-29",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "title": "JoJo's Bizarre Adventure (Season 3: Diamond Is Unbreakable)",
+    "original_title": null,
+    "genres": [],
+    "season": 3,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Muse India",
+        "release_date": "2026-09-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-06",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-11",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-13",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-12",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-15",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-14",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-16",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-19",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-18",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-21",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-22",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Airing",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-02",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-06",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-11",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-13",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-12",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-15",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-14",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-16",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-19",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-18",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-21",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-22",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 500,
+    "title": "Attack on Titan OAD (Specials)",
+    "original_title": null,
+    "genres": [],
+    "season": null,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Anime Times (Prime Video)",
+        "release_date": "2025-04-22",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-16",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-18",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-19",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-21",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-22",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-16",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-18",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-19",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-21",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-22",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 501,
+    "title": "Attack on Titan (Season 1)",
+    "original_title": null,
+    "genres": [],
+    "season": 1,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Anime Times (Prime Video)",
+        "release_date": "2024-12-27",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-03-15",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-16",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-18",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-19",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-21",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-22",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-16",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-18",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-19",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-21",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-22",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
     "id": 502,
+    "title": "Assassination Classroom (Season 1)",
+    "original_title": null,
+    "genres": [],
+    "season": 1,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Crunchyroll",
+        "release_date": "2024-08-28",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "JioHotstar",
+        "release_date": "2024-05-11",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-06",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-11",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-12",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-13",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-14",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-15",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-16",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-18",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-19",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-21",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-22",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-04",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-05",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-06",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-08",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-09",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-11",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-12",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-13",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-14",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-15",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-16",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-18",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-19",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-21",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-22",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
+    "id": 503,
     "title": "HUNTER×HUNTER - | Muse IN",
     "original_title": null,
     "genres": [],
@@ -19088,6 +19304,12 @@
         "release_date": "2026-10-22",
         "status": "Airing",
         "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-23",
+        "status": "Airing",
+        "media_type": "series"
       }
     ],
     "dubs": [
@@ -19258,139 +19480,17 @@
         "release_date": "2026-10-22",
         "status": "Airing",
         "media_type": "series"
-      }
-    ],
-    "notes": "Auto-added from Muse India"
-  },
-  {
-    "id": 503,
-    "title": "Attack on Titan (Season 4)",
-    "original_title": null,
-    "genres": [],
-    "season": 4,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Anime Times (Prime Video)",
-        "release_date": "2025-03-18",
-        "status": "Finished",
-        "media_type": "series"
       },
       {
+        "language": "Hindi",
         "platform": "Muse India",
-        "release_date": "2026-10-16",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-18",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-19",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-20",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-21",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-22",
+        "medium": "YouTube",
+        "release_date": "2026-10-23",
         "status": "Airing",
         "media_type": "series"
       }
     ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-16",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-18",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-19",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-20",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-21",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-22",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
+    "notes": "Auto-added from Muse India"
   },
   {
     "id": 504,
