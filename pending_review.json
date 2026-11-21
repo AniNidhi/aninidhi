@@ -909,5 +909,23 @@
     "confidence_score": 30,
     "confidence_reason": "Lineup / multi-anime post requires manual splitting",
     "extracted_clean_title": "Crunchyroll Summer 2023 Hindi & Tamil Dubbed Anime Lineup List of Hindi and Tamil dubbed anime released on Crunchyroll in Summer 2023"
+  },
+  {
+    "video_id": "https://animemirchi.com/naruto-shippuden-blood-prison-road-to-ninja-india/",
+    "video_title": "[AnimeMirchi] PVR Confirms Naruto Blood Prison & Road to Ninja for Indian Theatres in January 2027 Both Naruto Shippuden films are set for release in Hindi, distributed by PVR Inox Pictures and Happening 365",
+    "video_url": "https://animemirchi.com/naruto-shippuden-blood-prison-road-to-ninja-india/",
+    "published_at": "Sat, 21 Nov 2026 14:00:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Hindi"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "is_lineup": false,
+    "status": "needs_review",
+    "notes": "Scraped from Anime Mirchi. Languages: Hindi. Medium: OTT.",
+    "confidence_score": 65,
+    "confidence_reason": "Anime Mirchi general article",
+    "extracted_clean_title": "PVR Confirms Naruto Blood Prison & Road to Ninja for Indian Theatres in January 2027 Both Naruto Shippuden films are set for release in Hindi, distributed by PVR Inox Pictures and Happening 365"
   }
 ]
