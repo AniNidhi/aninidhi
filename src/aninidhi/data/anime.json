@@ -14922,142 +14922,6 @@
   },
   {
     "id": 474,
-    "title": "That Time I Got Reincarnated as a Slime (Season 2)",
-    "original_title": null,
-    "genres": [],
-    "season": 2,
-    "season_year": null,
-    "episodes": null,
-    "studio": null,
-    "synopsis": null,
-    "poster_url": null,
-    "mal_id": null,
-    "mal_url": null,
-    "anilist_id": null,
-    "anilist_url": null,
-    "imdb_id": null,
-    "imdb_url": null,
-    "imdb_rating": null,
-    "hindi_available": true,
-    "hindi_dubs": [
-      {
-        "platform": "Crunchyroll",
-        "release_date": "2024-08-14",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2024-09-07",
-        "status": "Finished",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-10",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-24",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-10-31",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-11-07",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "platform": "Muse India",
-        "release_date": "2026-11-14",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ],
-    "notes": null,
-    "status": "Finished",
-    "dubs": [
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-03",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-10",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-17",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-24",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-10-31",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-11-07",
-        "status": "Airing",
-        "media_type": "series"
-      },
-      {
-        "language": "Hindi",
-        "platform": "Muse India",
-        "medium": "YouTube",
-        "release_date": "2026-11-14",
-        "status": "Airing",
-        "media_type": "series"
-      }
-    ]
-  },
-  {
-    "id": 475,
     "title": "That Time I Got Reincarnated as a Slime (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15199,7 +15063,7 @@
     ]
   },
   {
-    "id": 476,
+    "id": 475,
     "title": "Re: Zero – Starting Life in Another World (Season 3 Cour 1)",
     "original_title": null,
     "genres": [],
@@ -15315,7 +15179,7 @@
     ]
   },
   {
-    "id": 477,
+    "id": 476,
     "title": "Re: Zero – Starting Life in Another World (Season 2)",
     "original_title": null,
     "genres": [],
@@ -15431,7 +15295,7 @@
     ]
   },
   {
-    "id": 478,
+    "id": 477,
     "title": "Re: Zero – Starting Life in Another World (Season 3 Cour 2)",
     "original_title": null,
     "genres": [],
@@ -15547,7 +15411,7 @@
     ]
   },
   {
-    "id": 479,
+    "id": 478,
     "title": "Re:Zero – Starting Life in Another World (Season 1)",
     "original_title": null,
     "genres": [],
@@ -15663,7 +15527,7 @@
     ]
   },
   {
-    "id": 480,
+    "id": 479,
     "title": "Re: Zero – Starting Life in Another World (Season 4)",
     "original_title": null,
     "genres": [],
@@ -15785,7 +15649,7 @@
     ]
   },
   {
-    "id": 481,
+    "id": 480,
     "title": "Re:Zero – Starting Life in Another World (Season 2)",
     "original_title": null,
     "genres": [],
@@ -15901,7 +15765,7 @@
     ]
   },
   {
-    "id": 482,
+    "id": 481,
     "title": "Attack on Titan OAD (Specials)",
     "original_title": null,
     "genres": [],
@@ -16367,7 +16231,7 @@
     ]
   },
   {
-    "id": 483,
+    "id": 482,
     "title": "Re:Zero – Starting Life in Another World (Season 3)",
     "original_title": null,
     "genres": [],
@@ -16483,7 +16347,7 @@
     ]
   },
   {
-    "id": 484,
+    "id": 483,
     "title": "JoJo's Bizarre Adventure (Season 2 Part-2: Stardust Crusaders – Battle in Egypt)",
     "original_title": null,
     "genres": [],
@@ -17187,7 +17051,7 @@
     ]
   },
   {
-    "id": 485,
+    "id": 484,
     "title": "JoJo's Bizarre Adventure (Season 2 Part-1: Stardust Crusaders)",
     "original_title": null,
     "genres": [],
@@ -17891,7 +17755,7 @@
     ]
   },
   {
-    "id": 486,
+    "id": 485,
     "title": "JoJo's Bizarre Adventure (Season 1 Part-2: Battle Tendency)",
     "original_title": null,
     "genres": [],
@@ -18595,7 +18459,7 @@
     ]
   },
   {
-    "id": 487,
+    "id": 486,
     "title": "JoJo's Bizarre Adventure (Season 3: Diamond Is Unbreakable)",
     "original_title": null,
     "genres": [],
@@ -19299,7 +19163,7 @@
     ]
   },
   {
-    "id": 488,
+    "id": 487,
     "title": "JoJo's Bizarre Adventure (Season 1-2)",
     "original_title": null,
     "genres": [],
@@ -20003,7 +19867,7 @@
     ]
   },
   {
-    "id": 489,
+    "id": 488,
     "title": "Assassination Classroom (Season 2)",
     "original_title": null,
     "genres": [],
@@ -20699,7 +20563,7 @@
     ]
   },
   {
-    "id": 490,
+    "id": 489,
     "title": "JoJo's Bizarre Adventure (Season 1 Part-1: Phantom Blood)",
     "original_title": null,
     "genres": [],
@@ -21403,7 +21267,7 @@
     ]
   },
   {
-    "id": 491,
+    "id": 490,
     "title": "Assassination Classroom (Season 1)",
     "original_title": null,
     "genres": [],
@@ -22099,7 +21963,7 @@
     ]
   },
   {
-    "id": 492,
+    "id": 491,
     "title": "Attack on Titan (Season 4)",
     "original_title": null,
     "genres": [],
@@ -22621,7 +22485,7 @@
     ]
   },
   {
-    "id": 493,
+    "id": 492,
     "title": "Attack on Titan (Season 2)",
     "original_title": null,
     "genres": [],
@@ -23163,7 +23027,7 @@
     ]
   },
   {
-    "id": 494,
+    "id": 493,
     "title": "Attack on Titan (Season 4 Final Part)",
     "original_title": null,
     "genres": [],
@@ -23685,7 +23549,7 @@
     ]
   },
   {
-    "id": 495,
+    "id": 494,
     "title": "Attack on Titan (Season 1)",
     "original_title": null,
     "genres": [],
@@ -24213,7 +24077,7 @@
     ]
   },
   {
-    "id": 496,
+    "id": 495,
     "title": "Attack on Titan (Season 3)",
     "original_title": null,
     "genres": [],
@@ -24749,6 +24613,156 @@
     ]
   },
   {
+    "id": 496,
+    "title": "That Time I Got Reincarnated as a Slime (Season 2)",
+    "original_title": null,
+    "genres": [],
+    "season": 2,
+    "season_year": null,
+    "episodes": null,
+    "studio": null,
+    "synopsis": null,
+    "poster_url": null,
+    "mal_id": null,
+    "mal_url": null,
+    "anilist_id": null,
+    "anilist_url": null,
+    "imdb_id": null,
+    "imdb_url": null,
+    "imdb_rating": null,
+    "hindi_available": true,
+    "hindi_dubs": [
+      {
+        "platform": "Crunchyroll",
+        "release_date": "2024-08-14",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2024-09-07",
+        "status": "Finished",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-24",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-10-31",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-11-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-11-14",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-11-21",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ],
+    "notes": null,
+    "status": "Finished",
+    "dubs": [
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-03",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-10",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-17",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-24",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-10-31",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-11-07",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-11-14",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-11-21",
+        "status": "Airing",
+        "media_type": "series"
+      }
+    ]
+  },
+  {
     "id": 497,
     "title": "Welcome to Demon School! Iruma-Kun (Season 1)",
     "original_title": null,
@@ -24951,6 +24965,12 @@
       {
         "platform": "Muse India",
         "release_date": "2026-11-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-11-21",
         "status": "Airing",
         "media_type": "series"
       }
@@ -25187,6 +25207,14 @@
         "platform": "Muse India",
         "medium": "YouTube",
         "release_date": "2026-11-20",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-11-21",
         "status": "Airing",
         "media_type": "series"
       }
