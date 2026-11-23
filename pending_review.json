@@ -927,5 +927,24 @@
     "confidence_score": 65,
     "confidence_reason": "Anime Mirchi general article",
     "extracted_clean_title": "PVR Confirms Naruto Blood Prison & Road to Ninja for Indian Theatres in January 2027 Both Naruto Shippuden films are set for release in Hindi, distributed by PVR Inox Pictures and Happening 365"
+  },
+  {
+    "video_id": "https://animemirchi.com/ani-one-india-adds-blue-lock-tamil-telugu/",
+    "video_title": "[AnimeMirchi] Ani-One India Adds Blue Lock as Its First Tamil & Telugu Dubbed Anime Tamil and Telugu dubs of Blue Lock Seasons 1 and 2 stream daily on Ani-One India's YouTube channel from November 23, 2026",
+    "video_url": "https://animemirchi.com/ani-one-india-adds-blue-lock-tamil-telugu/",
+    "published_at": "Mon, 23 Nov 2026 10:03:00 +0000",
+    "source": "website:animemirchi",
+    "detected_languages": [
+      "Tamil",
+      "Telugu"
+    ],
+    "detected_channels": [],
+    "medium": "OTT",
+    "is_lineup": true,
+    "status": "needs_review",
+    "notes": "⚠️ LINEUP / MULTI-ANIME ARTICLE: Do NOT accept as a single entry! Open link to extract individual anime titles.",
+    "confidence_score": 30,
+    "confidence_reason": "Lineup / multi-anime post requires manual splitting",
+    "extracted_clean_title": "Ani-One India Adds Blue Lock as Its First Tamil & Telugu Dubbed Anime Tamil and Telugu dubs of Blue Lock Seasons 1 and 2 stream daily on Ani-One India's YouTube channel from November 23, 2026"
   }
 ]
