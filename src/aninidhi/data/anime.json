@@ -25410,6 +25410,12 @@
         "release_date": "2026-11-23",
         "status": "Airing",
         "media_type": "series"
+      },
+      {
+        "platform": "Muse India",
+        "release_date": "2026-11-25",
+        "status": "Airing",
+        "media_type": "series"
       }
     ],
     "notes": null,
@@ -25676,6 +25682,14 @@
         "platform": "Muse India",
         "medium": "YouTube",
         "release_date": "2026-11-23",
+        "status": "Airing",
+        "media_type": "series"
+      },
+      {
+        "language": "Hindi",
+        "platform": "Muse India",
+        "medium": "YouTube",
+        "release_date": "2026-11-25",
         "status": "Airing",
         "media_type": "series"
       }
